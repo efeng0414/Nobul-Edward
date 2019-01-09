@@ -1,8 +1,0 @@
-@import "../../styles/nobulVariables.scss";
-
-@media screen and (max-width: $tablet-max) {
-  .cards-wrapper {
-    overflow: scroll;
-    white-space: nowrap;
-  }
-}

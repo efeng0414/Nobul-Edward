@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`ConsumerViewCommissionCard Component Snapshot should matched stored snapshot 1`] = `
-<div
-  className="commission-card"
->
-  I AM A COMMISION CARD
-</div>
-`;
