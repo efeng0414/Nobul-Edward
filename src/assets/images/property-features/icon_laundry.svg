@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>laundry</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1438.000000, -218.000000)">
+            <g id="laundry" transform="translate(1440.000000, 220.000000)">
+                <circle id="Oval-13-Copy-7" stroke="#BDBDBD" stroke-width="2.5" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                <g id="Group-10" transform="translate(38.000000, 25.000000)">
+                    <g id="Group-3">
+                        <rect id="Rectangle-24" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="0.75" width="40.8214299" height="45.9000015" rx="2"></rect>
+                        <path d="M1.2696429,7.19464309 L41.051787,7.19464309" id="Line-4" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="square"></path>
+                        <path d="M21.160715,38.0892869 C27.7052895,38.0892869 33.0107153,32.7838611 33.0107153,26.2392866 C33.0107153,19.6947121 27.7052895,14.3892862 21.160715,14.3892862 C16.2579657,14.3892862 12.0506248,17.3666835 10.2482029,21.6119674 C9.64461063,23.0336217 9.31071459,24.5974613 9.31071459,26.2392866 C9.31071459,32.7838611 14.6161405,38.0892869 21.160715,38.0892869 Z" id="Oval-2-Copy" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF"></path>
+                        <circle id="Oval-4" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" cx="9.31071459" cy="26.2392866" r="5.92500019"></circle>
+                        <rect id="Rectangle-2" fill="#FFFFFF" x="1.94682711" y="15.2357148" width="8.46428599" height="21.160715"></rect>
+                        <circle id="Oval-2" stroke="#BDBDBD" stroke-width="1.5" cx="21.160715" cy="26.2392866" r="15.2357148"></circle>
+                        <circle id="Oval-5" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" cx="4.65535729" cy="3.80892869" r="1.2696429"></circle>
+                        <circle id="Oval-5-Copy" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" cx="9.73392888" cy="3.80892869" r="1.2696429"></circle>
+                    </g>
+                    <rect id="Rectangle-30" stroke="#BDBDBD" stroke-width="1.5" x="35.4535725" y="3.2892858" width="2.73214299" height="1.0392858" rx="0.519642898"></rect>
+                </g>
+                <text id="LAUNDRY" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#BDBDBD">
+                    <tspan x="31.4111328" y="95">LAUNDRY</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

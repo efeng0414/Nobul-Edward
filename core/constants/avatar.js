@@ -1,0 +1,13 @@
+const AVATAR_FILE_TYPE_JPEG = "image/jpeg";
+const AVATAR_FILE_TYPE_JPG = "image/jpg";
+const AVATAR_FILE_TYPE_BMP = "image/bmp";
+const AVATAR_FILE_TYPE_PNG = "image/png";
+const MAX_AVATAR_SIZE = 2 * 1024 * 1024;
+
+export {
+  AVATAR_FILE_TYPE_JPEG,
+  AVATAR_FILE_TYPE_JPG,
+  AVATAR_FILE_TYPE_BMP,
+  AVATAR_FILE_TYPE_PNG,
+  MAX_AVATAR_SIZE
+};

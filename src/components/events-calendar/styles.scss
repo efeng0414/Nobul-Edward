@@ -1,0 +1,93 @@
+@import "../../styles/variables.scss";
+
+.event-calendar {
+  .ant-select-selection {
+    margin-left: 5px;
+  }
+
+  .ant-select-selection-selected-value {
+    position: relative;
+  }
+  .ant-radio-button-wrapper {
+    span {
+      position: relative;
+    }
+  }
+
+  .ant-fullcalendar-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .ant-fullcalendar-selected-day .ant-fullcalendar-date,
+  .ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-month,
+  .ant-fullcalendar-date:active,
+  .ant-fullcalendar-month:active {
+    background-color: $calendar-cell-highlight;
+  }
+
+  .ant-fullcalendar-today .ant-fullcalendar-date,
+  .ant-fullcalendar-month-panel-current-cell .ant-fullcalendar-month {
+    border-top-color: $blue-medium;
+  }
+
+  .ant-select-selection--single {
+    height: 3.5rem;
+  }
+
+  .ant-radio-button-wrapper {
+    height: 3.5rem;
+    line-height: 3.5rem;
+  }
+
+  .ant-radio-button-wrapper-checked:first-child {
+    border-color: $blue-medium;
+    color: $blue-medium;
+  }
+
+  .calendar-item {
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0 0.5rem;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    &.attention {
+      background-color: $red-dark;
+      color: $white;
+    }
+
+    &.accepted {
+      background-color: $black-medium;
+      color: $white;
+    }
+
+    &.pending {
+      background: $blue-dark;
+      color: $white;
+    }
+
+    &.deleted {
+      background-color: $red-dark;
+      color: $white;
+      cursor: default;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .event-calendar {
+    overflow: hidden;
+  }
+
+  .ant-fullcalendar-column-header-inner,
+  .ant-fullcalendar-value {
+    font-size: 1.4rem;
+  }
+}

@@ -1,0 +1,17 @@
+export const CONSUMER_USER_TYPE = "consumer";
+export const AGENT_USER_TYPE = "agent";
+export const GOOGLE_MAPS_API_KEY = process.env.GOOGLE_PLACES_API_KEY;
+export const AUTOBIDS_STATUS_ACTIVE = "active";
+export const AUTOBIDS_STATUS_PAUSED = "paused";
+export const ANONYMOUS_USER_TYPE = "anonymous";
+export const AVATAR_TYPE_DEFAULT = "default";
+export const AVATAR_TYPE_MALE = "male";
+export const AVATAR_TYPE_FEMALE = "female";
+export const AVATAR_DISPLAY = "display";
+export const AVATAR_EDITING = "editing";
+export const AVATAR_SELECTED = "selected";
+export const AVATAR_SMALL = "small";
+export const LICENSE = "license";
+export const AVATAR = "avatar";
+export const VERIFICATION_SCREENSHOT = "verification-screenshot";
+export const IMAGE_TYPE_JPG = "image/jpg";

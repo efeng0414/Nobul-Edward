@@ -1,0 +1,40 @@
+@import "../../../../../../styles/nobulVariables.scss";
+
+.payment-form {
+  margin: 2.5rem 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-form__row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.payment-form__item {
+  width: 100%;
+  margin: 0 1rem;
+}
+
+.payment-form__label {
+  text-transform: uppercase;
+  color: $gray-dark;
+}
+
+.payment-form .StripeElement {
+  border: $border-medium-grey;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.payment-form__submit {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.payment-form__button {
+  width: 100%;
+  color: $white;
+  background-color: $black-medium;
+}

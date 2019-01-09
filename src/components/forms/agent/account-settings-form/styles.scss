@@ -1,0 +1,18 @@
+@import "../../../../styles/_colors.scss";
+@import "../../../../styles/_layouts.scss";
+@import "../../../../styles/nobulVariables.scss";
+
+.agent-account-settings-form {
+  .ant-row {
+    // overwrite the antd wierdo negative margins
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+
+  .change-password-link {
+    display: inline-block;
+    margin-bottom: 3rem;
+    color: $link-color;
+  }
+}

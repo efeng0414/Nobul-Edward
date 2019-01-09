@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.nobul{
+  .accept-decline-buttons {
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+    .decline-button {
+      margin: 2rem;
+    }
+
+    .ant-btn {
+      padding: 0 3.5rem;
+    }
+  }
+}

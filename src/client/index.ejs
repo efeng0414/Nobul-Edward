@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nobul | Real Estate for Everyone</title>
+  <meta name="description" content="Find the right real estate agent to help you buy or sell your home today" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="/assets/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/7.0.0-rc.4/polyfill.js"></script>
+  <script>
+    /*********/
+    /* TO DO */
+    /* Remove hardcoded app id */
+    /* Finalize the "please enable javascript" message
+  /*********/
+    window.intercomSettings = {
+      app_id: '<%= process.env.INTERCOM_API_KEY %>'
+    };
+  </script>
+  <script>(function () { var w = window; var ic = w.Intercom; if (typeof ic === "function") { ic('reattach_activator'); ic('update', intercomSettings); } else { var d = document; var i = function () { i.c(arguments) }; i.q = []; i.c = function (args) { i.q.push(args) }; w.Intercom = i; function l() { var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = 'https://widget.intercom.io/widget/wmz5zjmf'; var x = d.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x); } if (w.attachEvent) { w.attachEvent('onload', l); } else { w.addEventListener('load', l, false); } } })()</script>
+  <script src="https://js.stripe.com/v3/"></script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+              w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                  new Date().getTime(), event: 'gtm.js'
+              }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                  'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5DQM386');</script>
+  <!-- End Google Tag Manager -->
+  <script src="https://cdn.ravenjs.com/3.26.4/raven.min.js"
+    crossorigin="anonymous"></script>
+</head>
+
+<body class="nobul">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DQM386" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="root"></div>
+</body>
+
+</html>

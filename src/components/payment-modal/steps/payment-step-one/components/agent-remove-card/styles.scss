@@ -1,0 +1,22 @@
+@import "../../../../../../styles/nobulVariables.scss";
+
+.remove-card {
+
+    text-align: center;
+
+    .remove-card-text {
+        margin: 7rem auto;   
+        color: $gray-medium;
+        width: 25rem;
+    }
+
+    .remove-card-single-button {
+        width: 30rem;
+    }
+
+    .remove-card-button-group {
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+    }
+}

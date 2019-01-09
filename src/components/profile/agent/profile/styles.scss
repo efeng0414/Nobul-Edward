@@ -1,0 +1,9 @@
+.agent-profile {
+    max-width: 800px;
+    display: flex;
+
+    &-avatar-preview{
+        max-width:200px;
+        height:auto;
+    }
+}

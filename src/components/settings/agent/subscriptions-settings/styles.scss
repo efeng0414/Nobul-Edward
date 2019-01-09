@@ -1,0 +1,73 @@
+@import "../../../../styles/nobulVariables.scss";
+
+.subscription-settings {
+  color: $black-medium;
+  font-family: $bold;
+  font-size: 1.6rem;
+
+  &-row {
+    height: 10rem;
+    border-top: $border-medium-grey;
+
+    &-title {
+      color: $gray-dark;
+      font-family: $bold;
+      font-size: 1.2rem;
+      margin: 2rem 0 1rem 0;
+    }
+
+    &-content {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &-upgrade {
+      display: flex;
+      justify-content: space-between;
+
+      &-bold {
+        color: $black-medium;
+        font-family: $bold;
+        font-size: 1.6rem;
+      }
+
+      &-button {
+        height: 4rem;
+      }
+    }
+  }
+
+  &-row:first-of-type {
+    border: none;
+  }
+
+  &-link {
+    color: $blue-dark;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .subscription-settings {
+    &-row {
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
+
+      &-upgrade {
+        display: block;
+        text-align: center;
+
+        &-button {
+          button {
+            background-color: $blue-dark;
+            color: $white;
+            border: none;
+            width: 100%;
+            margin-right: 2rem;
+          }
+        }
+      }
+    }
+  }
+}

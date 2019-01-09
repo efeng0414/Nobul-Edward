@@ -1,0 +1,227 @@
+@import "../../styles/nobulVariables.scss";
+
+.agent-offer {
+  .ant-btn {
+    width: 100%;
+    border: none;
+  }
+
+  .ant-tag {
+    color: $white;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+    font-weight: $bold;
+    border-radius: 1rem;
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .ant-collapse-item {
+    border: none;
+  }
+}
+
+.agent-offer__card {
+  height: 100%;
+  border: 0;
+  box-shadow: $card-shadow;
+}
+
+.ant-card-body {
+  > .agent-offer__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 0 2.5rem;
+
+    &:first-of-type {
+      padding-top: 2rem;
+    }
+
+    &.close {
+      justify-content: right;
+      margin-bottom: 0;
+    }
+  }
+
+  > .agent-offer__row:first-of-type {
+    margin-bottom: 1rem;
+  }
+}
+
+.agent-offer__tag--open {
+  background-color: $open-tag;
+}
+
+.agent-offer__tag--rejected {
+  background-color: $rejected-tag;
+}
+
+.agent-offer__tag--job-deleted {
+  background-color: $withdrawn-tag;
+}
+
+.agent-offer__tag--withdrawn {
+  background-color: $withdrawn-tag;
+}
+
+.agent-offer__tag--pending-verification {
+  background-color: $withdrawn-tag;
+}
+
+.agent-offer__promoted {
+  background-color: $promoted-tag;
+  color: $white;
+  font-size: 0.6rem;
+  height: 1.5rem;
+  text-align: center;
+  width: 6rem;
+  transform: translateY(-1.5rem);
+  line-height: 1.5rem;
+  box-shadow: $card-shadow;
+}
+
+.agent-offer__avatar {
+  width: 7rem;
+
+  .ant-avatar.ant-avatar-icon {
+    font-size: 2.4rem;
+  }
+}
+
+.agent-offer__avatar-icon {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 2.5rem;
+
+  i {
+    line-height: 5rem;
+  }
+}
+
+.agent-offer__description {
+  flex: 1;
+}
+
+.agent-offer__details {
+  margin-left: 9.5rem;
+}
+
+.agent-offer__down {
+  button {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  .anticon {
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+}
+
+.agent-offer__link {
+  text-decoration: underline;
+  cursor: pointer;
+  color: $blue-dark;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  display: block;
+  text-align: center;
+}
+
+.agent-offer__date {
+  color: $gray-dark;
+  font-size: 1.3rem;
+}
+
+.agent-offer__title {
+  color: $black-medium;
+  font-weight: $bold;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.agent-offer__body {
+  color: $black-medium;
+  font-size: 1.4rem;
+  margin-bottom: 0;
+}
+
+.agent-offer__commision-container,
+.agent-offer__services-container {
+  .agent-offer__header {
+    color: $black-medium;
+    font-weight: $bold;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .agent-offer__body {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.agent-offer__services-container {
+  margin-bottom: 3rem;
+}
+
+.agent-offer__job-detail {
+  border-top: 1px dashed $gray-light;
+  padding: 1.5rem 2.5rem 0;
+}
+
+.agent-offer__job-detail-price {
+  margin-left: 7.5rem;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-bottom: 1.5rem;
+
+  span {
+    font-weight: $bold;
+  }
+}
+
+.agent-offer__card {
+  height: auto;
+
+  .ant-card-body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.agent-offer__job-detail {
+  flex-grow: 1;
+}
+
+.agent-offer__status-container .anticon-check {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  &:before {
+    margin-left: 0.5rem;
+    order: 1;
+  }
+}
+
+.agent-offer__job-pricerange .currency:last-of-type .currency__code {
+  display: none;
+}
+
+@media screen and (max-width: $tablet-max) {
+  .agent-offer {
+    margin-bottom: 1rem;
+  }
+  .agent-offer__link {
+    margin-left: 10rem;
+    text-align: left;
+  }
+}

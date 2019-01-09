@@ -1,0 +1,127 @@
+@import "../../styles/nobulVariables.scss";
+
+.create-buy-job {
+  margin: 0 auto;
+  max-width: $desktop-content-max-width;
+  
+  .ant-steps {
+    width: 100%;
+  }
+
+  .ant-select {
+    color: $black-medium;
+
+    &-arrow {
+      color: $black-medium;
+    }
+  }
+
+  .ant-select-selection {
+    border-radius: 0;
+    border-color: $gray-light;
+  }
+
+  .ant-input,
+  .ant-select-selection--single {
+    height: 30rem;
+    border-radius: 0;
+  }
+}
+
+.create-buy-job__steps-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.create-buy-job__steps-with-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: $desktop-content-max-width;
+}
+
+.create-buy-job__steps {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+.create-buy-job__content {
+  display: flex;
+  justify-content: center;
+}
+
+.create-buy-job__content--center {
+  width: 90%;
+}
+
+.create-buy-job__content--full {
+  width: 100%;
+}
+
+.create-buy-job__step2 {
+  margin: 0;
+  max-width: none;
+  height: 100%;
+
+  .create-buy-job__steps {
+    max-width: $desktop-content-max-width;
+  }
+}
+
+.ant-select-selection {
+  .ant-select-selection__rendered {
+    margin: 0 2rem;
+    line-height: 5.5rem;
+  }
+}
+
+.ant-select-dropdown {
+  border-radius: 0;
+
+  &-menu-item {
+    line-height: 4.5rem;
+    padding: 0 2rem;
+    color: $gray-dark;
+
+    &-active,
+    &:hover {
+      background-color: $list-highlight;
+    }
+
+    &:first-child {
+      border-radius: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .create-buy-job {
+    padding: 0;
+
+    .has-error .ant-form-explain {
+      margin: 0 2rem;
+    }
+  }
+
+  .create-buy-job__progress-bar {
+    margin: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .layout-footer {
+    display: inherit;
+  }
+
+  .create-buy-job {
+    padding: 0;
+    height: auto;
+    margin: 0;
+  }
+
+  .create-buy-job__progress-bar {
+    margin: 2rem 2rem 0;
+  }
+}

@@ -1,0 +1,6 @@
+[submodule "core"]
+	path = core
+	url = https://github.com/nobul/core.git
+[submodule "src/assets/ext/pdf_viewer"]
+	path = src/assets/ext/pdf_viewer
+	url = https://github.com/nobul/pdftron

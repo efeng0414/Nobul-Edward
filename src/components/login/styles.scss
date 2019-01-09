@@ -1,0 +1,77 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .login {
+    border: 0;
+    padding: 2.5rem 0 0;
+
+    &-fieldset {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    &-forgot-password {
+      font-size: 1.4rem;
+      color: $blue-dark;
+      float: right;
+      text-decoration: underline;
+      margin-top: 0.2rem;
+    }
+
+    .login-fieldset .ant-form-item:last-of-type {
+      margin-bottom: 2rem;
+    }
+    .ant-form-item {
+      &:last-of-type {
+        margin-bottom: 3rem;
+
+        .ant-form-item-control {
+          line-height: normal;
+        }
+      }
+    }
+  }
+
+  .join-nobul {
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .join-nobul-text-link {
+    color: $blue-dark;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .forgot-password {
+    border: 0;
+    padding: 2.5rem 0 0;
+
+    .ant-form-item {
+      margin-bottom: 4rem;
+    }
+  }
+
+  .ant-alert-icon {
+    top: 1.5rem;
+  }
+
+  .ant-modal-footer {
+    button {
+      margin: 0;
+    }
+  }
+
+  .ant-alert-error {
+    border-radius: 0.4rem;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+  }
+}
+
+.nobul .login .ant-btn {
+  display: block;
+  margin: 0 auto;
+}
+

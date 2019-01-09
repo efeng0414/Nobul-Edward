@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.create-posting-modal {
+    .ant-modal-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

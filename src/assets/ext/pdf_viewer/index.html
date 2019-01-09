@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <link rel="icon" type="image/png" href="/assets/favicon.ico" />
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="lib/WebViewer.min.js"></script>
+    <script src="lib/html5/ControlUtils.js"></script>
+    <script src="samples-key.js"></script>
+    <script src="assets/nobulViewer.js"></script>
+    <script>
+      function getQueryParam(param) {
+        location.search.substr(1)
+            .split("&")
+            .some(function(item) { // returns first occurence and stops
+                return item.split("=")[0] == param && (param = item.split("=")[1])
+            })
+        return decodeURIComponent(param)
+      }
+ 
+      function initPDFViewer() {
+        var source = getQueryParam("source");
+        var viewer = new PDFFiller(source);
+      }
+
+      $().ready(initPDFViewer);
+
+    </script>
+</head>
+
+<body style="width:100%;height:100%;margin:0px;padding:0px;overflow:hidden">
+    <div id="viewer" style="height: 100%; overflow: hidden;"></div>
+</body>
+</html>

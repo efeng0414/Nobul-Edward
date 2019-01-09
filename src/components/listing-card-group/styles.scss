@@ -1,0 +1,68 @@
+@import "../../styles/nobulVariables.scss";
+
+.listing-card-group-header {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.listing-card-group-select {
+  position: absolute;
+  right: 2rem;
+  width: 20rem;
+
+  .ant-select-selection {
+    border-radius: 0;
+  }
+
+  .ant-select-selection-selected-value {
+    position: relative;
+    top: 0.8rem;
+  }
+
+  .ant-select-selection__placeholder {
+    top: 1.6rem;
+  }
+
+  .ant-select-selection__rendered {
+    height: 100%;
+  }
+}
+
+.listing-card-group-card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listing-card-group-card-list {
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden; 
+}
+
+@media screen and (min-width: $tablet-min) {
+  .listing-card-grid-item {
+    width: 26rem;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .listing-card-grid-item {
+    display: flex;
+    justify-content: center;
+    padding: 0 0.5rem;
+    width: 26rem;
+  }
+
+  .listing-card-group-header {
+    padding: 0 1rem 0 3rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .listing-card-group-select {
+    width: auto;
+    right: 1rem;
+  }
+}

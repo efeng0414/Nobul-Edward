@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Step-3---Sell---Features---Bathrooms" transform="translate(-667.000000, -310.000000)">
+            <g id="Group-7" transform="translate(669.000000, 312.000000)">
+                <g id="fourbedroom_icon">
+                    <g id="Group-7">
+                        <g id="Group-9" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="2.5">
+                            <circle id="Oval-13-Copy-6" cx="60" cy="60" r="60"></circle>
+                        </g>
+                        <g id="Group-11-Copy-4" transform="translate(58.000000, 40.000000)" fill="#BDBDBD">
+                            <text id="4" font-family="OpenSans-SemiBold, Open Sans" font-size="30" font-weight="500">
+                                <tspan x="23.4379883" y="32">4</tspan>
+                            </text>
+                            <text id="x" font-family="OpenSans-Regular, Open Sans" font-size="25" font-weight="normal">
+                                <tspan x="0" y="29">x</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-10-Copy-3" transform="translate(25.000000, 50.000000)">
+                    <path d="M8.32799988,1.27321997 C4.85799993,-0.853869617 3.12299995,-0.315761782 3.12299995,2.88754348 C3.12299995,6.09084873 3.12299995,8.59833419 3.12299995,10.4099998" id="Path-12" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle-15" stroke="#BDBDBD" stroke-width="1.2" fill="#FFFFFF" x="4.76399994" y="16.2149998" width="1.92299995" height="4.00499992" rx="0.961499977"></rect>
+                    <rect id="Rectangle-15-Copy" stroke="#BDBDBD" stroke-width="1.2" fill="#FFFFFF" x="16.2149998" y="16.2149998" width="1.92299995" height="4.00499992" rx="0.961499977"></rect>
+                    <path d="M2.08199997,11.9518488 C2.28310988,16.4759494 5.00968642,18.7379997 10.2617296,18.7379997 C15.5137728,18.7379997 16.9411995,18.7379997 14.5440097,18.7379997 C18.728003,17.6576977 20.8199997,15.3956474 20.8199997,11.9518488 C20.8199997,8.50805021 14.5739998,8.50805021 2.08199997,11.9518488 Z" id="Path-13" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF"></path>
+                    <polygon id="Path-14" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="11.4509998 1.66634698 7.28699989 1.04099998 7.9026724 5.20499992"></polygon>
+                    <path d="M9.88949986,-0.75 C10.6245057,-0.75 11.1599998,-0.107406994 11.1599998,0.624599991 L11.1599998,5.62139992 C11.1599998,6.3534069 10.6245057,6.99599991 9.88949986,6.99599991 C9.15449403,6.99599991 8.61899986,6.3534069 8.61899986,5.62139992 L8.61899986,0.624599991 C8.61899986,-0.107406994 9.15449403,-0.75 9.88949986,-0.75 Z" id="Rectangle-17" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" transform="translate(9.889500, 3.123000) rotate(42.000000) translate(-9.889500, -3.123000) "></path>
+                    <rect id="Rectangle-14" stroke="#BDBDBD" stroke-width="1.2" fill="#FFFFFF" x="0.6" y="9.96899986" width="21.7019997" height="1.92299995" rx="0.961499977"></rect>
+                    <rect id="Rectangle-3" fill="#FFFFFF" x="10.4099998" y="7.28699989" width="10.4099998" height="2.08199997"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

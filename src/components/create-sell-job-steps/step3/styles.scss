@@ -1,0 +1,121 @@
+@import "../../../styles/nobulVariables.scss";
+
+.nobul {
+  .sell-job-step3 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+
+    h1 {
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+    }
+
+    &-icon-group {
+      display: flex;
+    }
+      
+    &-buttons {
+      display: flex;
+      margin-top: 3rem;
+      justify-content: flex-end;
+      align-items: center;
+
+      .ant-btn {
+        margin-left: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .create-sell-job-content {
+    margin: 0;
+  }
+  .nobul {
+
+    .sell-job-step3 {
+      padding-left: 0;
+      padding-right: 0;
+      
+      .ant-checkbox-group {
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .ant-checkbox-wrapper {
+        margin: 0 !important;
+      }
+      &-buttons {
+        margin: 2rem 0 2rem;
+      }
+      .ant-row {
+        margin: 0 !important;
+      }
+    }
+  }
+
+  .nobul .sell-job-step3-icon-group{
+    padding: 4rem 0;
+    justify-content: space-around;
+  }
+  
+}
+
+@media screen and (max-width: $mobile) {
+  .nobul .sell-job-step3 {
+
+    .ant-checkbox-group {
+      justify-content: space-around;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .sell-job-step3-icon-group--title{
+      margin-top: 2rem;
+    }
+
+    .ant-checkbox-group {
+      justify-content: space-around;
+    }
+
+    &-icon-group {
+      flex-direction: column;
+    }
+  }
+
+  .nobul .sell-job-step3-buttons {
+    display: block;
+    text-align: center;    
+  }
+  
+  .nobul .sell-job-step3-buttons .ant-btn-primary {
+    margin-top: 1rem;
+  }
+  
+  .nobul .sell-job-step3-buttons .ant-btn {
+    margin-left: 0;
+  }
+
+  .nobul .sell-job-step3-icon-group{
+    padding: 1rem 0;
+
+    .property-bathrooms,
+    .property-bedrooms {
+      display: flex;
+      justify-content: center;
+    }
+
+    .property-bedrooms-parent,
+    .property-bathrooms-parent {
+      background-color: $white;
+    }
+
+    .property-bedrooms-icon,
+    .property-bathrooms-icon {
+      margin: 0 2rem;
+    }
+  }
+}

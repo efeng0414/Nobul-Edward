@@ -1,0 +1,61 @@
+@import "../../../../styles/nobulVariables.scss";
+@import "../styles.scss";
+
+.registration-form__button-holder {
+  display: flex;
+  justify-content: center;
+}
+
+
+.registration-marketing__form {
+  .ant-checkbox-wrapper {
+    display: flex;
+    margin-bottom: 1.5rem;
+
+    & + .ant-checkbox-wrapper {
+      margin-left: 0;
+    }
+
+    span {
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+
+    a {
+      color: $blue-dark;
+    }
+  }
+
+  .ant-checkbox {
+    position: static;
+    padding-top: 0.5rem;
+  }
+
+  .ant-form-item-children, .ant-checkbox-group {
+    max-width: 100%; // IE11 flex bug
+  }
+
+  &-terms-consent {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .ant-form-explain {
+    transform: none;
+    bottom: -0.5rem;
+    left: 1rem;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .registration-form-row {
+    flex-flow: column wrap;
+    height: auto;
+  }
+
+  .registration-form__continue-button {
+    float: none;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

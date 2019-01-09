@@ -1,0 +1,79 @@
+@import "../../styles/nobulVariables.scss";
+
+.service-range-picker {
+  border: 0.1rem solid $black-medium;
+  border-radius: 2rem;
+  height: 3.3rem;
+  padding-right: 1.4rem;
+  padding-left: 0.6rem;
+  width: 100%;
+
+  .ant-slider {
+    padding: 0;
+    .ant-slider-rail {
+      background-color: transparent;
+    }
+
+    .ant-slider-handle {
+      margin-left: 0;
+      margin-top: -0.2rem;
+      background-color: $black-medium;
+      border: none;
+      width: 0.9rem;
+      height: 0.9rem;
+    }
+
+    .ant-slider-dot {
+      top: -0.6rem;
+      border: 0.2rem solid $gray-medium;
+      width: 1.7rem;
+      height: 1.7rem;
+    }
+
+    .ant-slider-mark-text {
+      padding: 0.4rem;
+      top: -8.6rem;
+      width: 13rem !important;
+      font-size: 1.4rem !important;
+      line-height: 1.8rem;
+
+      border: 0.1rem solid $black-medium;
+      border-radius: 0.3rem;
+
+      &:before {
+        position: absolute;
+        bottom: -1.1rem;
+        right: 50%;
+        transform: translateY(-50%) translateX(50%) rotate(-45deg);
+        content: "";
+        width: 1rem;
+        height: 1rem;
+        background-color: $white;
+        border-left: 0.1rem solid $black-medium;
+        border-bottom: 0.1rem solid $black-medium;
+      }
+    }
+  }
+}
+
+.service-range-picker--with-middle {
+  .ant-slider .ant-slider-mark-text {
+    &:nth-child(1) {
+      margin-left: -6rem !important;
+    } 
+
+    &:nth-child(2) {
+      transform: translateY(8.5rem);
+      margin-left: -5.6rem !important;
+
+      &:before {
+        top: -0.6rem;
+        transform: rotate(135deg)
+      }
+    }
+
+    &:nth-child(3) {
+      margin-right: -7rem !important;
+    } 
+  }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>party_room</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1079.000000, -218.000000)">
+            <g id="party_room" transform="translate(1081.000000, 220.000000)">
+                <g id="Group-8" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="2.5">
+                    <circle id="Oval-13-Copy-5" cx="60" cy="60" r="60"></circle>
+                </g>
+                <text id="PARTY-ROOM" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" line-spacing="13" fill="#BDBDBD">
+                    <tspan x="21" y="96">PARTY ROOM</tspan>
+                </text>
+                <g id="Group-14" transform="translate(39.000000, 26.000000)" stroke-width="1.5">
+                    <polyline id="Path-19" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round" points="35 5.5 36.5 4.5 36.5 0 31.5 2 31.5 6 30 7"></polyline>
+                    <g id="Group-12" transform="translate(1.000000, 0.000000)" stroke="#BDBDBD">
+                        <circle id="Oval-7" fill="#FFFFFF" cx="8.5" cy="8.5" r="8.5"></circle>
+                        <path d="M15.5,3.5 L2.97183883,14.1451301" id="Line-5" stroke-linecap="square"></path>
+                        <polygon id="Path-18" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" transform="translate(22.250000, 25.250000) rotate(5.000000) translate(-22.250000, -25.250000) " points="15 11.5 8.5 18 30 39 36 33"></polygon>
+                        <path d="M31.5,37.5 C33.1666667,38.7318841 34,39.5942029 34,40.0869565 C34,40.826087 33.5833333,41.1956522 32.75,41.9347826 C31.9166667,42.673913 30.6666667,44.1521739 32.3333333,45.2608696 C33.4444444,46 34.5555556,45.6304348 35.6666667,44.1521739 C36.7777778,43.1666667 37.8888889,43.0434783 39,43.7826087 C40.1111111,44.5217391 40.9444444,45.2608696 41.5,46" id="Path-22" stroke-linecap="round" stroke-linejoin="round" transform="translate(36.500000, 41.750000) rotate(6.000000) translate(-36.500000, -41.750000) "></path>
+                    </g>
+                    <g id="Group-13" transform="translate(7.860307, 38.860307) rotate(11.000000) translate(-7.860307, -38.860307) translate(5.360307, 36.360307)" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M0.5,0.5 L4.5,4.5" id="Line-6"></path>
+                        <path d="M4.5,0.5 L0.5,4.5" id="Line-6-Copy"></path>
+                    </g>
+                    <circle id="Oval-8" stroke="#BDBDBD" cx="38" cy="23" r="2"></circle>
+                    <circle id="Oval-8-Copy" stroke="#BDBDBD" cx="1.5" cy="21.5" r="1.5"></circle>
+                    <path d="M17.5,16.5 L22.3202538,22.0088615" id="Line-7" stroke="#BDBDBD" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M19.4434819,18 L16,20.7550918" id="Line-8" stroke="#FFFFFF" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

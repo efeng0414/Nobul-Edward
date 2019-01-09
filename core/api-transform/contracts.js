@@ -1,0 +1,10 @@
+export const FORM_DATA = "formData";
+export const AGENT_NAME = "agentName";
+export const CLIENT_NAME = "clientName";
+export const COUNTRY = "country";
+export const REGION = "region";
+export const ENVELOPE_ID = "envelopeId";
+export const SIGNERS = "signers";
+export const STATUS = "status";
+export const TYPE = "type";
+export const ENVELOPE_STATUS = "envelopeStatus";

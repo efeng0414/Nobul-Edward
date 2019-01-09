@@ -1,0 +1,61 @@
+{
+  "plugins": [
+    ["dynamic-import-webpack"],
+    ["syntax-dynamic-import"],
+    ["transform-decorators-legacy"],
+    ["transform-class-properties"],
+    [
+      "transform-runtime",
+      {
+        "helpers": false,
+        "polyfill": false,
+        "regenerator": true,
+        "moduleName": "babel-runtime"
+      }
+    ],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "es"
+      }
+    ]
+  ],
+  "presets": [
+    "react",
+    "es2015",
+    "stage-0",
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": ["last 1 version", "ie >= 11"]
+        }
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "presets": [["env"], "react", ["es2015"], "stage-0"],
+      "plugins": [
+      "transform-runtime",
+      "transform-decorators-legacy",
+      "transform-class-properties",
+      [
+        "transform-runtime",
+        {
+          "helpers": false,
+          "polyfill": false,
+          "regenerator": true,
+          "moduleName": "babel-runtime"
+        }
+      ],
+      ["import",
+      {
+        "libraryName": "antd",
+        "libraryDirectory": "lib"
+      }]
+    ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+.congratulations {
+    margin: 5rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 24rem;
+
+    &-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50%;
+
+        p {
+            margin-bottom: 0;
+        }
+
+        &-title {
+            font-size: 1.6rem;
+            font-weight: $bold;
+        }
+
+        &-content {
+            font-size: 1.4rem;
+        }
+    }
+}

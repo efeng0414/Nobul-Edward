@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>balcony</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-542.000000, -363.000000)">
+            <g id="balcony" transform="translate(544.000000, 365.000000)">
+                <circle id="Oval-13-Copy-6" stroke="#BDBDBD" stroke-width="2.5" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                <text font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#BDBDBD">
+                    <tspan x="32.0791016" y="95">BALCONY</tspan>
+                </text>
+                <g id="Group-5" transform="translate(37.000000, 31.000000)" fill-rule="nonzero" stroke="#BDBDBD" stroke-width="1.5">
+                    <path d="M2.09302326,20.9302326 L2.09302326,37.6744186" id="Line-11" stroke-linecap="square"></path>
+                    <path d="M21.4534884,5.23255814 L21.4534884,37.6744186" id="Line-10" stroke-linecap="square"></path>
+                    <path d="M5.86046512,19.8837209 L5.75581395,37.6744186" id="Line-11" stroke-linecap="square"></path>
+                    <path d="M38.7209302,19.8837209 L38.7209302,37.6744186" id="Line-11-Copy-3" stroke-linecap="square"></path>
+                    <path d="M42.122093,19.8837209 L42.122093,37.6744186" id="Line-11-Copy-4" stroke-linecap="square"></path>
+                    <path d="M17.7906977,19.8837209 L17.7906977,37.6744186" id="Line-11-Copy" stroke-linecap="square"></path>
+                    <path d="M26.1627907,19.8837209 L26.1627907,37.6744186" id="Line-11-Copy-2" stroke-linecap="square"></path>
+                    <rect id="Rectangle-11" x="13.3081395" y="4.93604651" width="16.2906977" height="33.5581395" rx="0.5"></rect>
+                    <rect id="Rectangle-10" x="9.12209302" y="0.75" width="25.7093023" height="37.744186" rx="0.7"></rect>
+                    <path d="M0,19.8837209 L45,19.8837209" id="Line-13" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle" x="0" y="38.7209302" width="45" height="3.13953488" rx="0.3"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

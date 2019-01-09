@@ -1,0 +1,73 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .job-offer-list {
+    margin-bottom: 3rem;
+
+    &-header {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+
+      h6 {
+        display: inline-block;
+      }
+
+      a.link {
+        float: right;
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 1.4rem;
+        text-decoration: underline;
+        color: $blue-dark;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      .ant-select {
+        width: 15rem;
+
+        .ant-select-selection--single {
+          border: none;
+          background-color: transparent;
+        }
+
+        .ant-select-selection__placeholder {
+          right: 2rem;
+        }
+      }
+    }
+
+    &-horizontal {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      > div {
+        flex-basis: 50%;
+      }
+
+      > div:nth-child(odd) {
+        padding-right: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .nobul {
+    .job-offer-list {
+      margin-bottom: 1.5rem;
+
+      &-horizontal > div {
+        flex-basis: 100%;
+
+        &:nth-child(odd) {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+}

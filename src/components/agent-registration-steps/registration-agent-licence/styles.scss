@@ -1,0 +1,24 @@
+@import "../../../styles/nobulVariables.scss";
+
+.agent-registration-img-step2 {
+  background-image: url("../../../assets/images/city.jpg");
+}
+
+.agent-registration-dragger {
+  .ant-upload-list-text {
+    position: absolute;
+  }
+  .anticon-paper-clip {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .agent-registration-form-license-location {
+    flex-flow: column wrap;
+  }
+  
+  .ant-upload-drag {
+    height: 15rem !important;
+  }
+}

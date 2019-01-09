@@ -1,0 +1,16 @@
+@import "../../styles/nobulVariables.scss";
+
+.registration-modal-radio-group {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+
+    .registration-modal-radio-button {
+        margin-top: 2.2rem;
+        font-size: 1.4rem;
+    }
+}
+
+.ant-btn.registration-modal-continue-button {
+    display: block;
+    margin: 0 auto;
+}

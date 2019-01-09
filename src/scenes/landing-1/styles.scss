@@ -1,0 +1,100 @@
+@import "../../styles/nobulVariables.scss";
+
+.landing {
+  min-height: 100vh;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background-color: #fff;
+  background-image: url("../../assets/images/landing-page/shape_1.svg"),
+                    url("../../assets/images/landing-page/shape_2.svg");
+  background-position: right 8rem, left bottom;
+  background-repeat: no-repeat;
+
+  @media screen and (max-width: $mobile) {
+    background-position: right 35rem, left bottom;
+  }
+
+  &__wrapper {
+    max-width: 110rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  &__hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 6rem;
+
+    &__text {
+      flex-grow: 1;
+      padding-bottom: 4rem;
+
+      @media screen and (min-width: $tablet-max) {
+        width: calc(100% - 48rem);
+        padding-right: 7rem;
+      }
+    }
+
+    &__video {
+      width: 48rem;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 4rem;
+    }
+
+    &__para {
+      margin-top: 2rem;
+      margin-bottom: 5rem;
+      line-height: 1.88;
+    }
+  }
+
+  &__features {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-row-gap: 3rem;
+    grid-column-gap: 6rem;
+    margin-top: 3rem;
+  }
+
+  &__feature__title {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+
+    &::before {
+      content: "";
+      display: inline-block;
+      height: 3rem;
+      width: 3rem;
+      margin-right: 1rem;
+      vertical-align: middle;
+    }
+  }
+
+  &__feature {
+    @for $i from 1 through 4 {
+      &:nth-child(#{$i}) .landing__feature__title::before {
+        background-image: url("../../assets/images/landing-page/#{$i}.svg");
+      }
+    }
+
+    &__description {
+      font-size: 1.4rem;
+    }
+  }
+
+  &__button {
+    padding: 0.65rem 2.4rem;
+    background-color: $blue-dark;
+    color: $white;
+    border-radius: 2rem;
+    font-weight: $bold;
+
+    &:hover {
+      color: $white;
+    }
+  }
+}

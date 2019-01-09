@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-C" transform="translate(-133.000000, -587.000000)">
+            <g id="Group-3" transform="translate(133.000000, 587.000000)">
+                <g id="Group-25">
+                    <g id="Group-17">
+                        <circle id="Oval-6" fill="#1684C6" cx="15" cy="15" r="15"></circle>
+                        <path d="M20,16 L10,16" id="Line-2-Copy-3" stroke="#FFC300" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M15,11 L15,21" id="Line-2-Copy-4" stroke="#FFC300" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(15.000000, 16.000000) scale(-1, -1) translate(-15.000000, -16.000000) "></path>
+                        <path d="M20,15 L10,15" id="Line-2-Copy" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M15,10 L15,20" id="Line-2-Copy-2" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(15.000000, 15.000000) scale(-1, -1) translate(-15.000000, -15.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

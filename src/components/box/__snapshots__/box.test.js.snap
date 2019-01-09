@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Box Component Component Snapshot should match existing snapshot 1`] = `
+<div
+  className="box component"
+  onClick={[Function]}
+>
+  <div
+    className="box-icon "
+  >
+    abc
+  </div>
+  <h2>
+    title
+  </h2>
+  <p>
+    description
+  </p>
+  abc
+</div>
+`;

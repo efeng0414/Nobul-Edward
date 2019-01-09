@@ -1,0 +1,86 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .consumer-offers {
+    .ant-tabs-bar {
+      padding: 1rem 2rem 0;
+      position:fixed;
+      right:0;
+      left:$sidemenu-width;
+      top:$header-height;
+      background-color:$gray-light;
+      border-bottom:$border-medium-grey;
+      z-index:1;
+    }
+
+    .ant-tabs-content {
+      margin-top: 10rem;
+    }
+
+    .consumer-offers-title {
+      font-weight: $bold;
+      font-size: 1.6rem;
+    }
+
+    .consumer-offers-list {
+      margin-bottom: 3.5rem;
+
+      .consumer-offers-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        h6 {
+          color: $black-medium;
+          display: flex;
+          align-items: center;
+
+          svg {
+            margin-right: 0.5rem;
+          }
+        }
+      }
+
+      a.viewAllProposalsLink {
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 1.4rem;
+        text-decoration: underline;
+        color: $blue-dark;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .nobul {
+    .consumer-offers {
+      .ant-tabs-bar {
+        left:0;
+        padding: 1rem 0 0 5rem;
+      }
+
+      &-list {
+        .consumer-offers-item,
+        a.viewAllProposalsLink,
+        .no-offers {
+          padding: 0 1rem;
+        }
+      }
+
+      &-title {
+        margin: 2rem 1rem 0;
+      }
+
+      &-tabs {
+        .ant-tabs-nav-wrap {
+          padding: 0 1rem;
+        }
+      }
+    }
+  }
+}

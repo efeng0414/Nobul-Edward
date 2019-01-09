@@ -1,0 +1,11 @@
+@import "../../../styles/variables.scss";
+
+.form-field-commission {
+  border: none;
+  border-radius: 0;
+
+    &, & input{ 
+    height: inherit;
+        text-align: center;
+    }
+}

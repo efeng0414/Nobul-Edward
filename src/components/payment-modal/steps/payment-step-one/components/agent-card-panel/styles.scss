@@ -1,0 +1,77 @@
+@import "../../../../../../styles/nobulVariables.scss";
+
+.card-list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.2rem solid $gray-light;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.card-list__title {
+  margin-top: 2rem;
+  font-weight: $bold;
+}
+
+.card-list__item {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 2rem;
+
+}
+
+.card-list__brand {
+  display: flex;
+  align-items: center;
+  background-color: $black-medium;
+  color: $white;
+  padding: 1rem 2rem;
+  margin-right: 2rem;
+}
+
+.card-list__digits {
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+.card-list__hidden-digits {
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+      
+.card-list__delete {
+  margin: 2rem;
+  box-shadow: $card-select-shadow;
+  border: none;
+}
+
+.card-list__button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  line-height: 1.7rem;
+  padding: 0;
+  color: $gray-dark;
+
+  svg {
+    vertical-align: top !important; // AAANNNTTTTT!!!!!
+  }
+}
+
+.card-list_icon {
+  margin-right: 1rem;
+}
+
+.card-list__next {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: $tablet-max) {
+  .card-list {
+    flex-direction: column;
+  }
+}

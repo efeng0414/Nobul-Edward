@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Sell Job Container Snapshot should match stored snapshot 1`] = `
+<div
+  className="background null"
+  style={
+    Object {
+      "backgroundColor": "",
+      "backgroundImage": "url(file-mock)",
+    }
+  }
+>
+  <div
+    className="background-content"
+  >
+    <div
+      className="create-sell-job"
+    >
+      <div />
+      <div
+        className="ant-spin-nested-loading spinner-wrapper"
+        style={null}
+      >
+        <div
+          className="ant-spin-container"
+        >
+          <div
+            className="create-sell-job__content"
+          >
+            <div
+              className="create-sell-job__content--center"
+            >
+              <div
+                className="sell-job-step1"
+              >
+                <form
+                  className="ant-form ant-form-horizontal"
+                  onSubmit={[Function]}
+                >
+                  <div
+                    className=""
+                  >
+                    <h1>
+                      My property is a:
+                    </h1>
+                    <div
+                      className="ant-row ant-form-item"
+                    >
+                      <div
+                        className="ant-form-item-control-wrapper"
+                      >
+                        <div
+                          className="ant-form-item-control"
+                        >
+                          <span
+                            className="ant-form-item-children"
+                          >
+                            <div
+                              className="create-posting-property-checkbox-group"
+                            >
+                              <div
+                                className="ant-radio-group ant-radio-group-outline"
+                              >
+                                <label
+                                  className="ant-radio-wrapper"
+                                >
+                                  <span
+                                    className="ant-radio"
+                                    style={Object {}}
+                                  >
+                                    <input
+                                      checked={false}
+                                      className="ant-radio-input"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      type="radio"
+                                      value="House/Townhouse"
+                                    />
+                                    <span
+                                      className="ant-radio-inner"
+                                    />
+                                  </span>
+                                  <span>
+                                    <div>
+                                      <img
+                                        className="propertyTypeIcon"
+                                        src={
+                                          Object {
+                                            "default": "file-mock",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </span>
+                                </label>
+                                <label
+                                  className="ant-radio-wrapper"
+                                >
+                                  <span
+                                    className="ant-radio"
+                                    style={Object {}}
+                                  >
+                                    <input
+                                      checked={false}
+                                      className="ant-radio-input"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      type="radio"
+                                      value="Condo/Apartment"
+                                    />
+                                    <span
+                                      className="ant-radio-inner"
+                                    />
+                                  </span>
+                                  <span>
+                                    <div>
+                                      <img
+                                        className="propertyTypeIcon"
+                                        src={
+                                          Object {
+                                            "default": "file-mock",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </span>
+                                </label>
+                                <label
+                                  className="ant-radio-wrapper"
+                                >
+                                  <span
+                                    className="ant-radio"
+                                    style={Object {}}
+                                  >
+                                    <input
+                                      checked={false}
+                                      className="ant-radio-input"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      type="radio"
+                                      value="Recreational"
+                                    />
+                                    <span
+                                      className="ant-radio-inner"
+                                    />
+                                  </span>
+                                  <span>
+                                    <div>
+                                      <img
+                                        className="propertyTypeIcon"
+                                        src={
+                                          Object {
+                                            "default": "file-mock",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </span>
+                                </label>
+                                <label
+                                  className="ant-radio-wrapper"
+                                >
+                                  <span
+                                    className="ant-radio"
+                                    style={Object {}}
+                                  >
+                                    <input
+                                      checked={false}
+                                      className="ant-radio-input"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      type="radio"
+                                      value="Commercial"
+                                    />
+                                    <span
+                                      className="ant-radio-inner"
+                                    />
+                                  </span>
+                                  <span>
+                                    <div>
+                                      <img
+                                        className="propertyTypeIcon"
+                                        src={
+                                          Object {
+                                            "default": "file-mock",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </span>
+                                </label>
+                                <label
+                                  className="ant-radio-wrapper"
+                                >
+                                  <span
+                                    className="ant-radio"
+                                    style={Object {}}
+                                  >
+                                    <input
+                                      checked={false}
+                                      className="ant-radio-input"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      type="radio"
+                                      value="Other"
+                                    />
+                                    <span
+                                      className="ant-radio-inner"
+                                    />
+                                  </span>
+                                  <span>
+                                    <div>
+                                      <img
+                                        className="propertyTypeIcon"
+                                        src={
+                                          Object {
+                                            "default": "file-mock",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                  </span>
+                                </label>
+                              </div>
+                            </div>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="hide"
+                  >
+                    <h1>
+                      I am hoping to sell for the following amount:
+                    </h1>
+                    <div
+                      className="ant-row ant-form-item"
+                    >
+                      <div
+                        className="ant-form-item-control-wrapper"
+                      >
+                        <div
+                          className="ant-form-item-control has-success"
+                        >
+                          <span
+                            className="ant-form-item-children"
+                          >
+                            <div
+                              className="sell-job-step1-icon-slider-group"
+                            >
+                              <div
+                                className="sell-job-step1-price-slider"
+                              >
+                                <div
+                                  className="dual-price-range"
+                                >
+                                  <div
+                                    className="ant-slider ant-slider-with-marks"
+                                    onBlur={[Function]}
+                                    onFocus={[Function]}
+                                    onKeyDown={[Function]}
+                                    onMouseDown={[Function]}
+                                    onMouseUp={[Function]}
+                                    onTouchStart={[Function]}
+                                  >
+                                    <div
+                                      className="ant-slider-rail"
+                                      style={Object {}}
+                                    />
+                                    <div
+                                      className="ant-slider-track ant-slider-track-1"
+                                      style={
+                                        Object {
+                                          "left": "8.333333333333332%",
+                                          "width": "16.666666666666668%",
+                                        }
+                                      }
+                                    />
+                                    <div
+                                      className="ant-slider-step"
+                                    >
+                                      <span
+                                        className="ant-slider-dot ant-slider-dot-active"
+                                        style={
+                                          Object {
+                                            "left": "8.333333333333332%",
+                                          }
+                                        }
+                                      />
+                                      <span
+                                        className="ant-slider-dot ant-slider-dot-active"
+                                        style={
+                                          Object {
+                                            "left": "25%",
+                                          }
+                                        }
+                                      />
+                                    </div>
+                                    <div
+                                      aria-disabled={false}
+                                      aria-valuemax={12}
+                                      aria-valuemin={0}
+                                      aria-valuenow={1}
+                                      className="ant-slider-handle ant-slider-handle-1"
+                                      onBlur={[Function]}
+                                      onKeyDown={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                      role="slider"
+                                      style={
+                                        Object {
+                                          "left": "8.333333333333332%",
+                                        }
+                                      }
+                                      tabIndex={0}
+                                    />
+                                    <div
+                                      aria-disabled={false}
+                                      aria-valuemax={12}
+                                      aria-valuemin={0}
+                                      aria-valuenow={3}
+                                      className="ant-slider-handle ant-slider-handle-2"
+                                      onBlur={[Function]}
+                                      onKeyDown={[Function]}
+                                      onMouseEnter={[Function]}
+                                      onMouseLeave={[Function]}
+                                      role="slider"
+                                      style={
+                                        Object {
+                                          "left": "25%",
+                                        }
+                                      }
+                                      tabIndex={0}
+                                    />
+                                    <div
+                                      className="ant-slider-mark"
+                                    >
+                                      <span
+                                        className="ant-slider-mark-text ant-slider-mark-text-active"
+                                        onMouseDown={[Function]}
+                                        onTouchStart={[Function]}
+                                        style={
+                                          Object {
+                                            "left": "8.333333333333332%",
+                                            "marginLeft": "-45%",
+                                            "width": "90%",
+                                          }
+                                        }
+                                      >
+                                        $100,000
+                                      </span>
+                                      <span
+                                        className="ant-slider-mark-text ant-slider-mark-text-active"
+                                        onMouseDown={[Function]}
+                                        onTouchStart={[Function]}
+                                        style={
+                                          Object {
+                                            "left": "25%",
+                                            "marginLeft": "-45%",
+                                            "width": "90%",
+                                          }
+                                        }
+                                      >
+                                        $300,000
+                                      </span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="ant-row ant-form-item"
+                  >
+                    <div
+                      className="ant-form-item-control-wrapper"
+                    >
+                      <div
+                        className="ant-form-item-control"
+                      >
+                        <span
+                          className="ant-form-item-children"
+                        >
+                          <div
+                            className="sell-job-step1-buttons"
+                          >
+                            <button
+                              className="ant-btn googletag-consumer-sell-real-estate-start ant-btn-primary ant-btn-lg"
+                              onClick={[Function]}
+                              type="submit"
+                            >
+                              <span>
+                                Next
+                              </span>
+                            </button>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

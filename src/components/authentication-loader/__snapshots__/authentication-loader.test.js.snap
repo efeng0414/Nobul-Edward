@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthenticationLoader Component Snapshot should match existing snapshot 1`] = `
+<div
+  className="ant-spin-nested-loading spinner-wrapper"
+  style={null}
+>
+  <div>
+    <div
+      className="ant-spin ant-spin-lg ant-spin-spinning ant-spin-show-text"
+    >
+      <span
+        className="ant-spin-dot ant-spin-dot-spin"
+      >
+        <i />
+        <i />
+        <i />
+        <i />
+      </span>
+      <div
+        className="ant-spin-text"
+      >
+        Loading...
+      </div>
+    </div>
+  </div>
+  <div
+    className="ant-spin-container ant-spin-blur"
+  >
+    <div
+      className="loading-page"
+    />
+  </div>
+</div>
+`;

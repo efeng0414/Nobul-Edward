@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error Page Container Component Snapshot should match existing snapshot 1`] = `
+<main
+  className="error-page"
+>
+  <div
+    className="ant-card error-card ant-card-bordered"
+    onClick={[Function]}
+  >
+    <div
+      className="ant-card-body"
+      style={Object {}}
+    >
+      <h1>
+        We're sorry — something's gone wrong.
+      </h1>
+      <p>
+        Our team has been notified. You can also click here to give us more feedback.
+      </p>
+    </div>
+  </div>
+</main>
+`;

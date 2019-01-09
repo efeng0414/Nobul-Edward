@@ -1,0 +1,10 @@
+export const CREATED_AT = "createdAt";
+export const UPDATED_AT = "updatedAt";
+export const CREATED_ON = "createdOn";
+export const JOB_TYPE = "jobType";
+export const OFFER_ID = "offerId";
+export const RATING = "rating";
+export const DID_AGENT_DELIVER = "didAgentDeliver";
+export const REASON_FOR_FAILURE = "reasonForFailure";
+export const FEEDBACK = "feedback";
+export const STARS = "stars";

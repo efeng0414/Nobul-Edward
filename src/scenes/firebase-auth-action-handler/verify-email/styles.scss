@@ -1,0 +1,10 @@
+@import "../../../styles/variables.scss";
+
+.verify-your-email .login {
+  color: $blue-dark;
+
+  &:hover {
+    text-decoration: underline;
+    color: $blue-dark;
+  }
+}

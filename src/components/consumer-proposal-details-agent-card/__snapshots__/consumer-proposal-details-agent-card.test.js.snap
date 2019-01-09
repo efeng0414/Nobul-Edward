@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConsumerProposalDetailsAgentCard Component Snapshot should matched stored snapshot 1`] = `
+<div
+  className="agent-card"
+>
+  <div
+    className="agent-card__body"
+  >
+    <div
+      className="agent-card__avatar"
+    >
+      <span
+        className="ant-avatar ant-avatar-circle ant-avatar-image"
+        style={
+          Object {
+            "fontSize": 18,
+            "height": 150,
+            "lineHeight": "150px",
+            "width": 150,
+          }
+        }
+      >
+        <img
+          onError={[Function]}
+          src="Avatar"
+        />
+      </span>
+    </div>
+    <div
+      className="agent-card__agent-name"
+    >
+      John Smith
+    </div>
+    <div
+      className="agent-card__agent-office"
+    >
+      REMAX
+    </div>
+    <div
+      className="agent-card__agent-about"
+    >
+      This is some text about the agent
+    </div>
+  </div>
+  <div
+    className="agent-card__footer"
+  >
+    <div
+      className="footer__icon"
+    >
+      <div
+        className="footer__image-container"
+      >
+        <img
+          alt="Phone Icon"
+          className="footer__image"
+          src="file-mock"
+        />
+      </div>
+    </div>
+    <div
+      className="footer__action-content"
+    >
+      <div
+        className="footer__title"
+      >
+        Contact the Agent
+      </div>
+      <div
+        className="footer__text"
+      >
+        Set up a meeting to interview the agent before you decide to work with them.
+      </div>
+    </div>
+  </div>
+</div>
+`;

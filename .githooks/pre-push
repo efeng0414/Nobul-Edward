@@ -1,0 +1,10 @@
+#!/bin/bash
+
+./node_modules/.bin/jest --bail
+if [[ "$?" == 0 ]]; then
+    echo "Jest Tests Passed"
+    exit 0
+else
+    echo "Jest Tests Failed"
+    exit 1
+fi

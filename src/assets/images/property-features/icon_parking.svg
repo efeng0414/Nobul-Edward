@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>parking</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-542.000000, -218.000000)">
+            <g id="parking" transform="translate(544.000000, 220.000000)">
+                <circle id="Oval-13-Copy-2" stroke="#BDBDBD" stroke-width="2.5" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                <text font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#BDBDBD">
+                    <tspan x="33.2373047" y="95">PARKING</tspan>
+                </text>
+                <g id="Group-4" transform="translate(37.000000, 25.000000)" stroke="#BDBDBD">
+                    <path d="M4.86666667,18.6666667 L42.2,18.6666667" id="Line-3" stroke-width="1.5" stroke-linecap="square"></path>
+                    <path d="M4.86666667,21.8666667 L42.2,21.8666667" id="Line-3-Copy" stroke-width="1.5" stroke-linecap="square"></path>
+                    <rect id="Rectangle-3" stroke-width="1.5" fill="#FFFFFF" x="0.96328125" y="15.6833333" width="3.83333333" height="31.5666667" rx="1"></rect>
+                    <rect id="Rectangle-3-Copy" stroke-width="1.5" fill="#FFFFFF" x="39.4966146" y="15.6833333" width="3.83333333" height="31.5666667" rx="1"></rect>
+                    <polygon id="Path-6" stroke-width="1.5" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="21.9587359 0.533333333 1.06666667 8.53333333 1.06666667 15.4666667 43.3366671 15.4666667 43.3366671 8.53333333"></polygon>
+                    <path d="M35.2666667,35.2 L32.0666667,28.2666667 C31.7111111,27.2 30.8222222,26.6666667 29.4,26.6666667 C27.9777778,26.6666667 26.0222222,26.6666667 23.5333333,26.6666667" id="Path-7" stroke-width="1.5"></path>
+                    <path d="M24.6,35.2 L21.4,28.2666667 C21.0444444,27.2 20.1555556,26.6666667 18.7333333,26.6666667 C17.3111111,26.6666667 14.2888889,26.6666667 9.66666667,26.6666667" id="Path-7-Copy" stroke-width="1.5" transform="translate(17.133333, 30.933333) scale(-1, 1) translate(-17.133333, -30.933333) "></path>
+                    <rect id="Rectangle-6" stroke-width="1.5" fill="#FFFFFF" x="9.35" y="41.2833333" width="3.83333333" height="4.9" rx="1.91666667"></rect>
+                    <rect id="Rectangle-6-Copy" stroke-width="1.5" fill="#FFFFFF" x="31.75" y="41.2833333" width="3.83333333" height="4.9" rx="1.91666667"></rect>
+                    <rect id="Rectangle-4" stroke-width="1.5" fill="#FFFFFF" x="9.35" y="34.8833333" width="26.2333333" height="8.1" rx="2"></rect>
+                    <rect id="Rectangle-5" fill="#D8D8D8" x="11.2333333" y="38.9" width="4.33333333" height="1.13333333" rx="0.566666667"></rect>
+                    <rect id="Rectangle-5-Copy" fill="#D8D8D8" x="29.3666667" y="38.9" width="4.33333333" height="1.13333333" rx="0.566666667"></rect>
+                    <rect id="Rectangle-5-Copy-2" fill="#D8D8D8" x="18.7" y="39.9666667" width="7.53333333" height="1" rx="0.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

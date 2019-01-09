@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+
+.about-agent-card {
+  width: 50%;
+  max-width: 800px;
+  text-align: center;
+
+  &-profile-image {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 130px;
+  }
+
+  &-grid-item {
+    flex-grow: 1;
+    padding: 1rem;
+  }
+
+  &-brokerage { padding-top: 2rem; }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}

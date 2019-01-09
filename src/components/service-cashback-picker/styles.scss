@@ -1,0 +1,38 @@
+@import "../../styles/nobulVariables.scss";
+
+.services-range {
+    &-input {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+    }
+
+    .ant-radio-wrapper {
+        border-radius: 5em;
+       
+    }
+
+    .ant-radio-inner {
+        background-color: $white;
+        padding: 1.5rem;
+        border: 0.5rem solid $gray-light;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &::after {
+            padding: 0.5rem;
+            background-color: $black-medium;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+.services-container {
+     display: flex;
+     justify-content: space-between;
+     font-weight: bold;
+     text-align: center;
+}

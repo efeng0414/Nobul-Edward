@@ -1,0 +1,172 @@
+@import "../../styles/nobulVariables.scss";
+
+.reuse-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $white;
+  width: 8rem;
+  height: 12.3rem;
+  position: relative;
+  border: solid 0.1rem $gray-medium;
+
+
+  .ant-input-number-handler-wrap {
+    height: 160%;
+    top: -30%;
+  }
+
+  .ant-input-number-input-wrap {
+    text-align: center;
+  }
+  
+  .ant-input-number-handler-up-inner {
+    font-size: 1.7rem;
+    margin-top: -1.6rem;
+
+    &:hover {
+      color: $yellow-medium;
+    }
+  }
+
+  .ant-input-number-handler-down-inner {
+    font-size: 1.7rem;
+    margin-top: -0.1rem;
+  }
+
+  .ant-input-number-handler-wrap {
+    right: 38%;
+    background: none;
+  }
+
+}
+
+.property-bathrooms {
+  margin-left: 3rem;
+  &-parent {
+    display: flex;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  &-icon {
+    width: 8rem;
+    margin-right: 1rem;
+  }
+  &-container-sell {
+    
+    &:hover {
+      border-color: $yellow-medium;
+    } 
+    @extend .reuse-container
+  }
+  &-container-buy {
+    
+    &:hover {
+      border-color: $blue-dark;
+    }
+    @extend .reuse-container
+  }
+
+  &-selector {
+    display: inline-block;
+    background-color: $white;
+    border-radius: 6rem;
+  }
+
+  .ant-radio {
+    position: absolute;
+    width: 12.5rem;
+    height: 12.5rem;
+    border-radius: 6rem;
+    left: 5%;
+
+    &-inner {
+      display: none;
+    }
+
+    &.ant-radio-checked {
+      border: 0.2rem solid $black-medium;
+    }
+  }
+
+  .ant-input-number {
+    &.property-bathrooms-input {
+      width: 6rem;
+      font-size: 2.8rem;
+      color: $gray-medium;
+      border: 0;
+
+      &:hover,
+      &:focus {
+        border: 0;
+        box-shadow: none;
+      }
+
+      .ant-input-number-handler-up {
+        background-color: transparent;
+        height: 60% !important;
+      }
+
+      .ant-input-number-handler-down {
+        background-color: transparent;
+        border-top: 0;
+      }
+    }
+
+    &.ant-input-number-focused {
+      border: 0;
+      box-shadow: none;
+    }
+
+    .ant-input-number-handler-wrap {
+      width: 1.5rem;
+      opacity: 1;
+      border-left: 0;
+      transform: scale(1.6);
+
+      .ant-input-number-handler {
+        height: 60%;
+      }
+    }
+
+    .ant-input-number-input {
+      width: 4.5rem;
+      padding: 0;
+    }
+
+    .ant-input-number-handler-up-inner,
+    .ant-input-number-handler-down-inner {
+      color: rgba(0, 0, 0, 0.25);
+    }
+
+    .ant-input-number-handler:not(.ant-input-number-handler-down-disabled):hover {
+      .ant-input-number-handler-up-inner,
+      .ant-input-number-handler-down-inner {
+        color: $toggle-color;
+      }
+    }
+
+    .ant-input-number-handler:active {
+      background-color: transparent;
+    }
+  }
+
+  &-multiply {
+    font-size: 2rem;
+    color: $gray-medium;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .property-bathrooms {
+    &-parent {
+      justify-content: space-between;
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .property-bathrooms {
+    margin: 0;
+  }
+}

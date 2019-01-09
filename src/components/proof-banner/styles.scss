@@ -1,0 +1,66 @@
+@import "../../styles/nobulVariables.scss";
+
+.proof-banner {
+    padding: 2rem 0;
+    background-color: $black-medium;
+    opacity: 0.8;
+}
+
+.proof-banner__text {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.proof-banner__text-item {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.proof-banner__text-item:not(:last-of-type):after {
+    content: "-";
+    display: inline-block;
+    padding: 0 0.5rem;
+}
+
+.proof-banner__inner {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.proof-banner__logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proof-banner__logo--financial-post {
+    height: 5rem;
+}
+
+.proof-banner__logo { padding: 1rem; }
+
+@media screen and (max-width: $tablet-max ) {
+    .proof-banner__logos {
+        padding: 1rem 2rem;
+    }
+
+    .proof-banner__logo {
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: $mobile ) {
+    .proof-banner__text-item {
+        display: block;
+        font-size: 1.2rem;
+    }
+
+    .proof-banner__text-item:not(:last-of-type):after { display: none; }
+
+    .proof-banner__logo {
+        width: 11rem;
+    }
+}

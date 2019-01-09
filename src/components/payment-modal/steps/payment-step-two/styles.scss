@@ -1,0 +1,110 @@
+@import "../../../../styles/variables.scss";
+
+.confirm-payment {
+    text-align: center;
+}
+
+.confirm-payment__title {
+    text-align: center;
+    color: $gray-dark;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+h1.confirm-payment__title-trial {
+    font-size: 5rem;
+    color: $price-color;
+    margin-top: 3.2rem;
+    margin-bottom: 0.6rem;
+    font-weight: 100;
+}
+
+.confirm-payment__price {
+    text-align: center;
+    color: $black-medium;
+}
+
+.confirm-payment__price-trial {
+    color: $price-color;
+    font-size: 1.4rem;
+}
+
+.confirm-payment__table {
+    text-align: left;
+    margin: 3rem 0;   
+    font-size: 1.4rem; 
+    width: 100%;
+}
+
+.confirm-payment__title-small {
+    font-size: 1.4rem;
+    color: $price-color;
+    margin-top: 3.2rem;
+    margin-bottom: 0.6rem;
+    font-weight: 100;
+}
+
+.confirm-payment__price-large {
+    font-size: 5rem;
+    color: $price-color;
+}
+
+$pricingSpacing: 1.5rem;
+.confirm-payment__item {
+    width: 50%;
+
+    td {
+       padding: $pricingSpacing / 2;
+    }
+
+    td:last-of-type {
+        text-align: right;
+    }
+}
+
+.confirm-payment__item--tax {
+    td {
+        padding-bottom: $pricingSpacing;
+    }
+}
+
+.confirm-payment__item--total {
+    border-top: solid 1px $gray-light;
+    
+    td {
+        padding-top: $pricingSpacing;
+    }
+}
+
+.confirm-payment__label {
+    color: $gray-dark;
+}
+
+.confirm-payment__price {
+    font-weight: $bold;    
+}
+
+.confirm-payment__button {
+    margin-top: 3rem;
+    color: $white;
+    background-color: $black-medium; 
+
+    .ant-btn { 
+        width: 18rem;
+    }
+    
+}
+
+.confirm-payment__footer {
+    text-align: center;
+    margin: 1.5rem auto 0;
+    font-size: 1.4rem;
+    color: $gray-dark;
+    max-width: 24rem;
+}
+
+.confirm-payment__footer--price {
+    color: $price-color;
+    font-weight: $bold;
+}

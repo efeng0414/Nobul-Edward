@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Listing Map Preview Card Component Snapshot should match stored snapshot 1`] = `
+<div
+  className="ant-spin-nested-loading spinner-wrapper"
+  style={null}
+>
+  <div
+    className="ant-spin-container"
+  >
+    <div
+      className="ant-card"
+    >
+      <div
+        className="ant-card-body"
+        style={Object {}}
+      >
+        <a
+          className="preview-card"
+          href="/property-details/12345?ON"
+          onClick={[Function]}
+          target="_blank"
+        >
+          <div
+            className="preview-card-image"
+          >
+            <img
+              src="https://firebasestorage.googleapis.com/v0/b/nobul-production-canada-listings/o/property-images%2F19904702%2F1.jpg?alt=media&token=2d92aab1-2db5-44b3-b76f-262156e1f9b9"
+            />
+          </div>
+          <div
+            className="preview-card-details"
+          >
+            <div
+              className="highlighted-details"
+            >
+              <h3
+                className="address"
+              >
+                200 wellington street
+              </h3>
+              <h2
+                className="price"
+              >
+                <span
+                  className="currency"
+                >
+                  <span
+                    className="currency__identifier"
+                    dangerouslySetInnerHTML={
+                      Object {
+                        "__html": "<span class='currency__code'>CA</span>$",
+                      }
+                    }
+                  />
+                  <span
+                    className="currency__value"
+                  >
+                    880,000
+                  </span>
+                </span>
+              </h2>
+            </div>
+            <div
+              className="preview-card-details-location-and-feature"
+            >
+              <div
+                className="location"
+              >
+                <img
+                  src={
+                    Object {
+                      "default": "file-mock",
+                    }
+                  }
+                />
+                <span>
+                  ,
+                </span>
+                <span>
+                  ON
+                </span>
+              </div>
+              <div
+                className="features"
+              >
+                <span
+                  className="features-icon bedroom"
+                >
+                  <img
+                    src={
+                      Object {
+                        "default": "file-mock",
+                      }
+                    }
+                  />
+                  <span
+                    className="number"
+                  >
+                    4
+                  </span>
+                </span>
+                <span
+                  className="features-icon"
+                >
+                  <img
+                    src={
+                      Object {
+                        "default": "file-mock",
+                      }
+                    }
+                  />
+                  <span
+                    className="number"
+                  >
+                    3
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

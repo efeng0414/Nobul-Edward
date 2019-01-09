@@ -1,0 +1,126 @@
+@import "../../styles/nobulVariables.scss";
+
+.landing {
+  min-height: 80vh;
+  background-color: $white;
+
+  h2 {
+    color: $white;
+    font-size: 2.6rem;
+    font-weight: $bold;
+    font-family: $font-family;
+  }
+
+  .location-selector {
+    width: 98rem;
+    padding-top: 1.5rem;
+
+    .location-search-autocomplete-input, .search-button {
+      height: 6rem;
+    }
+    .location-selector-button {
+      width: 26%;
+    }
+  }
+}
+
+.landing-page{
+  .user-authentication button {
+    background-color: transparent;
+  }
+}
+
+.landing__container {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../assets/images/landing-page/landing_background5.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.landing__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 13rem;
+}
+
+.landing__or {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.landing__button {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    width: 100%;
+    max-width: 30rem;
+    padding: 1rem;
+    background-color: $blue-dark;
+    color: $white;
+    border-radius: 2rem;
+    font-weight: $regular;
+  }
+  a:hover {
+    background-color: $blue-dark;
+  }
+}
+
+.landing--background-dark .proof-banner__text {
+  color: $white;
+}
+
+@media screen and (max-width: $tablet-max) {
+  .landing {
+    .location-selector {
+      width: 50rem;
+      margin-top: 3rem;
+    }
+
+    h2 {
+      padding-top: 1rem;
+    }
+  }
+
+  .landing__or {
+    margin-top: 1rem;
+  }
+
+  .landing__button {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .landing {
+    h2 {
+      font-size: 1.8rem;
+      padding-top: 1rem;
+    }
+
+    .location-selector {
+      width: 80%;
+      margin-top: 2rem;
+    }
+  }
+
+  .landing__or {
+    margin-top: 1rem;
+  }
+
+  .landing__button {
+    margin: 0;
+  }
+}
+
+

@@ -1,0 +1,26 @@
+@import "../../styles/nobulVariables.scss";
+
+.property-description {
+  width: 100%;
+}
+
+.property-description__card {
+  padding: 2rem;
+  font-size: 1.4rem;
+}
+
+.property-description__subtitle {
+  font-weight: $bold;
+  margin-bottom:  0.5rem;
+}
+
+.property-description__extras { 
+  margin-top: 1rem; 
+} 
+
+.property-description__icons {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

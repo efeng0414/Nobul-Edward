@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConsumerJobOffers Container Snapshot should match stored snapshot 1`] = `
+<div
+  className="consumer-job-offers"
+>
+  <InjectIntl(MyDashboardMeta)
+    titleKey="helmet.myDashboard.allProposals"
+  />
+  <Breadcrumb
+    prefixCls="ant-breadcrumb"
+    separator=">"
+  >
+    <BreadcrumbItem
+      prefixCls="ant-breadcrumb"
+      separator="/"
+    >
+      <Link
+        replace={false}
+        to="/my-dashboard/postings"
+      >
+        My postings string
+      </Link>
+    </BreadcrumbItem>
+    <BreadcrumbItem
+      prefixCls="ant-breadcrumb"
+      separator="/"
+    >
+      <Link
+        replace={false}
+        to="/my-dashboard/postings/buy/abc123"
+      />
+    </BreadcrumbItem>
+    <BreadcrumbItem
+      prefixCls="ant-breadcrumb"
+      separator="/"
+    >
+      Postings string
+    </BreadcrumbItem>
+  </Breadcrumb>
+  <div
+    className="consumer-job-offers-grid"
+  >
+    <div
+      className="consumer-job-offers-grid-ad"
+    >
+      <ConsumerLearningCenter
+        intl={
+          Object {
+            "defaultFormats": Object {},
+            "defaultLocale": "en",
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "formats": Object {},
+            "formatters": Object {
+              "getDateTimeFormat": [Function],
+              "getMessageFormat": [Function],
+              "getNumberFormat": [Function],
+              "getPluralFormat": [Function],
+              "getRelativeFormat": [Function],
+            },
+            "locale": "en",
+            "messages": Object {
+              "learningCenter": "Learning center string",
+              "myPostings": "My postings string",
+              "proposals": "Postings string",
+              "proposalsTitle": "Proposals string",
+            },
+            "now": [Function],
+            "textComponent": "span",
+          }
+        }
+        title={
+          <h6>
+            Learning center string
+          </h6>
+        }
+      />
+      <ConsumerStories
+        intl={
+          Object {
+            "defaultFormats": Object {},
+            "defaultLocale": "en",
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "formats": Object {},
+            "formatters": Object {
+              "getDateTimeFormat": [Function],
+              "getMessageFormat": [Function],
+              "getNumberFormat": [Function],
+              "getPluralFormat": [Function],
+              "getRelativeFormat": [Function],
+            },
+            "locale": "en",
+            "messages": Object {
+              "learningCenter": "Learning center string",
+              "myPostings": "My postings string",
+              "proposals": "Postings string",
+              "proposalsTitle": "Proposals string",
+            },
+            "now": [Function],
+            "textComponent": "span",
+          }
+        }
+      />
+    </div>
+    <div
+      className="consumer-job-offers-grid-offers"
+    >
+      <Connect(withRouter(ConsumerJobOffersList))
+        displayCount={true}
+        displayFilter={true}
+        intl={
+          Object {
+            "defaultFormats": Object {},
+            "defaultLocale": "en",
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "formats": Object {},
+            "formatters": Object {
+              "getDateTimeFormat": [Function],
+              "getMessageFormat": [Function],
+              "getNumberFormat": [Function],
+              "getPluralFormat": [Function],
+              "getRelativeFormat": [Function],
+            },
+            "locale": "en",
+            "messages": Object {
+              "learningCenter": "Learning center string",
+              "myPostings": "My postings string",
+              "proposals": "Postings string",
+              "proposalsTitle": "Proposals string",
+            },
+            "now": [Function],
+            "textComponent": "span",
+          }
+        }
+        jobId="abc123"
+        jobType="buy"
+        title="Proposals string"
+      />
+    </div>
+  </div>
+</div>
+`;

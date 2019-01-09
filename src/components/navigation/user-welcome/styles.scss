@@ -1,0 +1,88 @@
+@import "../../../styles/nobulVariables.scss";
+
+.user-welcome {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+
+  .signout-container {
+    position: fixed;
+    top: 8rem;
+  }
+
+  &-menu.ant-dropdown-menu.ant-dropdown-menu {
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    margin-left: -5rem;
+
+    &:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 0;
+      height: 0;
+      border: 1rem solid transparent;
+      border-bottom-color: $white;
+      border-top: 0;
+      margin-left: -1rem;
+      margin-top: -1rem;
+    }
+
+    .ant-dropdown-menu-item:hover {
+      color: $blue-dark;
+    }
+  }
+
+  .ant-avatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0 1.5rem 0 2.3rem;
+
+    .anticon {
+      line-height: 4rem;
+      font-size: 20px;
+    }
+
+    img {
+      object-fit: cover;
+    }
+  }
+
+  a {
+    &:focus {
+      text-decoration: none;
+    }
+    &:active {
+      color: $blue-dark;
+    }
+  }
+}
+
+.ant-dropdown-link--white, .ant-dropdown-link--white:hover {
+  color: $white;
+}
+
+@media screen and (max-width: $tablet-max) {
+  .user-welcome {
+    width: 100%;
+    padding-top: 1.5rem;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    background-color: $white;
+
+    .ant-dropdown-link {
+      display: none;
+    }
+
+    .ant-avatar {
+      margin-left: 1.6rem;
+    }
+
+    button {
+      margin-right: 1.5rem;
+    }
+  }
+}

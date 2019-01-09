@@ -1,0 +1,101 @@
+@import "../../styles/nobulVariables.scss";
+
+.jobs-filter {
+  .ant-form-item-label {
+    font-weight: $bold;
+  }
+
+  // Alter components used in this elem
+  .map {
+    border: none;
+    height: 25rem;
+  }
+
+  // Fix Ant design component.
+  .ant-row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .city-select-checkbox {
+    bottom: 0;
+    right: 0;
+    background-color: $white;
+    padding: 1rem;
+    margin: 0;
+  }
+}
+
+.jobs-filter__map__fullscreen {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  z-index: 1;
+  padding: 0.1rem;
+  background-color: $white;
+}
+
+.jobs-filter__map {
+  position: relative;
+}
+
+.jobs-filter__title {
+  font-size: 1.4rem;
+  color: $gray-dark;
+  text-transform: uppercase;
+}
+
+.jobs-filter__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.jobs-filter__property-types {
+  .ant-checkbox-wrapper + .ant-checkbox-wrapper {
+    // overriding weird Ant style
+    margin-left: 0;
+  }
+  .ant-checkbox-wrapper {
+    display: block;
+  }
+  .ant-checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
+  }
+}
+
+.jobs-filter__property-type {
+  padding-left: 1rem;
+}
+
+.jobs-filter__region-name {
+  color: $blue-dark;
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  &:after {
+    content: ",\00a0";
+  }
+
+  &:last-of-type:after {
+    content: "";
+  }
+}
+.jobs-filter__price-range {
+  width: 90%;
+
+  .ant-form-item-control-wrapper{
+    margin-top: 2rem;
+  }
+}
+.jobs-filter__price-range .ant-slider-mark-text-active {
+  width: auto!important;
+  transform: translateX(-45%);
+  margin-left: 0!important;
+  position: absolute;
+}
+
+.nobul .jobs-filter .location-search-autocomplete-input {
+  height: 3.6rem;
+}

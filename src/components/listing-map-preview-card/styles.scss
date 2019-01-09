@@ -1,0 +1,73 @@
+@import "../../styles/nobulVariables.scss";
+
+.preview-card {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+
+  &-image {
+    width: 12rem;
+    max-height: 8rem;
+
+    img {
+      max-width: 100%;
+      max-height: 8rem;
+    }
+  }
+
+  &-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 1.5rem;
+    width: 70%;
+
+    &-location-and-feature{
+      display: flex;
+      color: $gray-light;
+      font-size: 1.2rem;
+      padding-top: 1rem;
+      width: 100%;
+      flex-wrap: wrap;
+
+      .location {
+        width: 70%;
+
+        span {
+          color: $gray-dark;
+          padding-left: 0.5rem;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .features {
+        text-overflow: ellipsis;
+
+        .bedroom {
+          padding-right: 1rem;
+        }
+
+        .number {
+          color: $gray-dark;
+          padding-left: 0.5rem;
+        }
+      }
+    }
+
+    .highlighted-details {
+      .address {
+        font-size: 1.4rem;
+        margin-bottom:0.2rem;
+      }
+      .price {
+        font-size: 1.8rem;
+        margin-bottom:0.4rem;
+      }
+      h2, h3 {
+        font-family: $font-family;
+        font-weight: $bold;
+      }
+    }
+  }
+}

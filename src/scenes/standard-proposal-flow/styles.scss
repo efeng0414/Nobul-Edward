@@ -1,0 +1,317 @@
+@import "../../styles/nobulVariables.scss";
+
+.standard-proposal {
+  margin: 0 auto;
+  max-width: $desktop-content-max-width;
+
+  .standard-proposal-step {
+    margin: 4rem auto 2rem;
+    max-width: 97rem;
+    display: flex;
+    flex-direction: column;
+
+    .services {
+      margin: 0;
+      padding: 0;
+    }
+
+    .render-group {
+      margin: 0;
+      padding: 0;
+    }
+
+    .ant-checkbox-group {
+      display: block;
+    }
+
+    .ant-row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    a {
+      &:hover {
+        color: $blue-dark;
+      }
+    }
+
+    .continueLink {
+      text-decoration: underline;
+    }
+  }
+
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+
+  h4 {
+    margin-bottom: 1.5rem;
+  }
+
+  .sell-services h4 {
+    color: $yellow-dark;
+  }
+
+  .buy-services h4 {
+    color: $blue-dark;
+  }
+}
+
+.standard-proposal__steps-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.standard-proposal__steps-with-heading {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: $desktop-content-max-width;
+}
+
+.standard-proposal__steps {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+.standard-proposal__content {
+  display: flex;
+  justify-content: center;
+}
+
+.standard-proposal__content--full {
+  width: 100%;
+}
+
+.standard-proposal__step2 {
+  margin: 0;
+  max-width: none;
+  height: 100%;
+
+  .standard-proposal__steps {
+    max-width: $desktop-content-max-width;
+  }
+
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+
+  textarea.ant-input {
+    padding: 0.5rem 1rem;
+  }
+
+  .ant-row {
+    margin-left: unset;
+    margin-right: unset;
+  }
+}
+
+.standard-proposal-modal {
+  text-align: center;
+
+  .ant-modal-content {
+    padding: 5rem;
+  }
+
+  .ant-modal-title {
+    text-align: left;
+  }
+
+  img {
+    margin-bottom: 2.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  .ant-btn {
+    margin-top: 5rem;
+  }
+
+  .standard-proposal-cancel-text {
+    margin-top: 9rem;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .standard-proposal {
+    padding: 1rem;
+
+    .leaflet-container {
+      margin-left: -1rem;
+      margin-right: -1rem;
+      max-height: calc(100vh - 30rem); // to leave space to scroll down the page
+      min-height: calc(100vh - 9rem);
+    }
+  }
+
+  .standard-proposal,
+  .standard-proposal-modal {
+    .ant-progress-inner {
+      border: $border-black;
+    }
+
+    .ant-progress-bg {
+      background-color: $black-medium;
+    }
+
+    .ant-progress-text {
+      font-size: 1.4rem;
+      color: $black-medium;
+      font-weight: $bold;
+    }
+
+    .standard-proposal-step {
+      margin: 0 2rem;
+      display: flex;
+      flex-direction: column;
+
+      &-container,
+      .standard-proposal-tag-line,
+      .standard-proposal-description {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .location-selector {
+        margin: 0;
+      }
+    }
+
+    h1 {
+      margin-top: 3rem;
+      font-size: 2rem;
+    }
+
+    h4 {
+      margin-bottom: 3rem;
+    }
+
+    .standard-proposal-boxes {
+      flex-direction: column;
+
+      .box {
+        margin-bottom: 2rem;
+      }
+    }
+
+    .standard-proposal-step__item-map {
+      padding-bottom: 0;
+    }
+
+    .buttons-map {
+      margin-top: 1rem;
+    }
+
+    .nobul-tip {
+      order: -1;
+
+      &-inner {
+        &:after {
+          display: none;
+        }
+      }
+    }
+
+    .services {
+      padding: 0;
+
+      .ant-checkbox-group {
+        display: block;
+
+        &-item {
+          height: 4.5rem;
+          line-height: 4.5rem;
+          border-bottom: $border-light-gray;
+          margin: 0;
+
+          .ant-checkbox {
+            display: none;
+
+            & + span {
+              padding: 0 2rem;
+            }
+
+            &.ant-checkbox-checked + span {
+              display: flex;
+              justify-content: space-between;
+              width: 100%;
+              align-items: center;
+              background-color: $blue-light;
+
+              &::after {
+                content: "\2713 ";
+                border: $border-black;
+                height: 2rem;
+                width: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .standard-proposal__step2 {
+    padding: 0;
+
+    .ant-progress {
+      padding: 1rem;
+    }
+  }
+}
+
+
+@media screen and (max-width: $mobile) {
+  .standard-proposal .standard-proposal-step {
+    margin: 0;
+
+    .box-collapsible-toggle:checked + .box-collapsible {
+      margin-right: 0;
+    }
+
+    .box-collapsible-content {
+      width: 25rem;
+    }
+
+    .nobul-tip-inner {
+      margin-top: 3rem;
+    }
+  }
+
+  .standard-proposal-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      margin: 0 0 1rem;
+      
+      &.standard-proposal-cancel {
+        margin-right: 0;
+        order: 3;
+        display: block;
+      }
+
+      &.ant-btn-primary {
+        margin-left:0;
+        order: 1;
+        display: block;
+      }
+
+      &.ant-btn-white {
+        margin-left: 0;
+        order: 2;
+        display:block
+      }
+    }
+  }
+}

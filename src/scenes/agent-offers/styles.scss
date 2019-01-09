@@ -1,0 +1,47 @@
+@import "../../styles/nobulVariables.scss";
+
+.agent-offers {
+  &-menu {
+    text-transform: uppercase;
+    background: none;
+    display: flex;
+    overflow: hidden;
+    position:fixed;
+    right:0;
+    left:$sidemenu-width;
+    top:$header-height;
+    background-color:$gray-light;
+    border-bottom: $border-medium-grey;
+    z-index: 1;
+
+    li {
+      padding-top: 2rem;
+      padding-right: 5rem;
+      padding-left: 5rem;
+    }
+  }
+
+  .ant-select {
+    margin-right: 2rem;
+  }
+
+  &-dropdown {
+    margin-top: 3rem;
+  }
+
+  &-list {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .nobul {
+    .agent-offers {
+      &-menu {
+        left:0;
+        padding-left:5rem;
+        overflow-x: auto;
+      }
+    }
+  }
+}

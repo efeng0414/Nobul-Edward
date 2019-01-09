@@ -1,0 +1,43 @@
+@import "../../styles/nobulVariables.scss";
+
+.tag-listing-modal-with-jobs {
+    margin: 3rem;
+}
+
+.tag-listing-modal {
+    
+
+    .confirm-button {
+        margin: 1rem auto 0;
+        display: block;
+    }
+
+    .button-group {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .tag-listing-menu {
+        max-height: 30rem;
+        overflow-y: scroll;
+        border: none;
+    }
+
+    .tag-listing-item.tag-listing-item {
+        border-bottom: $border-medium-grey;
+        padding: 1rem 2rem;
+        margin: 0;
+        height: auto;
+
+        .job-name {
+            margin-left: 1rem;
+            font-weight: $bold;
+        }
+    }
+
+    .title {
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+}

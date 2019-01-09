@@ -1,0 +1,124 @@
+@import "../../styles/nobulVariables.scss";
+
+.box-collapsible {
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  z-index: 10;
+  display: flex;
+  margin-right: 0;
+  transform: translateX(100%);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  pointer-events: none;
+}
+
+.box-collapsible-toggle { display: none; }
+
+.box-collapsible-toggle:checked + .box-collapsible {
+  transform: translateX(3rem);
+  margin-right: 3rem;
+  pointer-events: all;
+}
+.box-collapsible-toggle:checked + .box-collapsible .box-collapsible-content { margin-left: 0;  }
+
+.box-collapsible-toggle:checked + .box-collapsible .box-collapsible-label::before {
+  transform: rotate(-45deg);
+}
+
+.box-collapsible-label {
+  padding: 1rem;
+  color: $black-medium;
+  background: $yellow-medium;
+  width: 2.5rem;
+  height: 8rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: all;
+}
+
+.box-collapsible-label::before {
+  content: "\00a0";
+  border: solid $black-medium;
+  border-width: 0 1px 1px 0;
+  width: 0.5rem !important;
+  height: 0.5rem !important;
+  transform: rotate(135deg);
+  transition: transform 0.2s ease-out;
+  display: block;
+}
+
+.box-collapsible-content {
+  width: 30rem;
+  margin-left: 1rem;
+  background-color: $white;
+}
+
+.box-collapsible-content-inner {
+  background: $white;
+  min-height: 8rem;
+  padding: 2rem;
+}
+
+.box-collapsible--calculator {
+  .box-collapsible { right: 0; }
+      
+  .box-collapsible-content {
+    max-width: 65rem;
+    width: 65rem;
+    box-shadow: $card-shadow;
+  }
+
+  .box-collapsible-content-inner { padding: 0; }
+
+  .box-collapsible-label {
+    background: url("../../assets/images/calculator_icon.svg");
+    background-size: contain;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1.2rem 0 0 1.2rem;
+  }
+
+  .box-collapsible-label::before { content: none; }
+}
+
+
+// IE11 hackz
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .nobul .box-collapsible-content .ant-checkbox-wrapper {
+    width: 100%;
+  }
+
+  .box-collapsible-content {
+    min-width: 30rem;
+  }
+
+  .box-collapsible--calculator {
+   .box-collapsible {
+      display: block;
+    }
+
+    .box-collapsible-content ,
+    .box-collapsible-toggle:checked + .box-collapsible .box-collapsible-content {
+      margin-left: 10rem;
+      margin-top: -7rem;
+    }
+
+    .box-collapsible-toggle:checked + .box-collapsible {
+      margin-top: 3rem;
+    }
+  
+    .box-collapsible-label::after { content: " "; }
+  }
+}
+
+
+
+@media screen and (max-width: $tablet-max) {
+  
+  .box-collapsible-toggle:checked + .box-collapsible .box-collapsible-label { margin-right: 0; }
+
+}

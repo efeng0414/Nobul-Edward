@@ -1,0 +1,14 @@
+@import "../../styles/nobulVariables.scss";
+
+.listing-map{
+  min-height:30rem;
+
+  &-popup{
+    max-height: 18rem;
+    background-color: #ffffff;
+    width: 37rem;
+    z-index: 2000;
+    position: absolute;
+    box-shadow: $card-shadow;
+  }
+}

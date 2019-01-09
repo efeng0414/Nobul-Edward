@@ -1,0 +1,99 @@
+@import "../../../../styles/variables";
+
+.settings-modal-body {
+  .ant-form-item.ant-form-item:last-child {
+    margin-bottom: 0;
+
+    .ant-form-item-control {
+      text-align: center;
+    }
+    .ant-select {
+      width: 100%;
+    }
+    padding: 3rem 2rem 0 2rem;
+  }
+}
+
+.agent-account-settings {
+  .field-items {
+    display: flex;
+    flex-wrap: wrap;
+
+    .settings-field-item {
+      width: 100%;
+      background: $white;
+      padding: 1.5rem;
+      border-bottom: 0.2rem solid $gray-light;
+
+      &.half-width {
+        &:nth-child(2n) {
+          border-left: 0.1rem solid $gray-light;
+        }
+        width: 50%;
+      }
+
+      .label {
+        font-size: 1.4rem;
+        color: $gray-dark;
+        i {
+          margin-left: 0.5rem;
+        }
+      }
+
+      .value {
+        margin-top: 1rem;
+        margin-bottom: 0;
+        font-weight: $bold;
+      }
+
+      &.switch-field-item {
+        .switch {
+          float: right;
+          top: 1.2rem;
+          position: relative;
+          right: 1rem;
+        }
+        padding-bottom: 2.5rem;
+      }
+    }
+  }
+
+  .payment-container {
+    &-label {
+      font-size: 1.4rem;
+      color: $gray-dark;
+      margin-left: 1.5rem;
+    }
+
+    &-link {
+      font-weight: $bold;
+      text-decoration: underline;
+      cursor: pointer;
+      color: $map-polygon-border;
+      margin-left: 1.5rem;
+    }
+  }
+
+  .anticon-edit {
+    padding-left: 0.2rem;
+    color: $gray-dark;
+    font-size: 1.6rem;
+    cursor: pointer;
+
+    &:hover {
+      color: $gray-dark;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .agent-account-settings {
+    .field-items {
+      .settings-field-item {
+        &.half-width {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import "../../styles/variables.scss";
+
+.offer-status {
+    padding-right: 6rem;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    font-weight: $bold;
+    display: flex;
+    justify-content: flex-end;
+
+    &-wrapper {
+        margin: 2rem 0;
+
+        &-accepted {
+            margin: 2rem;
+        }
+    
+        &-rejected {
+            margin: 2rem;
+            color: $red-dark;
+        }
+    
+        &-check {
+            font-size: 2rem;
+        }
+    
+        &-cross {
+            font-size: 2rem;
+            color: $red-dark;
+        }
+
+    }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .offer-status {
+    padding-right: 2rem;
+
+    &-wrapper {
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,152 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Currency component base Currency Snapshot 1 should not show decimals for non-penny prices 1`] = `
+<span
+  className="currency"
+>
+  <span
+    className="currency__identifier"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<span class='currency__code'>US</span>$",
+      }
+    }
+  />
+  <span
+    className="currency__value"
+  >
+    44
+  </span>
+</span>
+`;
+
+exports[`Currency component base Currency Snapshot 1 should show 0 when zero number is passed. 1`] = `
+<span
+  className="currency"
+>
+  <span
+    className="currency__identifier"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<span class='currency__code'>US</span>$",
+      }
+    }
+  />
+  0
+</span>
+`;
+
+exports[`Currency component base Currency Snapshot 1 should show 2 decimals if only 1 supplied 1`] = `
+<span
+  className="currency"
+>
+  <span
+    className="currency__identifier"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<span class='currency__code'>US</span>$",
+      }
+    }
+  />
+  <span
+    className="currency__value"
+  >
+    52.50
+  </span>
+</span>
+`;
+
+exports[`Currency component base Currency Snapshot 1 should show commas for prices over $1000 1`] = `
+<span
+  className="currency"
+>
+  <span
+    className="currency__identifier"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<span class='currency__code'>US</span>$",
+      }
+    }
+  />
+  <span
+    className="currency__value"
+  >
+    974,299,543
+  </span>
+</span>
+`;
+
+exports[`Currency component base Currency Snapshot 1 should show decimals for prices with pennies 1`] = `
+<span
+  className="currency"
+>
+  <span
+    className="currency__identifier"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<span class='currency__code'>US</span>$",
+      }
+    }
+  />
+  <span
+    className="currency__value"
+  >
+    32.51
+  </span>
+</span>
+`;
+
+exports[`Currency component base Currency Snapshot 1 should show different currency if changed 1`] = `
+<span
+  className="currency"
+>
+  <span
+    className="currency__identifier"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<span class='currency__code'>CA</span>$",
+      }
+    }
+  />
+  <span
+    className="currency__value"
+  >
+    -974,299,543
+  </span>
+</span>
+`;
+
+exports[`Currency component base Currency Snapshot 1 should show only currency when no value is passed. 1`] = `
+<span
+  className="currency"
+>
+  <span
+    className="currency__identifier"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<span class='currency__code'>US</span>$",
+      }
+    }
+  />
+</span>
+`;
+
+exports[`Currency component base Currency Snapshot 1 should show round pennies if fractional 1`] = `
+<span
+  className="currency"
+>
+  <span
+    className="currency__identifier"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<span class='currency__code'>US</span>$",
+      }
+    }
+  />
+  <span
+    className="currency__value"
+  >
+    823.52
+  </span>
+</span>
+`;

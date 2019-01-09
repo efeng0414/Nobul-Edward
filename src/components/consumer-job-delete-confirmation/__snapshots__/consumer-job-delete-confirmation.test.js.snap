@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConsumerJobDeleteConfirmation Component Snapshot should match existing snapshot 1`] = `
+<div
+  className="modal-confirm"
+>
+  <div
+    className="modal-confirm-text"
+  >
+    <p>
+      Are you sure you want to delete this posting?
+    </p>
+  </div>
+  <div
+    className="modal-confirm-button"
+  >
+    <button
+      className="ant-btn ant-btn-primary"
+      onClick={[Function]}
+      type="button"
+    >
+      <span>
+        Confirm
+      </span>
+    </button>
+  </div>
+</div>
+`;

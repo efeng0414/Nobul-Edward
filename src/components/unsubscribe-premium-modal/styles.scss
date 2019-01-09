@@ -1,0 +1,17 @@
+@import "../../styles/nobulVariables.scss";
+
+.unsubscribe {
+    &-text { 
+        margin: auto;
+        width: 80%;
+        text-align: center;
+        margin-top: 4rem;
+    }
+
+    &-footer { 
+        margin-top: 6rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

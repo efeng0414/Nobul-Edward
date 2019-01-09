@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConsumerMortgageCalculatorWrapper Component Snapshot should match stored snapshot 1`] = `
+<div>
+  <Desktop>
+    <BoxCollapsible
+      className="box-collapsible--calculator"
+      isOpenByDefault={false}
+    >
+      <InjectIntl(Form(ConsumerMortgageCalculator))
+        defaultValue={12}
+        intl={
+          Object {
+            "defaultFormats": Object {},
+            "defaultLocale": "en",
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "formats": Object {},
+            "formatters": Object {
+              "getDateTimeFormat": [Function],
+              "getMessageFormat": [Function],
+              "getNumberFormat": [Function],
+              "getPluralFormat": [Function],
+              "getRelativeFormat": [Function],
+            },
+            "locale": "en",
+            "messages": Object {},
+            "now": [Function],
+            "textComponent": "span",
+          }
+        }
+      />
+    </BoxCollapsible>
+  </Desktop>
+  <Connect(Devices)
+    sizes={
+      Array [
+        "mobile",
+        "tablet",
+      ]
+    }
+  >
+    <div
+      className="box-modal-calculator"
+    >
+      <Button
+        block={false}
+        ghost={false}
+        loading={false}
+        onClick={[Function]}
+        prefixCls="ant-btn"
+      />
+      <Modal
+        cancelButtonDisabled={false}
+        className="mortgage-calculator-modal"
+        confirmLoading={false}
+        footer={null}
+        maskTransitionName="fade"
+        okButtonDisabled={false}
+        okType="primary"
+        onCancel={[Function]}
+        prefixCls="ant-modal"
+        transitionName="zoom"
+        visible={false}
+        width={520}
+      >
+        <InjectIntl(Form(ConsumerMortgageCalculator))
+          defaultValue={12}
+          intl={
+            Object {
+              "defaultFormats": Object {},
+              "defaultLocale": "en",
+              "formatDate": [Function],
+              "formatHTMLMessage": [Function],
+              "formatMessage": [Function],
+              "formatNumber": [Function],
+              "formatPlural": [Function],
+              "formatRelative": [Function],
+              "formatTime": [Function],
+              "formats": Object {},
+              "formatters": Object {
+                "getDateTimeFormat": [Function],
+                "getMessageFormat": [Function],
+                "getNumberFormat": [Function],
+                "getPluralFormat": [Function],
+                "getRelativeFormat": [Function],
+              },
+              "locale": "en",
+              "messages": Object {},
+              "now": [Function],
+              "textComponent": "span",
+            }
+          }
+        />
+      </Modal>
+    </div>
+  </Connect(Devices)>
+</div>
+`;

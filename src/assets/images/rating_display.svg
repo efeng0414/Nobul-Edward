@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="291px" height="83px" viewBox="0 0 291 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Rating_display</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Rating_display" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <polygon id="Rectangle-2" fill="#CA963E" points="81.9756464 0.613636 98.3535417 82.9999996 32.7578954 82.9999996 16.38 0.613636"></polygon>
+            <path d="M290.087439,17 L280.260702,66.4318182 L45,66.4318182 L45,17 L290.087439,17 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+            <polygon id="Rectangle-2" fill="#FFC300" points="16.3778954 0.613636364 81.9735417 0.613636364 65.5956464 83 0 83"></polygon>
+        </g>
+    </g>
+</svg>

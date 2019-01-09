@@ -1,0 +1,44 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .consumer-job-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    .consumer-job-card {
+      flex: 0 1 50%;
+      padding: 1rem;
+    }
+  }
+
+  // IE11 hack :/
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .consumer-job-list {
+      display: block;
+
+      .consumer-job-card {
+        display: inline-block;
+        vertical-align: top;
+        width: 33%;
+        padding: 0.5rem;
+
+        .job-item {
+          display: flex;
+          width: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .nobul {
+    .consumer-job-list {
+      display: block;
+
+      .consumer-job-card {
+        padding: 1rem 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .consumer-posting-details {
+    position: relative;
+
+    &-grid {
+      margin-top: 4rem;
+    }
+
+    .ant-card {
+      margin-bottom: 4rem;
+      box-shadow: $card-shadow;
+    }
+
+    .box-collapsible--calculator {
+      z-index: 100;
+      position: fixed;
+      top: 9rem;
+      right: 7rem;
+    }
+
+    &-deleted {
+      margin-top: 2rem;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .nobul {
+    .consumer-posting-details {
+      .ant-breadcrumb {
+        margin-top: 2rem;
+      }
+
+      &-grid {
+        margin-top: 2rem;
+      }
+
+      .ant-row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .box-modal-calculator {
+        position: fixed;
+        z-index: 100;
+        transform: translate(calc(100vw - 7rem), -2rem);
+
+        > button {
+          background-image: url("../../assets/images/calculator_icon.svg");
+          background-size: contain;
+          width: 7rem;
+          height: 7rem;
+          border-radius: 1.2rem 0 0 1.2rem;
+          border: none;
+        }
+      }
+
+      .taggedProperties {
+        margin-top: 2rem;
+      }
+    }
+  }
+}

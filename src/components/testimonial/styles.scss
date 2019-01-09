@@ -1,0 +1,46 @@
+@import "../../styles/nobulVariables.scss";
+
+.testimonial {
+  width: 36rem;
+  min-height: 40rem;
+  border-radius: 1rem;
+  background-color: $blue-lighter;
+  padding: 8rem 3rem 2rem 3rem;
+  margin-bottom: 3rem;
+}
+
+.testimonial__top {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.testimonial__image {
+  width: 11rem;
+  height: 11rem;
+}
+
+.testimonial__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: left;
+  padding-left: 1rem;
+  font-family: $font-family;
+  color: $gray-pale;
+}
+
+.testimonial__header {
+  font-size: 2rem;
+}
+
+.testimonial__qualification {
+  font-size: 1.8rem;
+}
+
+.testimonial__description {
+  text-align: left;
+  font-family: $font-family;
+  font-size: 1.6rem;
+}

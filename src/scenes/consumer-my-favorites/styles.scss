@@ -1,0 +1,13 @@
+@import "../../styles/nobulVariables.scss";
+
+@media screen and (max-width: $tablet-max) {
+  .consumer-favorites {
+    margin: 0 8rem;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .consumer-favorites {
+    margin: 0 1rem;
+  }
+}

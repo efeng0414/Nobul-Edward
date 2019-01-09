@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Consent For News Container Snapshot should match stored snapshot 1`] = `
+<div>
+  I consent to receiving news and updates about nobul’s products and services. More information can be found in our 
+  <span
+    className="accept-terms-link"
+  >
+    <a
+      href="https://corp.nobul.com/legal/privacy-policy/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Privacy Policy
+    </a>
+  </span>
+   or 
+  <span
+    className="accept-terms-link"
+  >
+    <a
+      href="https://corp.nobul.com/contact-us/"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Contact Us
+    </a>
+  </span>
+  . You may withdraw consent or unsubscribe at any time.
+</div>
+`;

@@ -1,0 +1,9 @@
+export const CHARGES = "charges";
+export const SUBSCRIPTIONS = "subscriptions";
+export const TIER_1 = "tier1";
+export const TIER_2 = "tier2";
+export const TIER_3 = "tier3";
+export const TIER_4 = "tier4";
+export const TIER_5 = "tier5";
+export const TIER_6 = "tier6";
+export const NOBUL_PREMIUM = "nobulPremium";

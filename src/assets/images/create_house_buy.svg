@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="182px" viewBox="0 0 160 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="70" cy="71" r="55"></circle>
+        <filter x="-13.9%" y="-10.2%" width="127.7%" height="127.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1.75" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="145" width="144" height="25" rx="4"></rect>
+        <filter x="-9.7%" y="-40.0%" width="119.4%" height="212.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-19" transform="translate(8.000000, 0.000000)">
+            <g id="Group-6" transform="translate(2.000000, 0.000000)">
+                <circle id="Oval-9-Copy-5" fill="#FFFFFF" cx="70" cy="70" r="70"></circle>
+                <g id="Oval-Copy-4" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#1283C6" stroke-width="2.5" fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="home_buy" transform="translate(30.000000, 34.000000)" fill-rule="nonzero">
+                    <path d="M13.8596,28.3738 L13.8596,62.806 L31.772,62.806 L31.772,43.2282 C31.772,42.621 32.267,42.0996 32.872,42.0996 L47.1434,42.0996 C47.7506,42.0996 48.2434,42.5924 48.2434,43.1996 L48.2434,62.806 L66.0656,62.806 L66.0656,28.3254 L40,10.5296 L13.8596,28.3738 Z" id="Shape" fill="#8DD4F6"></path>
+                    <polyline id="Shape" fill="#1884C6" points="32.872 63.906 32.872 43.2282 32.872 43.1996 47.1434 43.1996 47.1434 43.2282 47.1434 63.906"></polyline>
+                    <rect id="Rectangle-path" fill="#1884C6" x="18.4334" y="29.3154" width="8.3094" height="8.3116"></rect>
+                    <rect id="Rectangle-path" fill="#1884C6" x="35.8552" y="29.3154" width="8.2984" height="8.3116"></rect>
+                    <rect id="Rectangle-path" fill="#1884C6" x="35.8552" y="29.3154" width="8.2984" height="8.3116"></rect>
+                    <rect id="Rectangle-path" fill="#1884C6" x="53.2792" y="29.3154" width="8.2984" height="8.3116"></rect>
+                    <rect id="Rectangle-path" fill="#1884C6" x="18.4334" y="43.4108" width="8.3094" height="8.3006"></rect>
+                    <rect id="Rectangle-path" fill="#1884C6" x="53.2792" y="43.4108" width="8.2984" height="8.3006"></rect>
+                    <polygon id="Shape" fill="#1884C6" points="9.5476 29.9864 40 9.1942 70.4546 29.9864 74.045 24.5348 40 1.294 5.955 24.5348"></polygon>
+                    <polygon id="Shape" fill="#1884C6" points="16.6844 17.2066 16.6844 5.2364 23.5836 5.2364 23.5836 12.6834"></polygon>
+                    <path d="M26.745,28.2154 L18.4378,28.2154 C17.8306,28.2154 17.3378,28.7082 17.3378,29.3154 L17.3378,37.627 C17.3378,38.232 17.8306,38.727 18.4378,38.727 L26.745,38.727 C27.3522,38.727 27.845,38.232 27.845,37.627 L27.845,29.3154 C27.845,28.706 27.3522,28.2154 26.745,28.2154 Z M25.645,36.527 L19.5378,36.527 L19.5378,30.4154 L25.645,30.4154 L25.645,36.527 Z" id="Shape" fill="#025680"></path>
+                    <path d="M34.7552,29.3154 L34.7552,37.627 C34.7552,38.232 35.248,38.727 35.8552,38.727 L44.1536,38.727 C44.7564,38.727 45.2536,38.232 45.2536,37.627 L45.2536,29.3154 C45.2536,28.7082 44.7564,28.2154 44.1536,28.2154 L35.8552,28.2154 C35.248,28.2154 34.7552,28.706 34.7552,29.3154 Z M36.9552,30.4154 L43.0536,30.4154 L43.0536,36.527 L36.9552,36.527 L36.9552,30.4154 Z" id="Shape" fill="#025680"></path>
+                    <path d="M53.2792,38.727 L61.5776,38.727 C62.1804,38.727 62.6776,38.232 62.6776,37.627 L62.6776,29.3154 C62.6776,28.7082 62.1804,28.2154 61.5776,28.2154 L53.2792,28.2154 C52.672,28.2154 52.1792,28.7082 52.1792,29.3154 L52.1792,37.627 C52.1792,38.2364 52.672,38.727 53.2792,38.727 Z M54.3792,30.4154 L60.4776,30.4154 L60.4776,36.527 L54.3792,36.527 L54.3792,30.4154 Z" id="Shape" fill="#025680"></path>
+                    <path d="M26.745,42.3108 L18.4378,42.3108 C17.8306,42.3108 17.3378,42.8058 17.3378,43.4108 L17.3378,51.7114 C17.3378,52.3142 17.8306,52.8114 18.4378,52.8114 L26.745,52.8114 C27.3522,52.8114 27.845,52.3142 27.845,51.7114 L27.845,43.4108 C27.845,42.8058 27.3522,42.3108 26.745,42.3108 Z M25.645,50.6136 L19.5378,50.6136 L19.5378,44.5174 L25.645,44.5174 L25.645,50.6136 Z" id="Shape" fill="#025680"></path>
+                    <path d="M53.2792,52.8136 L61.5776,52.8136 C62.1804,52.8136 62.6776,52.3208 62.6776,51.7136 L62.6776,43.4174 C62.6776,42.8168 62.1804,42.3174 61.5776,42.3174 L53.2792,42.3174 C52.672,42.3174 52.1792,42.8168 52.1792,43.4174 L52.1792,51.7136 C52.1792,52.323 52.672,52.8136 53.2792,52.8136 Z M54.3792,44.5108 L60.4776,44.5108 L60.4776,50.6114 L54.3792,50.6114 L54.3792,44.5108 Z" id="Shape" fill="#025680"></path>
+                    <path d="M78.5,62.806 L68.2656,62.806 L68.2656,29.8236 L69.8298,30.8884 C69.8342,30.8928 69.8386,30.8972 69.843,30.9016 C69.8672,30.9148 69.8892,30.9104 69.898,30.9192 C70.0454,31.005 70.2082,31.0512 70.3754,31.06 C70.4018,31.0622 70.4216,31.082 70.448,31.082 C70.4788,31.082 70.5052,31.0622 70.536,31.06 C70.5822,31.0556 70.624,31.0688 70.668,31.06 C70.7406,31.0468 70.8044,31.0094 70.866,30.9786 C70.9122,30.9588 70.9562,30.9478 71.0024,30.928 C71.152,30.8444 71.2884,30.7344 71.3874,30.5914 L74.98,25.1398 C75.3012,24.636 75.1736,23.965 74.6742,23.6262 L40.6204,0.381 C40.2442,0.1302 39.7492,0.1302 39.3796,0.381 L24.6836,10.4174 L24.6836,5.2386 C24.6836,4.6314 24.1908,4.1386 23.5836,4.1386 L16.6844,4.1386 C16.0794,4.1386 15.5844,4.6314 15.5844,5.2386 L15.5844,16.6302 L5.3346,23.6306 C4.8374,23.9694 4.7076,24.6426 5.0354,25.1442 L8.628,30.598 C8.7908,30.8422 9.0438,31.0138 9.332,31.071 C9.4024,31.0886 9.4728,31.093 9.5476,31.093 C9.7676,31.093 9.981,31.0292 10.1658,30.9038 L11.6596,29.8852 L11.6596,62.806 L1.5,62.806 C0.895,62.806 0.4,63.2988 0.4,63.906 C0.4,64.5066 0.895,65.006 1.5,65.006 L78.5,65.006 C79.105,65.006 79.6,64.5066 79.6,63.906 C79.6,63.2988 79.105,62.806 78.5,62.806 Z M17.7844,6.3364 L22.4836,6.3364 L22.4836,11.92 L17.7844,15.1254 L17.7844,6.3364 Z M9.8512,28.4442 L7.4708,24.8296 L17.395,18.0536 L24.1886,13.603 C24.3558,13.4908 24.4812,13.339 24.567,13.1652 L40,2.625 L72.5248,24.8296 L70.1444,28.4464 L40.6204,8.2922 C40.2442,8.0392 39.7492,8.0392 39.3796,8.2922 L9.8512,28.4442 Z M46.0434,62.806 L33.972,62.806 L33.972,44.2996 L46.0434,44.2996 L46.0434,62.806 Z M66.0656,62.806 L48.2434,62.806 L48.2434,43.1996 C48.2434,42.5924 47.7506,42.0996 47.1434,42.0996 L32.872,42.0996 C32.267,42.0996 31.772,42.6188 31.772,43.2282 L31.772,62.806 L13.8596,62.806 L13.8596,28.3738 L40,10.5296 L66.0656,28.3254 L66.0656,62.806 Z" id="Shape" fill="#025680"></path>
+                </g>
+            </g>
+            <g id="Rectangle-2-Copy-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <rect stroke="#1283C6" stroke-width="2" stroke-linejoin="square" fill="#FFFFFF" fill-rule="evenodd" x="1" y="146" width="142" height="23" rx="4"></rect>
+            </g>
+            <text id="House-/-Townhouse-Copy" font-family="OpenSans-SemiBold, Open Sans" font-size="14" font-weight="500" fill="#025680">
+                <tspan x="5.21289062" y="163">House / Townhouse</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

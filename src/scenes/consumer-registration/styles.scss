@@ -1,0 +1,13 @@
+@import "../../styles/nobulVariables.scss";
+
+.consumer-registration-container {
+    position: relative;
+}
+
+.consumer-registration-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2.4rem;
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>pen</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar_Customer" transform="translate(-31.000000, -456.000000)" stroke="#272727">
+            <g id="Group">
+                <g id="pen" transform="translate(32.000000, 455.000000)">
+                    <path d="M8.23434863,1.59636376 C8.22814963,1.59636769 8.22814963,1.59636769 8.22195066,1.59638733 C6.42094249,1.60323454 4.96648766,3.0687909 4.97333487,4.86979907 L5.00162577,12.3111017 C5.00185162,12.3413671 5.00185162,12.3413671 5.00252055,12.3716259 C5.04173448,13.8933592 6.30713224,15.0951786 7.82886556,15.0559647 C9.4627636,15.0138604 10.7908986,13.7249534 10.8819554,12.0930513 L11.2875179,4.82464287 C11.2906834,4.76791114 11.2922671,4.7111022 11.2922671,4.65428222 C11.2922671,2.96544049 9.92319036,1.59636376 8.23434863,1.59636376 Z" id="Rectangle-12" stroke-width="1.5" fill="#FFFFFF" transform="translate(8.132789, 8.326633) rotate(45.000000) translate(-8.132789, -8.326633) "></path>
+                    <polygon id="Path-4" stroke-width="1.5" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="2.54429867 9.50494064 0.0993909334 16.1238307 6.88964844 13.4423507"></polygon>
+                    <path d="M8.5,3.13157895 L12.9736842,7.60526316" id="Line-12" stroke-linecap="square"></path>
+                    <rect id="Rectangle-13" fill="#FFFFFF" transform="translate(11.216004, 8.531793) rotate(45.000000) translate(-11.216004, -8.531793) " x="10.3212672" y="4.95284613" width="1.78947368" height="7.15789474" rx="0.894736842"></rect>
+                    <path d="M1.34210526,12.1684211 L4.02631579,14.7631579" id="Line-11" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

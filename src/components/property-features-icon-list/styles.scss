@@ -1,0 +1,24 @@
+@import "../../styles/nobulVariables.scss";
+
+.property-features-icon-list img {
+  margin: 0 1rem 0.5rem 0;
+  height: 4.5rem;
+}
+
+.property-features-icon-list button {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  border: solid 1px $black-medium;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: $tablet-max) {
+  .property-features-icon-list img {
+    margin-right: 0.7rem;
+  }
+}

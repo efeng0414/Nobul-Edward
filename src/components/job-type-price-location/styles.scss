@@ -1,0 +1,61 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .job-type-price-location {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+
+    &-left, &-right {
+      width: 50%;
+    }
+
+    &-item {
+      display: flex; 
+      flex-basis: calc(50% - 3rem);  
+      justify-content: center;
+      flex-direction: column;
+
+      & > span {
+        margin-bottom: 1.5rem;
+        display: inline-block;
+        white-space: pre-line;
+      }
+    }
+  }
+}
+
+.job-type-price-location-item {
+  word-wrap: break-word;
+  .currency:last-of-type .currency__code {
+    display: none;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .nobul {
+    .job-type-price-location {
+      min-height: 100%;
+      display: flex;
+      flex-wrap: wrap;
+  
+      &-item {
+        display: block; 
+        flex-basis: calc(50% - 3rem);  
+        justify-content: center;
+      }
+  
+      span {
+        margin-bottom: 1.5rem;
+        display: inline-block;
+        font-size: 1.4rem;
+        word-break: break-word; 
+        white-space: pre-line;
+      }
+
+      span.currency {
+        max-height: 1rem;
+      }
+    }
+  }
+}

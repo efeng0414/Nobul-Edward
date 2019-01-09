@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AgentFreeTrialAccountInfo Component Component Snapshot Should match stored snapshot 1`] = `
+<div
+  className="free-trial-account-info"
+>
+  <div
+    className="free-trial-account-info__hello"
+  >
+    Hello Agent,
+  </div>
+  <div
+    className="free-trial-account-info__membership"
+  >
+    Membership:
+  </div>
+  <div
+    className="free-trial-account-info__membership__type"
+  >
+    nobul Premium
+    <span
+      className="free-trial-account-info__membership__freeTrial"
+    />
+  </div>
+</div>
+`;

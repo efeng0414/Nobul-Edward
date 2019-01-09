@@ -1,0 +1,192 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul{
+  .offer-details {
+    &-breadcrumb {
+      font-size: 1.4rem;
+
+      &-brokerage {
+        padding: 0 0.5rem;
+        text-transform: uppercase;
+      }
+    }
+
+    &-proposal {
+      background-color: $white;
+      margin-right: 0.2rem;
+      position: relative;
+
+      &-details {
+        margin-top: 4rem;
+        padding: 3rem 2rem 0;
+
+        &-header {
+          display: flex;
+          justify-content: space-between;
+        }
+
+        .services-details-services {
+          flex: 1;
+        }
+
+        .services-details-fees {
+          width: 40%;
+        }
+
+        h3 {
+          font-size: 2.2rem;
+          font-weight: $bold;
+          font-family: $font-family;
+        }
+      }
+
+      &-yellow-column {
+        background-color: $yellow-medium;
+      }
+    }
+
+    &-grid {
+      margin-top: 4rem;
+      display: flex;
+
+      &-learning {
+        margin-right: 2rem;
+      }
+    }
+
+    .nobul-tip-inner {
+      max-width: 100%;
+      margin-top: 1rem;
+    }
+
+  }
+
+  .ant-modal-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ant-modal {
+    top: 0;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .nobul{
+    .offer-details {
+      padding: 0 1rem 2rem;
+      display: flex;
+      flex-direction: column;
+
+      &-breadcrumb {
+        margin: 3rem 0 0;
+        order: 1;
+      }
+
+      &-tip {
+        order: 2;
+
+        .nobul-tip-inner:after {
+          display: none;
+        }
+      }
+
+      &-proposal {
+        margin: 2rem 0 0;
+        padding-bottom: 2rem;
+        order: 3;
+
+        &-yellow-column {
+          background-color: transparent;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+
+          .favorite-icon {
+            margin: 0 0 0 2rem;
+          }
+
+          .offer-status {
+            margin-bottom: 0;
+          }
+
+          .accept-decline-buttons {
+
+            button {
+              padding: 0 1rem;
+              font-size: 1.4rem;
+              margin: 0;
+
+              &:first-of-type {
+                margin-right: 1rem;
+              }
+            }
+          }
+        }
+
+        &-details {
+          margin: 0;
+          padding: 2rem 2rem 0;
+
+          h3 {
+            font-size: 1.6rem;
+            font-family: $font-family;
+          }
+
+          h5 {
+            font-size: 1.4rem;
+            margin: 2rem 0 0;
+          }
+
+          .services-details {
+            display: block;
+            padding-bottom: 0;
+            margin-top: 2rem;
+
+            &-services {
+              width: 100%;
+
+              h5 {
+                margin: 0
+              }
+
+              &-content {
+                div {
+                  margin-top: 1rem;
+                }
+              }
+            }
+
+            &-services-content,
+            &-fees-content {
+              padding-top: 0;
+            }
+          }
+        }
+      }
+
+      &-grid {
+        margin-top: 3.5rem;
+        display: block;
+        order: 4;
+
+        &-learning {
+          margin-right: 0;
+        }
+
+        &-agent {
+          margin-top: 3.5rem;
+        }
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .nobul .offer-details-proposal-yellow-column .accept-decline-buttons button:first-of-type {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}

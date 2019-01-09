@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.648325893">
+        <g id="Map-Property-List-UPD" transform="translate(-327.000000, -511.000000)" stroke="#1684C6" stroke-width="1.5">
+            <g id="Group-13" transform="translate(328.000000, 511.000000)">
+                <g id="Group-5">
+                    <g id="Group-2" transform="translate(0.403448, 0.867925)">
+                        <path d="M8.30344828,4.1509434 L5.18965517,6.22641509" id="Line" stroke-linecap="square"></path>
+                        <g id="Group">
+                            <ellipse id="Oval" fill="#FFFFFF" cx="11.2775199" cy="2.31266846" rx="2.33534483" ry="2.31266846"></ellipse>
+                            <ellipse id="Oval-Copy" fill="#FFFFFF" cx="2.33534483" cy="7.84725966" rx="2.33534483" ry="2.31266846"></ellipse>
+                            <ellipse id="Oval-Copy-2" fill="#FFFFFF" cx="11.2775199" cy="13.3818509" rx="2.33534483" ry="2.31266846"></ellipse>
+                            <path d="M8.58928475,9.52102373 L4.67068966,12.2967644" id="Line-Copy" stroke-linecap="square" transform="translate(6.804206, 11.077628) scale(1, -1) translate(-6.804206, -11.077628) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

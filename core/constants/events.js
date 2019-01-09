@@ -1,0 +1,9 @@
+export const EVENT_TYPE_INPERSON = "inPersonAppointment";
+export const EVENT_TYPE_PHONE_CALL = "phoneCallAppointment";
+export const STATUS_ACCEPTED = "accepted";
+export const STATUS_DECLINED = "declined";
+export const STATUS_CONSUMER_HAS_PROPOSED = "consumerProposed";
+export const STATUS_AGENT_HAS_PROPOSED = "agentProposed";
+export const STATUS_DELETED = "deleted";
+export const START_TIME = "startTime";
+export const END_TIME = "endTime";

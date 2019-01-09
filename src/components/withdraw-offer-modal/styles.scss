@@ -1,0 +1,16 @@
+@import "../../styles/nobulVariables.scss";
+
+.withdraw-modal {
+    text-align: center;
+
+    &-title {
+        color: $black-medium;
+        font-weight: $bold;
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    
+    &-body {
+        color: $black-medium;
+    }
+}

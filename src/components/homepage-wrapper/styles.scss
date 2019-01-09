@@ -1,0 +1,21 @@
+@import "../../styles/nobulVariables.scss";
+
+.home-page {
+    text-align: center;
+    padding: 5rem;
+    min-height: 55rem;
+}
+
+@media screen and (max-width: $tablet-max) {
+    .home-page {
+        padding: 0;
+
+        .title {
+            width: 95%;
+            margin: auto;
+            margin-bottom: 5rem;
+            font-size: 2.5rem;
+            margin-top: 5rem;
+        }
+    }
+}

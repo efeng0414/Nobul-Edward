@@ -1,0 +1,769 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Registration Form Component Snapshot should match stored snapshot 1`] = `
+<div
+  className="consumer-registration"
+>
+  <div
+    className="consumer-registration-img consumer-registration-img-2"
+  >
+    <img
+      className="consumer-registration-logo"
+      src={
+        Object {
+          "default": "file-mock",
+        }
+      }
+    />
+  </div>
+  <div
+    className="consumer-registration-form registration-container"
+  >
+    <h2
+      className="header-step header-step-2"
+    >
+      Join Nobul
+    </h2>
+    <form
+      className="ant-form ant-form-horizontal consumer-registration-form-form"
+      onSubmit={[Function]}
+    >
+      <div>
+        <div
+          className="ant-row"
+        >
+          <div
+            className="ant-col-xs-12 ant-col-sm-6 ant-col-lg-6"
+            mg={6}
+          >
+            <div
+              className="ant-row ant-form-item"
+            >
+              <div
+                className="ant-form-item-label"
+              >
+                <label
+                  className=""
+                  htmlFor={null}
+                  onClick={[Function]}
+                  title="First Name"
+                >
+                  First Name
+                </label>
+              </div>
+              <div
+                className="ant-form-item-control-wrapper"
+              >
+                <div
+                  className="ant-form-item-control"
+                >
+                  <span
+                    className="ant-form-item-children"
+                  >
+                    <input
+                      className="ant-input"
+                      disabled={false}
+                      onKeyDown={[Function]}
+                      type="text"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-xs-12 ant-col-sm-6 ant-col-lg-6"
+            mg={6}
+          >
+            <div
+              className="ant-row ant-form-item"
+            >
+              <div
+                className="ant-form-item-label"
+              >
+                <label
+                  className=""
+                  htmlFor={null}
+                  onClick={[Function]}
+                  title="Last Name"
+                >
+                  Last Name
+                </label>
+              </div>
+              <div
+                className="ant-form-item-control-wrapper"
+              >
+                <div
+                  className="ant-form-item-control"
+                >
+                  <span
+                    className="ant-form-item-children"
+                  >
+                    <input
+                      className="ant-input"
+                      disabled={false}
+                      onKeyDown={[Function]}
+                      type="text"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row"
+        >
+          <div
+            className="ant-col-xs-12 ant-col-sm-6 ant-col-lg-6"
+            mg={6}
+          >
+            <div
+              className="ant-row ant-form-item"
+            >
+              <div
+                className="ant-form-item-label"
+              >
+                <label
+                  className=""
+                  htmlFor={null}
+                  onClick={[Function]}
+                  title="Email"
+                >
+                  Email
+                </label>
+              </div>
+              <div
+                className="ant-form-item-control-wrapper"
+              >
+                <div
+                  className="ant-form-item-control"
+                >
+                  <span
+                    className="ant-form-item-children"
+                  >
+                    <input
+                      className="ant-input"
+                      disabled={false}
+                      onKeyDown={[Function]}
+                      type="text"
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-xs-12 ant-col-sm-6 ant-col-lg-6"
+            mg={6}
+          >
+            <div
+              className="ant-row ant-form-item"
+            >
+              <div
+                className="ant-form-item-label"
+              >
+                <label
+                  className=""
+                  htmlFor={null}
+                  onClick={[Function]}
+                  title="Phone Number"
+                >
+                  Phone Number
+                </label>
+              </div>
+              <div
+                className="ant-form-item-control-wrapper"
+              >
+                <div
+                  className="ant-form-item-control"
+                >
+                  <span
+                    className="ant-form-item-children"
+                  >
+                    <span
+                      className="ant-input-group-wrapper"
+                      style={
+                        Object {
+                          "width": "100%",
+                        }
+                      }
+                    >
+                      <span
+                        className="ant-input-wrapper ant-input-group"
+                      >
+                        <span
+                          className="ant-input-group-addon"
+                        >
+                          <div
+                            className="ant-select ant-select-enabled"
+                            onBlur={[Function]}
+                            onClick={[Function]}
+                            onFocus={[Function]}
+                            onMouseDown={[Function]}
+                            onTouchStart={[Function]}
+                            style={
+                              Object {
+                                "width": 70,
+                              }
+                            }
+                          >
+                            <div
+                              aria-autocomplete="list"
+                              aria-expanded={false}
+                              aria-haspopup="true"
+                              className="ant-select-selection
+            ant-select-selection--single"
+                              onKeyDown={[Function]}
+                              role="combobox"
+                              tabIndex={0}
+                            >
+                              <div
+                                className="ant-select-selection__rendered"
+                              />
+                              <span
+                                className="ant-select-arrow"
+                                onClick={[Function]}
+                                style={
+                                  Object {
+                                    "WebkitUserSelect": "none",
+                                    "userSelect": "none",
+                                  }
+                                }
+                                unselectable="on"
+                              >
+                                <b />
+                              </span>
+                            </div>
+                          </div>
+                        </span>
+                        <input
+                          className="ant-input"
+                          disabled={false}
+                          onKeyDown={[Function]}
+                          style={null}
+                          type="text"
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="ant-row"
+        >
+          <div
+            className="ant-col-xs-12 ant-col-sm-6 ant-col-lg-6"
+            mg={6}
+          >
+            <div
+              className="ant-row ant-form-item"
+            >
+              <div
+                className="ant-form-item-label"
+              >
+                <label
+                  className=""
+                  htmlFor={null}
+                  onClick={[Function]}
+                  title="Password"
+                >
+                  Password
+                </label>
+              </div>
+              <div
+                className="ant-form-item-control-wrapper"
+              >
+                <div
+                  className="ant-form-item-control"
+                >
+                  <span
+                    className="ant-form-item-children"
+                  >
+                    <span
+                      className="ant-input-affix-wrapper"
+                    >
+                      <input
+                        className="ant-input"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onKeyDown={[Function]}
+                        style={null}
+                        type="password"
+                      />
+                      <span
+                        className="ant-input-suffix"
+                      >
+                        <i
+                          className="anticon anticon-eye"
+                          onClick={[Function]}
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="ant-col-xs-12 ant-col-sm-6 ant-col-lg-6"
+            mg={6}
+          >
+            <div
+              className="ant-row ant-form-item"
+            >
+              <div
+                className="ant-form-item-label"
+              >
+                <label
+                  className=""
+                  htmlFor={null}
+                  onClick={[Function]}
+                  title="Confirm Password"
+                >
+                  Confirm Password
+                </label>
+              </div>
+              <div
+                className="ant-form-item-control-wrapper"
+              >
+                <div
+                  className="ant-form-item-control"
+                >
+                  <span
+                    className="ant-form-item-children"
+                  >
+                    <span
+                      className="ant-input-affix-wrapper"
+                    >
+                      <input
+                        className="ant-input"
+                        disabled={false}
+                        onKeyDown={[Function]}
+                        style={null}
+                        type="password"
+                      />
+                      <span
+                        className="ant-input-suffix"
+                      >
+                        <i
+                          className="anticon anticon-eye"
+                          onClick={[Function]}
+                        />
+                      </span>
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="consumer-registration-form-item contract-brokerage"
+        >
+          <div
+            className="ant-row ant-form-item"
+          >
+            <div
+              className="ant-form-item-control-wrapper"
+            >
+              <div
+                className="ant-form-item-control"
+              >
+                <span
+                  className="ant-form-item-children"
+                >
+                  <p
+                    className="consumer-registration-paragraph"
+                  >
+                    Are you currently under contract to a brokerage?
+                  </p>
+                  <div
+                    className="ant-radio-group ant-radio-group-outline"
+                  >
+                    <label
+                      className="ant-radio-wrapper"
+                    >
+                      <span
+                        className="ant-radio"
+                        style={Object {}}
+                      >
+                        <input
+                          checked={false}
+                          className="ant-radio-input"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          type="radio"
+                          value={false}
+                        />
+                        <span
+                          className="ant-radio-inner"
+                        />
+                      </span>
+                      <span>
+                        No
+                      </span>
+                    </label>
+                    <label
+                      className="ant-radio-wrapper"
+                    >
+                      <span
+                        className="ant-radio"
+                        style={Object {}}
+                      >
+                        <input
+                          checked={false}
+                          className="ant-radio-input"
+                          disabled={false}
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          type="radio"
+                          value={true}
+                        />
+                        <span
+                          className="ant-radio-inner"
+                        />
+                      </span>
+                      <span>
+                        Yes
+                      </span>
+                    </label>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="consumer-registration-form-item"
+      >
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <p
+                  className="consumer-registration-paragraph"
+                >
+                  Are you looking to buy or sell?
+                </p>
+                <div
+                  className="ant-radio-group ant-radio-group-outline"
+                >
+                  <label
+                    className="ant-radio-wrapper"
+                  >
+                    <span
+                      className="ant-radio"
+                      style={Object {}}
+                    >
+                      <input
+                        checked={false}
+                        className="ant-radio-input"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        type="radio"
+                        value="both"
+                      />
+                      <span
+                        className="ant-radio-inner"
+                      />
+                    </span>
+                    <span>
+                      Both
+                    </span>
+                  </label>
+                  <label
+                    className="ant-radio-wrapper"
+                  >
+                    <span
+                      className="ant-radio"
+                      style={Object {}}
+                    >
+                      <input
+                        checked={false}
+                        className="ant-radio-input"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        type="radio"
+                        value="buy"
+                      />
+                      <span
+                        className="ant-radio-inner"
+                      />
+                    </span>
+                    <span>
+                      Buy
+                    </span>
+                  </label>
+                  <label
+                    className="ant-radio-wrapper"
+                  >
+                    <span
+                      className="ant-radio"
+                      style={Object {}}
+                    >
+                      <input
+                        checked={false}
+                        className="ant-radio-input"
+                        disabled={false}
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        type="radio"
+                        value="sell"
+                      />
+                      <span
+                        className="ant-radio-inner"
+                      />
+                    </span>
+                    <span>
+                      Sell
+                    </span>
+                  </label>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="consumer-registration-form-item"
+      >
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <p
+                  className="consumer-registration-paragraph"
+                >
+                  When in the near future are you looking buy or sell?
+                </p>
+                <div
+                  className="consumer-registration-select ant-select ant-select-enabled"
+                  onBlur={[Function]}
+                  onClick={[Function]}
+                  onFocus={[Function]}
+                  onMouseDown={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    aria-autocomplete="list"
+                    aria-expanded={false}
+                    aria-haspopup="true"
+                    className="ant-select-selection
+            ant-select-selection--single"
+                    onKeyDown={[Function]}
+                    role="combobox"
+                    tabIndex={0}
+                  >
+                    <div
+                      className="ant-select-selection__rendered"
+                    />
+                    <span
+                      className="ant-select-arrow"
+                      onClick={[Function]}
+                      style={
+                        Object {
+                          "WebkitUserSelect": "none",
+                          "userSelect": "none",
+                        }
+                      }
+                      unselectable="on"
+                    >
+                      <b />
+                    </span>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="consumer-registration-form-item consumer-registration-form-checkboxes"
+      >
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <div
+                  className="ant-checkbox-group"
+                >
+                  <div
+                    className="consumer-registration-accept-terms-group"
+                  >
+                    <label
+                      className="ant-checkbox-wrapper"
+                    >
+                      <span
+                        className="ant-checkbox"
+                        style={Object {}}
+                      >
+                        <input
+                          checked={false}
+                          className="ant-checkbox-input"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          type="checkbox"
+                          value="accept_term"
+                        />
+                        <span
+                          className="ant-checkbox-inner"
+                        />
+                      </span>
+                      <span>
+                        <div>
+                          By checking this box you confirm that you have read and agree to the 
+                          <span
+                            className="accept-terms-link"
+                          >
+                            <a
+                              href="https://corp.nobul.com/legal/terms-and-conditions/"
+                              rel="noopener noreferrer"
+                              target="_blank"
+                            >
+                              Terms of Service
+                            </a>
+                          </span>
+                           and that you have read our Privacy Policy.
+                        </div>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+                <div
+                  className="ant-checkbox-group"
+                >
+                  <div
+                    className="consumer-registration-accept-terms-group"
+                  >
+                    <label
+                      className="ant-checkbox-wrapper"
+                    >
+                      <span
+                        className="ant-checkbox"
+                        style={Object {}}
+                      >
+                        <input
+                          checked={false}
+                          className="ant-checkbox-input"
+                          onBlur={[Function]}
+                          onChange={[Function]}
+                          onFocus={[Function]}
+                          type="checkbox"
+                          value="consent_for_news"
+                        />
+                        <span
+                          className="ant-checkbox-inner"
+                        />
+                      </span>
+                      <span>
+                        <div>
+                          I consent to receiving news and updates about nobul’s products and services. More information can be found in our 
+                          <span
+                            className="accept-terms-link"
+                          >
+                            <a
+                              href="https://corp.nobul.com/legal/privacy-policy/"
+                              rel="noopener noreferrer"
+                              target="_blank"
+                            >
+                              Privacy Policy
+                            </a>
+                          </span>
+                           or 
+                          <span
+                            className="accept-terms-link"
+                          >
+                            <a
+                              href="https://corp.nobul.com/contact-us/"
+                              rel="noopener noreferrer"
+                              target="_blank"
+                            >
+                              Contact Us
+                            </a>
+                          </span>
+                          . You may withdraw consent or unsubscribe at any time.
+                        </div>
+                      </span>
+                    </label>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="consumer-registration-button-group"
+      >
+        <div
+          className="ant-row ant-form-item"
+        >
+          <div
+            className="ant-form-item-control-wrapper"
+          >
+            <div
+              className="ant-form-item-control"
+            >
+              <span
+                className="ant-form-item-children"
+              >
+                <button
+                  className="ant-btn consumer-registration-button-item button-next ant-btn-primary ant-btn-lg"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="submit"
+                >
+                  <span>
+                    Sign Up
+                  </span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

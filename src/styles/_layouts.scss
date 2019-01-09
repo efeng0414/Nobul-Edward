@@ -1,0 +1,30 @@
+// paddings - margins
+// TODO: standarized margins and paddings
+
+// heights
+$header-height: 8rem;
+$button-height: 4rem;
+$button-large-height: 4rem;
+$button-standard: 5.5rem;
+
+// borders
+$border-radius-base: 0.3rem;
+
+$desktop-content: 1600px;
+
+$desktop-content-max-width: 135rem;
+
+// breakpoints (must be in pixels)
+// we are going to assume that everything less than 1024 is a tablet portrait
+// to be able to create a general media query that allows portrait tablets
+// to behave as mobile and landscape to behave as web
+// NOTE: This won't work for every tablet but it will include the majority
+$mobile: 767px;
+$tablet-min: $mobile + 1;
+$tablet-max: 1024px;
+$desktop: $tablet-max + 1;
+
+// Component variables
+$sidemenu-width: 32rem;
+$autocomplete-height: 5rem;
+$mobile-autocomplete-height: 4.5rem;

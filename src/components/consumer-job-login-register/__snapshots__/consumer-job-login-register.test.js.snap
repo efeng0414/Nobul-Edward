@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Consumer Job Login/Register modal Component Component Snapshot should match existing snapshot 1`] = `
+<Modal
+  cancelButtonDisabled={false}
+  confirmLoading={false}
+  footer={null}
+  maskTransitionName="fade"
+  okButtonDisabled={false}
+  okType="primary"
+  onCancel={[Function]}
+  prefixCls="ant-modal"
+  transitionName="zoom"
+  visible={true}
+  width={520}
+>
+  <div
+    className="loginRegister"
+  >
+    <Button
+      block={false}
+      className="loginRegister__register-button"
+      ghost={false}
+      loading={false}
+      onClick={[Function]}
+      prefixCls="ant-btn"
+      size="large"
+      type="primary"
+    >
+      Sign up with Email
+    </Button>
+    <div
+      className="loginRegister__line"
+    />
+    <div
+      className="loginRegister__login"
+    >
+      <span>
+        Already have an account? 
+      </span>
+      <button
+        className="loginRegister__login-button"
+        onClick={[Function]}
+      >
+        Log in
+      </button>
+    </div>
+  </div>
+</Modal>
+`;

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>storage</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1258.000000, -363.000000)">
+            <g id="storage" transform="translate(1260.000000, 365.000000)">
+                <g id="Group-23-Copy">
+                    <circle id="Oval-13-Copy-2" stroke="#BDBDBD" stroke-width="2.5" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                    <text id="storage" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#BDBDBD">
+                        <tspan x="32.8798828" y="95">STORAGE</tspan>
+                    </text>
+                    <g id="Group-4" transform="translate(38.000000, 26.000000)" stroke="#BDBDBD" stroke-width="1.5">
+                        <path d="M4.86666667,18.6666667 L42.2,18.6666667" id="Line-3" stroke-linecap="square"></path>
+                        <path d="M4.86666667,21.8666667 L42.2,21.8666667" id="Line-3-Copy" stroke-linecap="square"></path>
+                        <rect id="Rectangle-3" fill="#FFFFFF" x="0.96328125" y="15.6833333" width="3.83333333" height="31.5666667" rx="1"></rect>
+                        <rect id="Rectangle-3-Copy" fill="#FFFFFF" x="39.4966146" y="15.6833333" width="3.83333333" height="31.5666667" rx="1"></rect>
+                        <polygon id="Path-6" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="21.9587359 0.533333333 1.06666667 8.53333333 1.06666667 15.4666667 43.3366671 15.4666667 43.3366671 8.53333333"></polygon>
+                    </g>
+                </g>
+                <g id="Group-30" transform="translate(47.000000, 56.000000)" fill-rule="nonzero" stroke="#BDBDBD" stroke-width="1.5">
+                    <rect id="Rectangle-29" x="0.75" y="8.75" width="8.5" height="8.5" rx="1"></rect>
+                    <rect id="Rectangle-29-Copy" x="0.75" y="0.75" width="8.5" height="8.5" rx="1"></rect>
+                    <rect id="Rectangle-29-Copy-2" x="12.75" y="8.75" width="8.5" height="8.5" rx="1"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

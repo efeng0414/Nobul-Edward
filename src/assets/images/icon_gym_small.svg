@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>gym_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-585.000000, -705.000000)" fill="#FFFFFF" stroke="#272727">
+            <g id="gym_icon" transform="translate(586.000000, 706.000000)">
+                <g id="Group-8" stroke-width="1.5">
+                    <g id="Group-7">
+                        <circle id="Oval-13-Copy-4" cx="20" cy="20" r="20"></circle>
+                    </g>
+                </g>
+                <g id="Group-15" transform="translate(20.340999, 19.634323) rotate(43.000000) translate(-20.340999, -19.634323) translate(9.340999, 13.134323)" stroke-width="0.7">
+                    <rect id="Rectangle-9" x="6.0813537" y="5.66800164" width="11.3" height="1.87280745" rx="0.936403725"></rect>
+                    <rect id="Rectangle-9-Copy" transform="translate(16.410877, 6.529410) rotate(90.000000) translate(-16.410877, -6.529410) " x="11.0608771" y="5.59300598" width="10.7" height="1.87280745" rx="0.936403725"></rect>
+                    <rect id="Rectangle-9-Copy-4" transform="translate(5.145615, 6.788817) rotate(90.000000) translate(-5.145615, -6.788817) " x="-0.293201862" y="5.85241304" width="10.8776335" height="1.87280745" rx="0.936403725"></rect>
+                    <rect id="Rectangle-9-Copy-2" transform="translate(18.438453, 6.574416) rotate(90.000000) translate(-18.438453, -6.574416) " x="14.500441" y="5.63801242" width="7.87602483" height="1.87280745" rx="0.936403725"></rect>
+                    <rect id="Rectangle-9-Copy-5" transform="translate(3.272388, 6.864791) rotate(90.000000) translate(-3.272388, -6.864791) " x="-0.665624333" y="5.92838776" width="7.87602483" height="1.87280745" rx="0.936403725"></rect>
+                    <rect id="Rectangle-9-Copy-3" transform="translate(20.368059, 6.574416) rotate(90.000000) translate(-20.368059, -6.574416) " x="18.1452515" y="5.85241304" width="4.4456149" height="1.44400621" rx="0.722003104"></rect>
+                    <rect id="Rectangle-9-Copy-6" transform="translate(1.342782, 6.864791) rotate(90.000000) translate(-1.342782, -6.864791) " x="-0.880024953" y="6.14278838" width="4.4456149" height="1.44400621" rx="0.722003104"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

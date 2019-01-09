@@ -1,0 +1,246 @@
+@import "../../styles/nobulVariables.scss";
+
+.listing-card {
+  max-height: 55rem;
+  max-width: 40rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  display: inline-block;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &-heart {
+    &-red {
+      color: $red-medium;;
+    }
+  }
+
+  .cover-image-container {
+    height: 17.5rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    .cover-image {
+      width: 100%;
+    }
+  }
+
+  .features {
+    text-align: right;
+    width: 100%;
+    height: 4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+
+    .features-icon {
+      padding-right: 1.5rem;
+
+      .number {
+        color: $gray-dark;
+        padding-left: 0.5rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .highlighted-details {
+    text-align: center;
+
+    .address {
+      font-size: 1.6rem;
+    }
+
+    h2,
+    h3 {
+      font-family: $font-family;
+      font-weight: $bold;
+    }
+  }
+
+  .listing-details-table {
+    margin: 0 1.5rem;
+    font-size: 1.3rem;
+
+    > div {
+      border-bottom: 0.1rem solid $gray-light;
+      display: flex;
+      justify-content: space-around;
+
+      .label {
+        color: $gray-dark;
+      }
+
+      .location {
+        color: $blue-dark;
+      }
+
+      > div {
+        flex: 1;
+      }
+    }
+
+    &-brokerage {
+      text-transform: capitalize;
+    }
+  }
+
+  .listing-options {
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .listing-options-icon {
+    flex: 1;
+    font-size: 1.8rem;
+    height: 1.9rem;
+    width: 10rem;
+    cursor: pointer;
+
+    &:not(.listing-card-heart-red) {
+      color: $blue-dark;
+      opacity: 0.65;
+
+      &:hover {
+        color: $black-medium;
+      }
+    }
+
+    &.isTagged {
+      color: $blue-dark;
+    }
+  }
+}
+
+.listing-card-modal {
+  .ant-modal-content {
+    padding: 0;
+  }
+  .ant-modal-footer {
+    padding: 0;
+  }
+}
+
+.listing-card-grid-item {
+  .listing-card {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0.5rem 1rem 0;
+    vertical-align: top;
+
+    .cover-image-container {
+      align-items: flex-start;
+      height: 9.5rem;
+
+      .cover-image {
+        align-self: center;
+      }
+    }
+
+    .highlighted-details {
+      text-align: center;
+      padding: 0 1rem;
+
+      .address {
+        font-size: 1rem;
+        margin-bottom: 0;
+      }
+      .price {
+        font-size: 1.6rem;
+      }
+    }
+
+    .features {
+      height: auto;
+      padding: 0;
+
+      .features-icon {
+        padding-right: 2rem;
+
+        .number {
+          font-size: 1rem;
+        }
+
+        &.bedroom svg {
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .listing-details-table {
+      margin: 0 1rem;
+      font-size: 1.4rem;
+
+      .brokerage-label {
+        height: 7rem;
+      }
+
+      > div {
+        border-bottom: 0.1rem solid $gray-light;
+        display: flex;
+        justify-content: space-around;
+
+        .label {
+          color: $gray-dark;
+        }
+
+        .listing-details-table-brokerage {
+          white-space: initial;
+        }
+
+        > div {
+          padding: 0.5rem 0;
+          flex: 1;
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+      }
+    }
+
+    .listing-options {
+      svg {
+        color: $gray-dark;
+
+        &:last-of-type {
+          color: $blue-dark;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-min) {
+  .listing-card-grid-item {
+    .listing-card {
+      .features {
+        .features-icon {
+          padding-right: 2rem;
+        }
+      }
+
+      .listing-details-table {
+        margin: 0 2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .listing-card-grid-item {
+    .listing-card {
+      .features {
+        .features-icon {
+          padding-right: 1rem;
+        }
+      }
+
+      .listing-details-table {
+        margin: 0 1rem;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="68px" viewBox="0 0 60 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10" transform="translate(0.000000, -1.000000)" fill="#7C7C7C" fill-rule="nonzero">
+            <path d="M9.03,12.4315385 L42.0915385,43.5061538 C45.2846154,46.2953846 40.8961538,51.0769231 37.7138462,48.2769231 L5.04,16.8146154 C1.85769231,14.0415385 6.24076923,9.65307692 9.03,12.4315385 Z" id="Shape"></path>
+            <path d="M42.5007692,41.9123077 L10.6238462,12.0384615 C30.5253846,-3.09769231 56.4307692,21.6015385 42.5007692,41.9123077 Z" id="Shape"></path>
+            <path d="M37.7030769,10.8430769 L44.0784615,4.46769231 C50.05,-1.90230769 59.6346154,0.886923077 59.22,9.65307692 L59.22,68.2 L53.2484615,68.2 L53.2484615,9.65307692 C53.2484615,6.06153846 50.4592308,6.46538462 48.4723077,8.45769231 L42.0915385,14.8223077 C40.8961538,13.2338462 39.3076923,12.0438462 37.7030769,10.8430769 Z" id="Shape"></path>
+            <circle id="Oval" cx="6.02" cy="23.7661538" r="1.57230769"></circle>
+            <circle id="Oval" cx="12.2553846" cy="29.6623077" r="1.57230769"></circle>
+            <circle id="Oval" cx="18.4853846" cy="35.5530769" r="1.56692308"></circle>
+            <circle id="Oval" cx="24.7261538" cy="41.4546154" r="1.57230769"></circle>
+            <circle id="Oval" cx="30.9615385" cy="47.3561538" r="1.57230769"></circle>
+            <circle id="Oval" cx="1.56692308" cy="28.4723077" r="1.56692308"></circle>
+            <circle id="Oval" cx="7.80230769" cy="34.3684615" r="1.56692308"></circle>
+            <circle id="Oval" cx="3.34923077" cy="39.0853846" r="1.56692308"></circle>
+            <circle id="Oval" cx="9.58461538" cy="44.9761538" r="1.57230769"></circle>
+            <circle id="Oval" cx="5.12615385" cy="49.6930769" r="1.56692308"></circle>
+            <circle id="Oval" cx="11.3561538" cy="55.5838462" r="1.57230769"></circle>
+            <circle id="Oval" cx="6.89769231" cy="60.29" r="1.56692308"></circle>
+            <circle id="Oval" cx="13.1330769" cy="66.1861538" r="1.56692308"></circle>
+            <circle id="Oval" cx="17.5861538" cy="61.48" r="1.56692308"></circle>
+            <circle id="Oval" cx="15.8146154" cy="50.8669231" r="1.56692308"></circle>
+            <circle id="Oval" cx="22.05" cy="56.7576923" r="1.57230769"></circle>
+            <circle id="Oval" cx="14.0323077" cy="40.27" r="1.57230769"></circle>
+            <circle id="Oval" cx="20.2623077" cy="46.1661538" r="1.57230769"></circle>
+            <circle id="Oval" cx="26.4976923" cy="52.0623077" r="1.57230769"></circle>
+        </g>
+    </g>
+</svg>

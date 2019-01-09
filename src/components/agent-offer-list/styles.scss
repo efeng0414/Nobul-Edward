@@ -1,0 +1,39 @@
+@import "../../styles/nobulVariables.scss";
+
+.offer-list {
+  .ant-select {
+    margin-bottom: 2rem;
+  }
+
+  .agent-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(37rem, 1fr));
+    grid-gap: 2rem;
+  }
+
+  .agent-offer__link-contracts {
+    display: none;
+  }
+
+  &-filter {
+    .offer-status-select {
+      min-width: 20rem;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .offer-list {
+    &-filter {
+      display: block;
+
+      .ant-select {
+        margin-right: 2rem;
+        margin-left: 2rem;
+      }
+    }
+    .agent-list {
+      display: block;
+    }
+  }
+}

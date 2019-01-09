@@ -1,0 +1,27 @@
+export const CREATED_AT = "createdAt";
+export const UPDATED_AT = "updatedAt";
+export const CREATED_ON = "createdOn";
+export const CONSUMER_ID = "consumerId";
+
+export const BUY = "buy";
+export const SELL = "sell";
+export const ADDRESS = "address";
+export const BATHROOMS = "bathrooms";
+export const BEDROOMS = "bedrooms";
+export const JOB_TYPE = "jobType";
+export const PRICE_RANGE_LOW = "priceRangeLow";
+export const PRICE_RANGE_HIGH = "priceRangeHigh";
+export const PROPERTY_FEATURES = "propertyFeatures";
+export const PROPERTY_TYPE = "propertyType";
+export const OFFER_COUNT = "offerCount";
+export const REGIONS = "regions";
+export const REGIONS_QUERY = "(regions)";
+export const SERVICES_RANGE_OR_EXACT = "servicesRangeOrExact";
+export const SERVICES_RANGE = "servicesRange";
+export const SERVICES = "services";
+export const STATUS = "status";
+export const TAGGED_LISTINGS = "taggedListings";
+export const DESCRIPTION = "description";
+export const NAME = "name";
+export const REGION_JOBS = "regionJobsWeb"; //TO DO - Change this to "regionJobs" when mobile 1.3 is deprecated
+export const IS_CUSTOMISED = "isCustomised";

@@ -1,0 +1,112 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .standard-proposal-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .standard-proposal-navigation {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 3rem;
+
+    button {
+      margin-left: 2rem;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+    }
+  }
+
+  .standard-proposal-cancel {
+    margin-right: auto;
+  }
+
+  .standard-proposal-step-commission {
+    label {
+      font-size: 1.8rem;
+      font-weight: $bold;
+      color: $black-medium;
+    }
+
+    .ant-input-number {
+      width: 100%;
+    }
+  }
+
+  .standard-proposal-commissions {
+    display: flex;
+    justify-content: space-between;
+
+    & > div {
+      flex-basis: calc(50% - #{0.5rem});
+    }
+  }
+
+  .standard-proposal-tag-line,
+  .standard-proposal-description {
+    input,
+    textarea {
+      height: $autocomplete-height;
+      border-radius: 0;
+      border: none;
+    }
+
+    textarea {
+      height: $autocomplete-height * 3;
+    }
+
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+  .ant-input-number-handler-wrap {
+    opacity: 1;
+  }
+
+  .standard-proposal-step__map-container {
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .standard-proposal-step__selected {
+    max-height: 40rem;
+    overflow-y: scroll;
+  }
+}
+
+
+@media screen and (max-width: $mobile) {
+  .nobul .standard-proposal .services { background-color: transparent; }
+
+  .nobul .services .render-accordion.ant-collapse .ant-collapse-header {
+    margin-top: 2rem;
+  }
+
+  .nobul .services .render-accordion.ant-collapse .ant-collapse-item:first-of-type .ant-collapse-header {
+    margin-top: 0;
+  }
+
+  .nobul .standard-proposal .services .render-accordion.ant-collapse > .ant-collapse-item {
+    margin-bottom: 0;
+  }
+
+  .nobul .standard-proposal-commissions {
+    flex-direction: column;
+  }
+  
+  .nobul .standard-proposal-commissions .form-field-commission .ant-input-number-input-wrap input {
+    height: 4.6rem;
+    font-size: 2.4rem;
+    color: $gray-dark;
+  }
+
+  .nobul .standard-proposal-tag-line textarea {
+    height: 25rem;
+    padding: 1.5rem;
+  }
+
+}

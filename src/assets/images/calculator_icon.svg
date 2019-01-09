@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="78px" height="78px" viewBox="0 0 78 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>calculator_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M10,0 L70,0 L70,70 L10,70 C4.4771525,70 -4.65271677e-15,65.5228475 -5.32907052e-15,60 L0,10 C-6.76353751e-16,4.4771525 4.4771525,1.01453063e-15 10,0 Z" id="path-1"></path>
+        <filter x="-10.0%" y="-7.1%" width="120.0%" height="120.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Map-Property-List" transform="translate(-659.000000, -110.000000)">
+            <g id="Calculator" transform="translate(663.000000, 112.000000)">
+                <g id="calculator_icon">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#272727" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <rect id="Rectangle-2" fill="#FFFFFF" x="34.1860465" y="0" width="1.62790698" height="70"></rect>
+                    <rect id="Rectangle-2" fill="#FFFFFF" transform="translate(35.000000, 35.000000) rotate(-270.000000) translate(-35.000000, -35.000000) " x="34.1860465" y="0" width="1.62790698" height="70"></rect>
+                    <g id="plus" transform="translate(8.953488, 8.953488)" fill="#FFFFFF">
+                        <rect id="Rectangle-3" x="0" y="7.3255814" width="17.9069767" height="3.25581395" rx="1.62790698"></rect>
+                        <rect id="Rectangle-3" transform="translate(8.953488, 8.953488) rotate(-270.000000) translate(-8.953488, -8.953488) " x="0" y="7.3255814" width="17.9069767" height="3.25581395" rx="1.62790698"></rect>
+                    </g>
+                    <g id="multiple" transform="translate(9.767442, 44.767442)" fill="#FFFFFF">
+                        <rect id="Rectangle-3-Copy-2" transform="translate(8.139535, 8.139535) rotate(-315.000000) translate(-8.139535, -8.139535) " x="-0.813953488" y="6.51162791" width="17.9069767" height="3.25581395" rx="1.62790698"></rect>
+                        <rect id="Rectangle-3-Copy-3" transform="translate(8.139535, 8.139535) rotate(-585.000000) translate(-8.139535, -8.139535) " x="-0.813953488" y="6.51162791" width="17.9069767" height="3.25581395" rx="1.62790698"></rect>
+                    </g>
+                    <g id="minus" transform="translate(43.953488, 16.279070)" fill="#FFFFFF">
+                        <rect id="Rectangle-3-Copy" x="0" y="0" width="17.9069767" height="3.25581395" rx="1.62790698"></rect>
+                    </g>
+                    <g id="equal" transform="translate(43.953488, 47.209302)" fill="#FFFFFF">
+                        <rect id="Rectangle-3-Copy-5" x="0" y="8.13953488" width="17.9069767" height="3.25581395" rx="1.62790698"></rect>
+                        <rect id="Rectangle-3-Copy-4" x="0" y="0" width="17.9069767" height="3.25581395" rx="1.62790698"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

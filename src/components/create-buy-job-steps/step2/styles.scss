@@ -1,0 +1,75 @@
+@import "../../../styles/nobulVariables.scss";
+
+.nobul {
+  .buy-job-step2 {
+    .ant-input, .ant-select-selection--single {
+        height: 5.5rem;
+        padding: 0.5rem 1rem;
+    }
+
+    h1 {
+      margin-top: 5rem;
+      margin-bottom: 3rem;
+    }
+
+    form {
+      .ant-row.ant-form-item {
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .nobul .buy-job-step2 {
+    margin-top: 3.5rem;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      margin-top: 0;
+      margin-left: 4rem;
+    }
+
+    .location-selector {
+      margin: 0 0 2rem;
+    }
+
+    &-buttons {
+      flex-direction: column;
+      padding: 2rem 2rem 0;
+      align-items: center;
+      text-align: center;
+      margin: 0 0 2rem;
+
+      .ant-btn {
+        margin-bottom: 1rem;
+        margin-left: 0;
+      }
+
+      button.ant-btn.ant-btn-lg{
+        order: 2;
+      }
+  
+      button.ant-btn.ant-btn-primary.ant-btn-lg{
+        order: 1;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .nobul .buy-job-step2 {
+    margin-top: 1rem;
+
+    h1 {
+      font-size: 2rem;
+      padding: 0 2rem;
+      margin-bottom: 0;
+    }
+
+    .location-search {
+      margin: 0;
+    }
+  }
+}

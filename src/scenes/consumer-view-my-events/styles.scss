@@ -1,0 +1,35 @@
+@import "../../styles/variables";
+
+.consumer-view-my-events {
+  display: flex;
+  flex-wrap: wrap;
+
+  .full-width-container {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  .half-width-container {
+    padding: 1rem;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .consumer-view-my-events .half-width-container {
+    width: 100%;
+  }
+  .consumer-view-my-events .full-width-container {
+    padding: 3rem 0 0;
+
+    h6 {
+      margin-left: 1rem;
+    }
+
+    .ant-fullcalendar-date {
+      padding: 0.5rem 0rem;
+      height: 6rem;
+      margin: 0.2rem;
+    }
+  }
+}

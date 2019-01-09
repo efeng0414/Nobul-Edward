@@ -1,0 +1,54 @@
+@import "../../styles/nobulVariables.scss";
+
+.text-center { text-align: center; }
+
+.agent-rate-form-review-title {
+    font-weight: bold;
+    font-family: $font-family;
+    font-size: 1.4rem;
+    color: $black-medium;
+    text-align: left;
+}
+
+.agent-rate-form-review-title:after {
+    content: " * ";
+    color: red;
+}
+
+.agent-rate-form-review-content {
+    font-size: 1.4rem;
+    font-family: $font-family;
+    color: $gray-dark;
+}
+
+.agent-rate-form-review-center {
+    position: relative; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.agent-rate-form-star-rate-input {
+    text-align: left;
+}
+
+.agent-rate-form-review-rate-title {
+    position: relative;
+    left: 5rem;
+    
+}
+
+.agent-rate-form-review-rate {
+    display: block;
+    position: relative;
+    left: 5rem;
+}
+
+.agent-rate-form-review-rate-btn {
+    position: relative;
+    top: 4rem;
+}
+
+table.agent-rate-form-review-center td {
+    width: 10rem;
+    text-align: left;
+}

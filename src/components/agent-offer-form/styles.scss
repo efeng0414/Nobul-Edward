@@ -1,0 +1,116 @@
+@import "../../styles/variables.scss";
+
+.nobul {
+  .job-summary-modal {
+    .ant-modal {
+      width: 48rem;
+    }
+  }
+
+  .offer-form {
+    .ant-form-item-label {
+      text-transform: initial;
+      margin-bottom: 0.5rem;
+    }
+
+    &-agent-summary {
+      margin-top: 2rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .ant-form-item {
+      margin-left: 0;
+      margin-right: 0;
+
+      .ant-row div.ant-col-12 {
+        text-align: center;
+      }
+    }
+
+    .ant-slider-mark-text {
+      font-size: 1.4rem;
+
+      &:first-of-type {
+        transform: translateY(-4rem);
+      }
+    }
+
+    h5 {
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+    }
+
+    label {
+      color: $black-medium;
+    }
+
+    input,
+    textarea.ant-input {
+      font-size: 1.4rem;
+    }
+
+    .ant-form-item-control {
+      .ant-form-item {
+        margin-bottom: 0;
+        padding: 0;
+      }
+    }
+
+    .ant-form-item-label {
+      white-space: normal;
+    }
+
+    .ant-checkbox-group {
+      grid-row-gap: 0.5rem;
+    }
+
+    .ant-form-item-no-colon .ant-form-item-label label:after,
+    .ant-form-item-required:after {
+      display: none;
+    }
+
+    &-sub-title {
+      font-size: 1.3rem;
+      color: $black-medium;
+      font-weight: $bold;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+    }
+
+    &-description {
+      font-size: 1.2rem;
+      color: $gray-dark;
+    }
+
+    .ant-slider {
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 3rem;
+    }
+
+    .ant-form-item {
+      margin-bottom: 3.5rem;
+    }
+
+    .dual-price-range {
+      margin-bottom: 5rem;
+    }
+
+    .ant-form-item-control:after {
+      content: none;
+    }
+
+    .ant-form-explain {
+      position: absolute;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .nobul {
+    .ant-modal {
+      width: 95% !important;
+    }
+  }
+}

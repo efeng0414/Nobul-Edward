@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Agent_profile-picture" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Profile_phot_edit" transform="translate(-176.000000, -176.000000)">
+            <g id="Group" transform="translate(176.000000, 176.000000)">
+                <circle id="Oval-3" fill="#1A85B7" cx="12" cy="12" r="12"></circle>
+                <g id="edit-copy-5" transform="translate(6.000000, 6.000000)" stroke="#FFFFFF">
+                    <path d="M7.74384442,2.13758862 L9.97181309,4.35391852 M2.39462587,12 L12,2.38211649 L9.60537413,0 L2.99751358e-15,9.61788351 L0,12 L2.39462587,12 Z" id="shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

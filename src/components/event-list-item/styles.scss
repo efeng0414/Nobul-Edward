@@ -1,0 +1,215 @@
+@import "../../styles/variables.scss";
+
+.event-menu-list .ant-dropdown-menu-item {
+  padding: 1rem;
+}
+
+.event-list-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ant-card.event-list-item {
+  margin: 0 1.5rem 1.5rem 0;
+  cursor: pointer;
+  width: 48%;
+  min-width: 48rem;
+  box-shadow: $card-shadow;
+
+  &:hover {
+    box-shadow: $card-shadow-hover;
+  }
+
+  .ant-card-body {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    height: 100%;
+
+    .date-box {
+      width: 10rem;
+      background-color: $black-medium;
+      color: $white;
+      padding: 2rem;
+      text-align: center;
+      font-weight: $bold;
+
+      h2 {
+        color: $white;
+        border-bottom: 0.3rem solid $white;
+        padding-bottom: 1rem;
+        font-family: $font-family;
+        font-weight: $bold;
+      }
+
+      p {
+        font-size: 1.2rem;
+        text-transform: uppercase;
+      }
+    }
+
+    .event-details {
+      flex: 1;
+      padding: 2rem;
+
+      .event-details-item {
+        color: $gray-dark;
+        display: flex;
+
+
+        svg {
+          width: 2rem;
+          height: 1.5rem;
+          color: $gray-medium;
+          margin-top: 0.5rem;
+        }
+
+        .item-value {
+          padding-left: 0.5rem;
+          font-size: 1.4rem;
+          color: $gray-dark;
+        }
+      }
+    }
+
+    .event-menu-container {
+      width: 22rem;
+      padding: 2rem 2rem 0 0;
+
+      > div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .event-status {
+        padding: 0 1rem;
+        border-radius: 8rem;
+        color: $white;
+        font-size: 1rem;
+        display: inline-block;
+        line-height: 1.7rem;
+        text-align: center;
+        margin-right: 0.5rem;
+
+        &.accepted {
+          color: $black-medium;
+          font-weight: $bold;
+
+          &:after {
+            content: "\2713";
+            font-size: 1.4rem;
+            margin-left: 0.5rem;
+          }
+        }
+        &.declined {
+          color: $red-dark;
+          font-weight: $bold;
+
+          &:after {
+            content: "\2715";
+            font-size: 1.2rem;
+            font-weight: $bold;
+            margin-left: 0.5rem;
+          }
+        }
+        &.attention {
+          background: $red-dark;
+        }
+        &.pending {
+          background: $blue-dark;
+        }
+
+        &.deleted {
+          color: $red-dark;
+          font-weight: $bold;
+
+          &:after {
+            content: "\2715";
+            font-size: 1.2rem;
+            font-weight: $bold;
+            margin-left: 0.5rem;
+          }
+        }
+      }
+
+      button {
+        border: none;
+        background-color: transparent;
+        padding: 0;
+        margin: 0;
+        color: $gray-dark;
+        display: flex;
+      }
+    }
+  }
+}
+
+.ant-card.event-list-item.deleted {
+  cursor: default;
+}
+
+.event-details-item--location {
+  padding-left: 0.2rem;
+}
+
+.item-value--location {
+  margin-left: 0.2rem;
+}
+
+.ant-card .event-details-item--comment .item-value {
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 20rem;
+}
+
+@media screen and (max-width: $tablet-max) {
+  .event-list-container {
+    display: block;
+  }
+
+  .ant-card.event-list-item {
+    width: 100%;
+
+    .ant-card-body {
+      display: grid;
+      grid-template-columns: 25% 75%;
+
+      .date-box {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+        width: unset;
+      }
+
+      .event-details {
+        grid-column: 2;
+        grid-row: 1;
+        padding: 1rem 2rem;
+      }
+
+      .event-menu-container {
+        grid-column: 2;
+        grid-row: 2;
+        padding: 0 2rem 2rem;
+
+        > div {
+          justify-content: flex-start;
+        }
+      }
+    }
+  }
+
+  .event-details-item--location {
+    padding-left: unset;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .event-details-item--location {
+    padding-left: 0.2rem;
+  }
+}

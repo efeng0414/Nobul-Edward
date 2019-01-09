@@ -1,0 +1,99 @@
+@import "../../../styles/nobulVariables.scss";
+.user-authentication {
+  display: flex;
+  align-items: center;
+  button {
+    margin-right: 3rem;
+    background-color: $white;
+    color: $blue-dark;
+    border-color: $blue-dark;
+    padding: 0 2rem;
+    height: 3rem;
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: $blue-dark;
+      border-color: $blue-dark;
+    }
+    .landing-2 & {
+      background-color: $blue-dark;
+      border-color: $white;
+      color: $white;
+    }
+  }
+}
+.user-authentication__buttons-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.new-home-page .user-authentication button {
+  background-color: $blue-medium;
+  border: none;
+}
+
+.new-home-page .user-authentication button:hover, .new-home-page .user-authentication button:active {
+  background-color: $blue-dark;
+}
+
+.user-authentication__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    text-transform: uppercase;
+    font-weight: $regular;
+    margin-right: 4rem;
+  }
+  a:link {
+    text-decoration: none;
+  }
+}
+
+.user-authentication__gap {
+  visibility: hidden;
+  flex: 1;
+}
+
+.user-authentication-login-button {
+  appearance: unset;
+  -webkit-appearance: unset;
+  border: none;
+  cursor: pointer;
+}
+.user-header-register {
+  margin-right: 2.5rem;
+}
+@media screen and (min-width: $desktop) {
+  .landing-2 .user-authentication a {
+    color: $white;
+  }
+}
+@media screen and (max-width: $tablet-max) {
+  .user-authentication {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: $white;
+    button {
+      margin-right: 0;
+    }
+  }
+  .user-authentication__menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    width: 100%;
+      a {
+        border-bottom: $border-light-gray;
+        width: 100%;
+        padding: 2rem 0 2rem 2rem;
+      }
+  }
+  .user-authentication__buttons-wrapper {
+    flex-direction: row-reverse;
+    padding: 2rem;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

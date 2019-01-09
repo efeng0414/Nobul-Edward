@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sidebar_Customer" transform="translate(-31.000000, -657.000000)" fill-rule="nonzero" stroke="#272727" stroke-width="1.7">
+            <g id="Group">
+                <path d="M46,661.896761 C46,659.744604 44.307307,658 42.2192933,658 C40.855859,658 39.6651519,658.74634 38.9999574,659.861721 C38.3348481,658.74634 37.1436295,658 35.7802236,658 C33.69221,658 32,659.744604 32,661.896761 C32,663.06849 32.5037476,664.116775 33.2976849,664.830637 L38.6549575,670.352718 C38.7464498,670.44702 38.8705327,670.5 38.9999574,670.5 C39.1293821,670.5 39.253465,670.44702 39.3449573,670.352718 L44.7022299,664.830637 C45.4961956,664.116775 46,663.06849 46,661.896761 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

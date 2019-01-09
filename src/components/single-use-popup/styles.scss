@@ -1,0 +1,29 @@
+@import "../../styles/variables.scss";
+
+.ant-modal.single-popup {
+  .ant-modal-content {
+    width: 70rem;
+  }
+
+  .ant-modal-body {
+    padding: 4rem 2rem 2rem 2rem;
+  }
+
+  .ant-modal-footer {
+    padding: 0 0 1rem 0;
+    text-align: center;
+  }
+
+  .ant-btn.ant-btn-primary {
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .ant-modal.single-popup {
+    .ant-modal-content {
+      width: 100%;
+    }
+  }
+}

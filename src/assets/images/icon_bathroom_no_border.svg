@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="11px" viewBox="0 0 11 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bathroom_listings_cards</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="My-Nobul-Tagged" transform="translate(-1206.000000, -336.000000)">
+            <g id="bathroom_listings_cards" transform="translate(1206.000000, 337.000000)">
+                <rect id="Rectangle-14" stroke="#D8D8D8" x="0.5" y="4.77972028" width="9.70546862" height="1" rx="0.5"></rect>
+                <path d="M4.27664127,0.60511285 C2.76349403,-0.405811634 2.00692042,-0.150069521 2.00692042,1.37233919 C2.00692042,2.8947479 2.00692042,4.08646002 2.00692042,4.94747555" id="Path-12" stroke="#D8D8D8" stroke-linecap="round" stroke-linejoin="round"></path>
+                <rect id="Rectangle-15" stroke="#D8D8D8" fill="#D8D8D8" x="2.50692042" y="7.98951049" width="1" height="1.3616426" rx="0.5"></rect>
+                <rect id="Rectangle-15-Copy" stroke="#D8D8D8" fill="#D8D8D8" x="7.82524727" y="7.98951049" width="1" height="1.3616426" rx="0.5"></rect>
+                <path d="M1.00346021,5.55984096 C1.09935375,7.80209162 2.39944428,8.92321695 4.90373179,8.92321695 C7.40801931,8.92321695 8.08864716,8.92321695 6.94561536,8.92321695 C8.94063366,8.38779386 9.9381428,7.26666853 9.9381428,5.55984096 C9.9381428,3.85301339 6.95991527,3.85301339 1.00346021,5.55984096 Z" id="Path-13" fill="#D8D8D8"></path>
+                <polygon id="Path-14" fill="#D8D8D8" points="5.91207953 0.551870794 4.01384083 0.213999075 4.29450687 2.46378653"></polygon>
+                <path d="M5.38689951,0.351303712 C5.30721237,0.351303712 5.25605361,0.296756153 5.25605361,0.244910811 L5.25605361,3.39376761 C5.25605361,3.34192227 5.30721237,3.28737471 5.38689951,3.28737471 C5.46658666,3.28737471 5.51774542,3.34192227 5.51774542,3.39376761 L5.51774542,0.244910811 C5.51774542,0.296756153 5.46658666,0.351303712 5.38689951,0.351303712 Z" id="Rectangle-17" stroke="#D8D8D8" fill="#D8D8D8" transform="translate(5.517745, 1.819339) rotate(42.000000) translate(-5.517745, -1.819339) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

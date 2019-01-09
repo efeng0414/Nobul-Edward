@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AgentJobDetails Container Snapshot should match stored snapshot 1`] = `
+<div
+  className="posting-details"
+>
+  <InjectIntl(MyDashboardMeta)
+    titleKey="helmet.myDashboard.postingDetails"
+  />
+  <Breadcrumb
+    prefixCls="ant-breadcrumb"
+    separator=">"
+  >
+    <BreadcrumbItem
+      prefixCls="ant-breadcrumb"
+      separator="/"
+    >
+      <Link
+        replace={false}
+        to="/marketplace"
+      >
+        marketPlace
+      </Link>
+    </BreadcrumbItem>
+    <BreadcrumbItem
+      prefixCls="ant-breadcrumb"
+      separator="/"
+    >
+      agentJobDetail.agenterFrom
+    </BreadcrumbItem>
+  </Breadcrumb>
+  <div
+    className="posting-details-grid-container"
+  >
+    <div
+      className="posting-details-grid-item summary"
+    >
+      <Connect(Connect(withRouter(RequireAuth)))
+        intl={
+          Object {
+            "defaultFormats": Object {},
+            "defaultLocale": "en",
+            "formatDate": [Function],
+            "formatHTMLMessage": [Function],
+            "formatMessage": [Function],
+            "formatNumber": [Function],
+            "formatPlural": [Function],
+            "formatRelative": [Function],
+            "formatTime": [Function],
+            "formats": Object {},
+            "formatters": Object {
+              "getDateTimeFormat": [Function],
+              "getMessageFormat": [Function],
+              "getNumberFormat": [Function],
+              "getPluralFormat": [Function],
+              "getRelativeFormat": [Function],
+            },
+            "locale": "en",
+            "messages": Object {
+              "agentJobDetail": "test",
+            },
+            "now": [Function],
+            "textComponent": "span",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="posting-details-grid-container"
+  >
+    <div
+      className="posting-details-grid-left"
+    >
+      <div
+        className="posting-details-grid-item"
+      >
+        <div
+          className="posting-details-interested-in"
+        >
+          <h6>
+            agentJobDetail.agenterInterestedIn
+          </h6>
+          <Card
+            bordered={false}
+          >
+            <JobTypePriceLocation
+              consumerId="consumer123"
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {
+                    "agentJobDetail": "test",
+                  },
+                  "now": [Function],
+                  "textComponent": "span",
+                }
+              }
+              jobType="agent"
+              price={
+                Object {
+                  "priceRangeHigh": undefined,
+                  "priceRangeLow": undefined,
+                }
+              }
+              propertyType=""
+              regions={Object {}}
+            />
+          </Card>
+        </div>
+      </div>
+      <div
+        className="posting-details-grid-item"
+      >
+        <div
+          className="posting-details-features"
+        >
+          <h6>
+            agentJobDetail.agenterWantsFollowingFeatures
+          </h6>
+          <Card
+            bordered={false}
+          >
+            <JobFeatures
+              bathrooms={0}
+              bedrooms={0}
+              consumerId="consumer123"
+              displayTitle={false}
+              intl={
+                Object {
+                  "defaultFormats": Object {},
+                  "defaultLocale": "en",
+                  "formatDate": [Function],
+                  "formatHTMLMessage": [Function],
+                  "formatMessage": [Function],
+                  "formatNumber": [Function],
+                  "formatPlural": [Function],
+                  "formatRelative": [Function],
+                  "formatTime": [Function],
+                  "formats": Object {},
+                  "formatters": Object {
+                    "getDateTimeFormat": [Function],
+                    "getMessageFormat": [Function],
+                    "getNumberFormat": [Function],
+                    "getPluralFormat": [Function],
+                    "getRelativeFormat": [Function],
+                  },
+                  "locale": "en",
+                  "messages": Object {
+                    "agentJobDetail": "test",
+                  },
+                  "now": [Function],
+                  "textComponent": "span",
+                }
+              }
+              jobType="agent"
+              propertyFeatures={Object {}}
+            />
+          </Card>
+        </div>
+      </div>
+    </div>
+    <div
+      className="posting-details-grid-right"
+    >
+      <div
+        className="posting-details-grid-item"
+      >
+        <div
+          className="posting-details-services"
+        >
+          <JobServices
+            intl={
+              Object {
+                "defaultFormats": Object {},
+                "defaultLocale": "en",
+                "formatDate": [Function],
+                "formatHTMLMessage": [Function],
+                "formatMessage": [Function],
+                "formatNumber": [Function],
+                "formatPlural": [Function],
+                "formatRelative": [Function],
+                "formatTime": [Function],
+                "formats": Object {},
+                "formatters": Object {
+                  "getDateTimeFormat": [Function],
+                  "getMessageFormat": [Function],
+                  "getNumberFormat": [Function],
+                  "getPluralFormat": [Function],
+                  "getRelativeFormat": [Function],
+                },
+                "locale": "en",
+                "messages": Object {
+                  "agentJobDetail": "test",
+                },
+                "now": [Function],
+                "textComponent": "span",
+              }
+            }
+            isLoading={true}
+            jobType="agent"
+            title={
+              <h6>
+                agentJobDetail.thisagenter
+              </h6>
+            }
+            titleRange={
+              <h5>
+                agentJobDetail.prefers
+              </h5>
+            }
+            titleServices={<h5 />}
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Agent Offer Congratulations Component Component Snapshot should match existing snapshot 1`] = `
+<div
+  className="proposal-congratulations"
+>
+  <img
+    alt="CONGRATULATIONS"
+    src="file-mock"
+  />
+  <p
+    className="proposal-congratulations-title"
+  >
+    CONGRATULATIONS
+  </p>
+  <p
+    className="proposal-congratulations-subtitle"
+  >
+    Your proposal is on it's way!
+  </p>
+</div>
+`;

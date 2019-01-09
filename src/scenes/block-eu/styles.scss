@@ -1,0 +1,33 @@
+@import "../../styles/variables";
+
+.eu-container {
+    min-height: 100vh;
+    background-image: url("../../assets/images/landing-page/landing_background5.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .eu-copy {
+        text-align: center;
+        padding-bottom: 6rem;
+
+        h2 {
+            color: $white;
+            font-size: 2.6rem;
+            font-weight: $bold;
+            font-family: $font-family;
+        }
+    
+        a {
+            text-decoration: underline;
+            color: $blue-dark;        
+        }
+    }
+};
+
+

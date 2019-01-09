@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>fireplace</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1086.000000, -363.000000)">
+            <g id="fireplace" transform="translate(1088.000000, 365.000000)">
+                <g id="Group-24-Copy">
+                    <circle id="Oval-13-Copy-3" stroke="#BDBDBD" stroke-width="2.5" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                    <text id="fireplace" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#BDBDBD">
+                        <tspan x="29.0390625" y="95">FIREPLACE</tspan>
+                    </text>
+                </g>
+                <g id="Group-9" transform="translate(38.000000, 31.000000)" fill-rule="nonzero" stroke="#BDBDBD" stroke-width="1.5">
+                    <path d="M41.9318182,6.24594156 L41.9318182,37.6858766" id="Line-12" stroke-linecap="square"></path>
+                    <path d="M3.57954545,6.24594156 L3.57954545,37.6858766" id="Line-12-Copy" stroke-linecap="square"></path>
+                    <path d="M10.2272727,17.3863636 L10.2272727,37.8409091" id="Line-12-Copy-2" stroke-linecap="square"></path>
+                    <path d="M34.75,17.3863636 L34.75,37.8409091" id="Line-12-Copy-3" stroke-linecap="square"></path>
+                    <rect id="Rectangle-28" fill="#FFFFFF" x="1.05" y="0.75" width="43.5" height="6.68181818" rx="1.5"></rect>
+                    <rect id="Rectangle-28-Copy" fill="#FFFFFF" x="1.05" y="38.5909091" width="43.5" height="3.61363636" rx="1.5"></rect>
+                    <path d="M10.2272727,16.3636364 C18.0194805,12.2727273 26.2012987,12.2727273 34.7727273,16.3636364" id="Path-15" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Group-6" transform="translate(17.700000, 22.500000)" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4.60227273,15.2626391 C1.53409091,14.4799397 1.50297562e-16,12.5231911 0,9.39239332 C0,6.26159555 1.53409091,3.13079777 4.60227273,0" id="Path-23"></path>
+                        <path d="M9.20454545,15.2626391 C6.13636364,14.4799397 4.60227273,12.5231911 4.60227273,9.39239332 C4.60227273,6.26159555 6.13636364,3.13079777 9.20454545,0" id="Path-23-Copy" transform="translate(6.903409, 7.631320) scale(-1, 1) translate(-6.903409, -7.631320) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

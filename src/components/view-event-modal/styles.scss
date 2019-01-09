@@ -1,0 +1,116 @@
+@import "../../styles/variables.scss";
+
+.event-modal {
+  .modal-title {
+    margin: 4rem;
+    text-align: center;
+  }
+
+  .ant-modal-footer {
+    padding: 2rem 0;
+    text-align: center;
+
+    .footer {
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+  .event-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2rem auto;
+    border: $border-medium-grey;
+
+    .details-row {
+      display: flex;
+      border-bottom: $border-medium-grey;
+
+      &:last-of-type { border-bottom: none; }
+    }
+
+    .icon {
+      flex-basis: 20%;
+      padding: 1rem;
+      border-right: none;
+      display: flex;
+      align-items: center;
+      border-right: $border-medium-grey;
+
+      svg { flex-grow: 1; }
+    }
+
+    .info {
+      flex-basis: 80%;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+
+      p {
+        margin: 0;
+        flex-grow: 1;
+        word-break: break-all;
+      }
+    }
+  }
+
+  .reschedule-toggle {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .reschedule-form {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    .submit-button {
+      margin: 3rem auto 0;
+      display: block;
+    }
+
+    .ant-form-item.ant-form-item {
+      margin-bottom: 0;
+
+      input,
+      select,
+      .ant-select-selection,
+      .ant-calendar-picker-input {
+        border-radius: 0;
+        height: 3rem;
+        line-height: 3rem;
+        font-size: 1.4rem;
+        padding: 0 1rem;
+      }
+    }
+
+    .ant-form-item-label {
+      label { color: transparent; }
+      position: relative;
+      top: 1.5rem;
+    }
+    .ant-form-item-required:after {
+      position: absolute;
+      left: 0;
+      bottom:0;
+    }
+    .ant-form-item:last-of-type .ant-form-item-control { line-height: 3.9999rem; }
+
+    .time-pickers {
+      display: flex;
+      justify-content: space-between;
+
+      .ant-time-picker {
+        width: 100%;
+        margin: 0 auto;
+      }
+    }
+
+    .ant-calendar-picker.ant-calendar-picker { width: 100%; }
+
+    .submit-button {
+      margin-top: 2rem;
+    }
+  }
+}

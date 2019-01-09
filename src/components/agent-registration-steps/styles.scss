@@ -1,0 +1,67 @@
+@import "../../styles/nobulVariables.scss";
+@import "./region-images.scss";
+
+.agent-registration-img {
+  float: left;
+  width: 50%;
+  min-height: calc(100vh - 8rem); // 8rem = header height
+  background-size: cover;
+}
+
+.agent-registration-form {
+  float: right;
+  width: 50%;
+  min-height: calc(100vh - 8rem); // 8rem = header height
+  background-color: $white;
+}
+
+.agent-registration-logo {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 26rem;
+  height: 6rem;
+}
+
+.header-step {
+  background-size: 0;
+}
+
+@media screen and (max-width: $tablet-max) {
+  .agent-registration-img {
+    display: none;
+  }
+
+  .agent-registration-form {
+    width: 100%;
+  }
+  
+  .header-steps {
+    width: 100%;
+  }
+
+  .header-step {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 12vh;
+    color: $white !important;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+  }
+
+  .ant-steps,
+  .registration-form-personal,
+  .registration-form-location,
+  .agent-registration-container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .agent-registration-form .licence-form {
+    padding: 0 1rem;
+  }
+}

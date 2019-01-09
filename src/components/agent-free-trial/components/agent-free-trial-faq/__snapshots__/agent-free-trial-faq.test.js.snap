@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AgentFreeTrialFaq Component Component Snapshot Should match stored snapshot 1`] = `
+<div
+  className="free-trial-faq"
+>
+  <div
+    className="free-trial-faq-title"
+  >
+    Frequently Asked Questions
+  </div>
+  <div
+    className="free-trial-faq-container"
+  >
+    <div
+      className="free-trial-faq-item"
+    >
+      <div
+        className="free-trial-faq-item-title"
+      >
+        Will I be charged during my free trial?
+      </div>
+      <div
+        className="free-trial-faq-item-body"
+      >
+        You will not be charged any upfront fees. Once your free trial begins, you will have 90 days to sample all that nobul premium has to offer — for FREE.
+      </div>
+    </div>
+    <div
+      className="free-trial-faq-item"
+    >
+      <div
+        className="free-trial-faq-item-title"
+      >
+        What happens at the end of my free trial?
+      </div>
+      <div
+        className="free-trial-faq-item-body"
+      >
+        Your membership will automatically renew at the end of your free trial. You can cancel at any time prior to the renewal at nobul.com/my-dashboard/settings.
+      </div>
+    </div>
+    <div
+      className="free-trial-faq-item"
+    >
+      <div
+        className="free-trial-faq-item-title"
+      >
+        Can I change or cancel my plan later on?
+      </div>
+      <div
+        className="free-trial-faq-item-body"
+      >
+        Yes. You can downgrade or cancel anytime from your settings page. When you cancel, you will lose your Premium features at the end of your billing cycle.
+      </div>
+    </div>
+  </div>
+</div>
+`;

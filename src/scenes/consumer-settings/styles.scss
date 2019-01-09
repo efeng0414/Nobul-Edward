@@ -1,0 +1,33 @@
+@import "../../styles/nobulVariables.scss";
+
+.settings-component {
+  width: calc(100vw - 20rem);
+}
+.consumer-settings {
+  .ant-tabs {
+    &-bar {
+      padding: 1rem 2rem 0;
+      position:fixed;
+      right:0;
+      left:$sidemenu-width;
+      top:$header-height;
+      background-color:$gray-light;
+      border-bottom:$border-medium-grey;
+      z-index:1;
+    }
+    &-content {
+      margin-top:10rem;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .consumer-settings {
+    .ant-tabs {
+      &-bar {
+        left:0;
+        padding: 1rem 0 0 5rem;
+      }
+    }
+  }
+}

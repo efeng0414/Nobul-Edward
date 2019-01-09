@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>balcony_small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-682.000000, -643.000000)">
+            <g id="balcony_small" transform="translate(683.000000, 644.000000)">
+                <g id="elevator-copy" fill="#FFFFFF" stroke="#272727" stroke-width="1.5">
+                    <g id="Group-8-Copy">
+                        <g id="Group-7">
+                            <circle id="Oval-13-Copy-4" cx="20" cy="20" r="20"></circle>
+                        </g>
+                    </g>
+                </g>
+                <path d="M11,19.5 L11,26.5" id="Line-11" stroke="#272727" stroke-width="0.7" stroke-linecap="square" fill-rule="nonzero"></path>
+                <path d="M20,12.5 L20,26.5" id="Line-10" stroke="#272727" stroke-width="0.7" stroke-linecap="square" fill-rule="nonzero"></path>
+                <g id="balcony" transform="translate(9.500000, 12.000000)"></g>
+                <path d="M12.6,19 L12.6,27" id="Line-11" stroke="#272727" stroke-width="0.7" stroke-linecap="square" fill-rule="nonzero"></path>
+                <path d="M27.4,19 L27.4,27" id="Line-11-Copy-3" stroke="#272727" stroke-width="0.7" stroke-linecap="square" fill-rule="nonzero"></path>
+                <path d="M29.05,19 L29.05,27" id="Line-11-Copy-4" stroke="#272727" stroke-width="0.7" stroke-linecap="square" fill-rule="nonzero"></path>
+                <path d="M18,19 L18,27" id="Line-11-Copy" stroke="#272727" stroke-width="0.7" stroke-linecap="square" fill-rule="nonzero"></path>
+                <path d="M21.8,19 L21.8,27" id="Line-11-Copy-2" stroke="#272727" stroke-width="0.7" stroke-linecap="square" fill-rule="nonzero"></path>
+                <rect id="Rectangle-11" stroke="#272727" stroke-width="0.7" fill-rule="nonzero" x="16.35" y="12.35" width="7.3" height="14.6" rx="0.5"></rect>
+                <rect id="Rectangle-10" stroke="#272727" stroke-width="0.9" fill-rule="nonzero" x="14.45" y="10.45" width="11.1" height="16.45" rx="0.7"></rect>
+                <path d="M10,19 L30,19" id="Line-13" stroke="#272727" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero"></path>
+                <rect id="Rectangle" stroke="#272727" stroke-width="0.9" fill-rule="nonzero" x="10" y="27" width="20" height="1.5" rx="0.3"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+@import "./nobulVariables";
+
+$spacing-list: (
+  '5': 5rem,
+  '4-5': 4.5rem,
+  '4': 4rem,
+  '3-5': 3.5rem,
+  '3': 3rem,
+  '2-5': 2.5rem,
+  '2': 2rem,
+  '1-5': 1.5rem,
+  '1': 1rem,
+  '0-5': 0.5rem
+);
+
+$directions: top bottom left right;
+
+$font-weights: (
+  light: $light,
+  regular: $regular,
+  bold: $bold
+);
+
+@each $spaceName, $spaceValue in $spacing-list {
+  .p-#{unquote($spaceName)} { padding: $spaceValue }
+  @each $direction in $directions {
+    .p-#{str-slice($direction, 0, 1)}-#{unquote($spaceName)} {
+      padding-#{$direction}: $spaceValue;
+    }
+  }
+}
+
+@each $spaceName, $spaceValue in $spacing-list {
+  .m-#{unquote($spaceName)} { margin: $spaceValue }
+  @each $direction in $directions {
+    .m-#{str-slice($direction, 0, 1)}-#{unquote($spaceName)} {
+      margin-#{$direction}: $spaceValue;
+    }
+  }
+}
+
+@each $weightName, $weightValue in $font-weights {
+  .font-#{$weightName} {
+    font-weight: $weightValue;
+  }
+}

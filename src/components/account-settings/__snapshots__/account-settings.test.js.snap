@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account Settings Component Snapshot Should match stored snapshot 1`] = `
+<div
+  className="consumer-account-settings"
+>
+  <div
+    className="field-items"
+  >
+    <div
+      className="settings-field-item"
+    >
+      <label
+        className="label"
+      >
+        First Name
+        <i
+          className="anticon anticon-edit"
+          id="firstName"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item"
+    >
+      <label
+        className="label"
+      >
+        Last Name
+        <i
+          className="anticon anticon-edit"
+          id="lastName"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item"
+    >
+      <label
+        className="label"
+      >
+        Email
+        <i
+          className="anticon anticon-edit"
+          id="email"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item"
+    >
+      <label
+        className="label"
+      >
+        Change Password
+        <i
+          className="anticon anticon-edit"
+          id="password"
+          onClick={[Function]}
+        />
+      </label>
+      <p
+        className="value"
+      >
+        ********
+      </p>
+    </div>
+    <div
+      className="settings-field-item"
+    >
+      <label
+        className="label"
+      >
+        Phone Number
+        <i
+          className="anticon anticon-edit"
+          id="phone"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item half-width"
+    >
+      <label
+        className="label"
+      >
+        Address Line 1
+        <i
+          className="anticon anticon-edit"
+          id="address1"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item half-width"
+    >
+      <label
+        className="label"
+      >
+        Address Line 2
+        <i
+          className="anticon anticon-edit"
+          id="address2"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item half-width"
+    >
+      <label
+        className="label"
+      >
+        Country
+        <i
+          className="anticon anticon-edit"
+          id="country"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item half-width"
+    >
+      <label
+        className="label"
+      >
+        Province/State
+        <i
+          className="anticon anticon-edit"
+          id="provinceOrState"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item half-width"
+    >
+      <label
+        className="label"
+      >
+        City
+        <i
+          className="anticon anticon-edit"
+          id="city"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item half-width"
+    >
+      <label
+        className="label"
+      >
+        Postal/Zip Code
+        <i
+          className="anticon anticon-edit"
+          id="postalOrZipCode"
+          onClick={[Function]}
+        />
+      </label>
+    </div>
+    <div
+      className="settings-field-item switch-field-item"
+    >
+      <span
+        checked={false}
+        className="switch ant-switch"
+        defaultChecked={false}
+        onChange={[Function]}
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onMouseUp={[Function]}
+        tabIndex={0}
+      >
+        <span
+          className="ant-switch-inner"
+        />
+      </span>
+      <div
+        className="settings-field-item-container"
+      >
+        <p
+          className="value"
+        >
+          Promotions / Newsletters
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

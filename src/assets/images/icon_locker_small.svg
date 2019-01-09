@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>locker_small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-585.000000, -767.000000)">
+            <g id="locker_small" transform="translate(586.000000, 768.000000)">
+                <g id="Group-8-Copy" fill="#FFFFFF" stroke="#272727" stroke-width="1.5">
+                    <g id="Group-7">
+                        <circle id="Oval-13-Copy-4" cx="20" cy="20" r="20"></circle>
+                    </g>
+                </g>
+                <g id="Group-11" transform="translate(12.000000, 11.000000)">
+                    <polygon id="Path-17" stroke="#272727" stroke-width="0.7" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="0.345454545 17.2727273 0.345454545 19 1.4969697 19 2.07272727 17.5867769"></polygon>
+                    <polygon id="Path-17-Copy" stroke="#272727" stroke-width="0.7" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" transform="translate(14.313636, 18.136364) scale(-1, 1) translate(-14.313636, -18.136364) " points="13.45 17.2727273 13.45 19 14.6015152 19 15.1772727 17.5867769"></polygon>
+                    <rect id="Rectangle-7" stroke="#272727" stroke-width="0.9" fill="#FFFFFF" x="0.45" y="0.45" width="14.6454545" height="17.2363636" rx="1"></rect>
+                    <rect id="Rectangle-8" fill="#272727" x="2.59090909" y="1.72727273" width="10.3636364" height="1" rx="0.5"></rect>
+                    <rect id="Rectangle-8-Copy" fill="#272727" x="2.59090909" y="14.6818182" width="10.3636364" height="1" rx="0.5"></rect>
+                    <rect id="Rectangle-8-Copy-2" fill="#272727" x="2.59090909" y="12.0909091" width="10.3636364" height="1" rx="0.5"></rect>
+                    <circle id="Oval-6" stroke="#272727" stroke-width="0.5" fill="#FFFFFF" cx="3.45454545" cy="7.77272727" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

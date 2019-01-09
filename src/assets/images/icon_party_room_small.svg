@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>party_</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-681.000000, -519.000000)" stroke="#272727">
+            <g id="party_" transform="translate(682.000000, 520.000000)">
+                <g id="Group-8-Copy-3" fill="#FFFFFF" stroke-width="1.5">
+                    <g id="Group-7">
+                        <circle id="Oval-13-Copy-4" cx="20" cy="20" r="20"></circle>
+                    </g>
+                </g>
+                <g id="Group-14" transform="translate(12.000000, 11.000000)">
+                    <polyline id="Path-19" stroke-width="0.6" stroke-linecap="round" stroke-linejoin="round" points="13.0288462 2.45535714 13.75 2.00892857 13.75 0 11.3461538 0.892857143 11.3461538 2.67857143 10.625 3.125"></polyline>
+                    <g id="Group-12" stroke-width="0.9">
+                        <ellipse id="Oval-7" fill="#FFFFFF" cx="3.44047619" cy="3.25531915" rx="3.44047619" ry="3.25531915"></ellipse>
+                        <path d="M6.03090772,1.0625 L1.0625,5.05693985" id="Line-5" stroke-linecap="square"></path>
+                        <polygon id="Path-18" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" transform="translate(9.005952, 9.670213) rotate(5.000000) translate(-9.005952, -9.670213) " points="6.07142857 4.40425532 3.44047619 6.89361702 12.1428571 14.9361702 14.5714286 12.6382979"></polygon>
+                        <path d="M12.75,14.3617021 C13.4246032,14.8334875 13.7619048,15.1637373 13.7619048,15.3524514 C13.7619048,15.6355227 13.593254,15.7770583 13.2559524,16.0601295 C12.9186508,16.3432007 12.4126984,16.9093432 13.0873016,17.33395 C13.537037,17.6170213 13.9867725,17.4754857 14.4365079,16.9093432 C14.8862434,16.5319149 15.3359788,16.4847364 15.7857143,16.7678076 C16.2354497,17.0508788 16.5727513,17.33395 16.797619,17.6170213" id="Path-22" stroke-linecap="round" stroke-linejoin="round" transform="translate(14.773810, 15.989362) rotate(6.000000) translate(-14.773810, -15.989362) "></path>
+                    </g>
+                    <g id="Group-13" transform="translate(3.687500, 15.375000) rotate(11.000000) translate(-3.687500, -15.375000) translate(2.125000, 13.812500)" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7">
+                        <path d="M0.294117647,0.294117647 L2.64705882,2.64705882" id="Line-6"></path>
+                        <path d="M2.64705882,0.294117647 L0.294117647,2.64705882" id="Line-6-Copy"></path>
+                    </g>
+                    <circle id="Oval-8" stroke-width="0.6" cx="15.9375" cy="9.5625" r="1"></circle>
+                    <circle id="Oval-8-Copy" stroke-width="0.6" cx="0.53125" cy="9.03125" r="1"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

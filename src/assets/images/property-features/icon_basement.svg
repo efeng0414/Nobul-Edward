@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>basement</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1616.000000, -218.000000)">
+            <g id="basement" transform="translate(1618.000000, 220.000000)">
+                <circle id="Oval-13-Copy-8" stroke="#BDBDBD" stroke-width="2.5" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                <text font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#BDBDBD">
+                    <tspan x="28.4140625" y="95">BASEMENT</tspan>
+                </text>
+                <g id="Group-2" transform="translate(37.000000, 25.000000)" fill-rule="nonzero" stroke="#BDBDBD" stroke-width="1.5">
+                    <path d="M5.73170732,35.5365854 L40.1219512,35.5365854" id="Line-15" stroke-linecap="square"></path>
+                    <rect id="Rectangle-32" fill="#FFFFFF" x="27.15" y="18.55" width="9.96341463" height="16.8414634" rx="0.5"></rect>
+                    <rect id="Rectangle-32-Copy" fill="#FFFFFF" x="9.92073171" y="19.0914634" width="9.96341463" height="9.96341463" rx="0.5"></rect>
+                    <polygon id="Path-26" stroke-linecap="round" stroke-linejoin="round" points="23.5 0 0 17.3157895 4.7 17.3157895 4.7 47 41.125 47 41.125 17.3157895 47 17.3157895"></polygon>
+                    <polyline id="Path-27" stroke-linecap="round" stroke-linejoin="round" points="11.4634146 35.5365854 11.4634146 39.3577236 17.195122 39.3577236 17.195122 43.1788618 22.9268293 43.1788618 22.9268293 47 28.6585366 47"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,159 @@
+// base colours
+$white: #ffffff;
+
+$black-light: #484848;
+$black-medium: #272727;
+$black-dark: #000000;
+
+$blue-pale: #f3f9fc;
+$blue-lighter: #dce6ef;
+$blue-light: #a1cde8;
+$blue-medium: #449cd1;
+$blue-dark: #1684c6;
+
+$red-light: #ff8b70;
+$red-medium: #ff5b35;
+$red-dark: #e04b29;
+
+$green-light: #66ff66;
+$green-medium: #33cc33;
+$green-dark: #009933;
+$green-accept: #46c65c;
+
+$yellow-light: #ffda72;
+$yellow-medium: #ffc300;
+$yellow-dark: #aa892f;
+
+$gray-pale: #8d9ba8;
+$gray-light: #f8f8f8;
+$gray-lighter: #efefef;
+$gray-medium: #bdbdbd;
+$gray-dark: #7c7c7c;
+
+// box shadow
+$black-shadow: rgba(0, 0, 0, 0.1);
+$black-shadow-darker-2: rgba(0, 0, 0, 0.19);
+$black-shadow-darker: rgba(0, 0, 0, 0.4);
+$black-shadow-light: rgba(0, 0, 0, 0.04);
+
+// general
+$buy-color: $blue-light;
+$sell-color: $yellow-light;
+
+// map
+$map-polygon-border: $blue-medium;
+$map-polygon-fill: rgba(68,156,209, 0.9);
+
+// buttons
+$button-primary-bg-color: $blue-medium;
+$button-primary-border-color: $blue-medium;
+$button-primary-text-color: $white;
+
+$button-primary-hover-bg-color: $blue-dark; 
+$button-primary-hover-border-color: $blue-dark; 
+$button-primary-hover-text-color: $white;
+
+$button-primary-disabled-bg-color: $blue-light;
+$button-primary-disabled-border-color: $blue-light;
+$button-primary-disabled-text-color: mix($white, $blue-light, 50%);
+
+$button-secondary-bg-color: $white;
+$button-secondary-border-color: $gray-dark;
+$button-secondary-text-color: $gray-dark;
+
+$button-secondary-hover-bg-color: $white; 
+$button-secondary-hover-border-color: $blue-medium; 
+$button-secondary-hover-text-color: $blue-medium;
+
+$button-secondary-disabled-bg-color: $white;
+$button-secondary-disabled-border-color: mix($gray-dark, $white, 38%);
+$button-secondary-disabled-text-color: mix($gray-dark, $white, 38%);
+
+$button-danger-bg-color: $red-medium;
+$button-danger-border-color: $red-medium;
+$button-danger-text-color: $white;
+
+$button-danger-hover-bg-color: $red-dark; 
+$button-danger-hover-border-color: $red-dark; 
+$button-danger-hover-text-color: $white;
+
+$button-danger-disabled-bg-color: $red-light;
+$button-danger-disabled-border-color: $red-light;
+$button-danger-disabled-text-color: mix($white, $red-light, 50%);
+
+
+// borders
+$border-light-gray: 0.1rem solid $gray-light;
+$border-medium-gray: 0.1rem solid $gray-medium;
+$border-focus: 2px solid #d6e7f1;
+
+$border-input: $gray-medium;
+$border-input-hover: $gray-dark;
+$border-input-focus: $blue-dark;
+$border-input-error: $red-dark;
+$border-input-selected: $blue-dark;
+
+// placeholders
+$placeholder-input: $gray-medium;
+
+// shadows
+$button-secondary-focus-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+$button-primary-focus-shadow: 0 0 0 2px rgba(214,231,241, 1);
+$button-danger-focus-shadow: 0 0 0 2px rgba(246,232,228, 1);
+
+// layouts
+$layout-content-background-color: $gray-light;
+$layout-header-background-color: $white;
+$layout-footer-background-color: $white;
+
+// borders
+$border: $gray-light;
+$border-black: 0.1rem solid $black-medium;
+$border-black-medium: 0.3rem solid $black-medium;
+$border-black-large: 0.5rem solid $black-medium;
+$border-medium-grey: 0.1rem solid mix($gray-dark, white, 20%);
+$border-buy: 0.1rem solid $buy-color;
+$border-sell: 0.1rem solid $sell-color;
+
+// shadow
+$card-shadow: 0 0.1rem 0.2rem $black-shadow;
+$card-shadow-hover: 0 0 2rem $black-shadow-darker;
+$box-shadow-side: -4px -6px 6px 2px $black-shadow-darker;
+$box-shadow-bottom: -6px -5px 4px 4px $black-shadow-darker;
+$collapse-shadow: 0 0 3px 2px $black-shadow-light;
+$card-select-shadow: 0 0.25rem 0.5rem 0 $black-shadow-darker-2,
+  0 0.375rem 1.25rem 0 $black-shadow-darker-2;
+$buy-shadow: 0 0.1rem 0.2 0 $buy-color;
+$sell-shadow: 0 0.1rem 0.2rem 0 $sell-color;
+
+// highlight
+$list-highlight: rgba(18, 134, 195, 0.05);
+
+//Link
+$link-color: $blue-dark;
+$toggle-color: $blue-dark;
+
+//Listing Details
+$listing-details-arrow-before: rgba(130, 130, 130, 0.5);
+$listing-details-arrow-after: rgba(130, 130, 130, 0.8);
+
+//Tags
+$open-tag: $blue-dark;
+$rejected-tag: $red-dark;
+$withdrawn-tag: $gray-medium;
+$promoted-tag: $yellow-medium;
+
+//Price
+$price-color: $blue-dark;
+
+//Feature Icon
+$feature-icon: #28b3bb;
+$heart-red: $red-dark;
+
+// Calendar
+$calendar-cell-highlight: $blue-pale;
+
+
+
+
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Step-3---Buy---Features---Bedrooms-Copy" transform="translate(-276.000000, -270.000000)">
+            <g id="Group-14" transform="translate(278.000000, 272.000000)">
+                <g id="onebedroom_icon" fill="#FFFFFF" stroke="#BDBDBD">
+                    <g id="Group-11">
+                        <circle id="Oval-13-Copy-3" stroke-width="2.5" cx="60" cy="60" r="60"></circle>
+                    </g>
+                </g>
+                <g id="Group-10-Copy-3" transform="translate(41.000000, 43.000000)">
+                    <path d="M13.8099961,2.11133082 C8.05583106,-1.41593855 5.17874854,-0.523615398 5.17874854,4.78830028 C5.17874854,10.100216 5.17874854,14.2582809 5.17874854,17.2624951" id="Path-12" stroke="#BDBDBD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle-15" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" x="7.65499805" y="26.6437427" width="3.67874854" height="7.13124756" rx="1.83937427"></rect>
+                    <rect id="Rectangle-15-Copy" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" x="26.6437427" y="26.6437427" width="3.67874854" height="7.13124756" rx="1.83937427"></rect>
+                    <path d="M3.45249902,19.8192829 C3.78599171,27.3214218 8.30736682,31.0724912 17.0166244,31.0724912 C25.7258819,31.0724912 28.0929277,31.0724912 24.1177618,31.0724912 C31.0559141,29.2810687 34.5249902,25.5299992 34.5249902,19.8192829 C34.5249902,14.1085665 24.1674932,14.1085665 3.45249902,19.8192829 Z" id="Path-13" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF"></path>
+                    <polygon id="Path-14" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="18.9887446 1.83622563 12.0837466 0.799987793 13.1046922 7.69998789"></polygon>
+                    <path d="M16.3993704,-0.75 C17.3236026,-0.75 18.0124951,0.0766710042 18.0124951,1.03574971 L18.0124951,9.32174737 C18.0124951,10.2808261 17.3236026,11.1074971 16.3993704,11.1074971 C15.4751381,11.1074971 14.7862456,10.2808261 14.7862456,9.32174737 L14.7862456,1.03574971 C14.7862456,0.0766710042 15.4751381,-0.75 16.3993704,-0.75 Z" id="Rectangle-17" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" transform="translate(16.399370, 5.178749) rotate(42.000000) translate(-16.399370, -5.178749) "></path>
+                    <rect id="Rectangle-14" stroke="#BDBDBD" stroke-width="1.5" fill="#FFFFFF" x="0.75" y="16.2862456" width="36.4774893" height="3.67874854" rx="1.83937427"></rect>
+                    <rect id="Rectangle-3" fill="#FFFFFF" x="17.2624951" y="12.0837466" width="17.2624951" height="3.45249902"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,83 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .job-summary {
+    &-modal {
+      .ant-modal {
+        width: 48rem;
+      }
+    }
+
+    .ant-card {
+      padding: 0 !important;
+    }
+
+    .ant-card-body {
+      padding: 0;
+    }
+
+    .ant-card-meta {
+      padding: 3.5rem 4rem;
+    }
+
+    .ant-card-meta-title {
+      font-size: 2rem;
+      font-weight: $bold;
+
+      &::first-letter {
+        text-transform: uppercase;
+      }
+    }
+
+    .ant-card-meta-description {
+      font-size: 1.4rem;
+
+      span {
+        display: block;
+        font-weight: $bold;
+        color: $black-medium;
+        margin-top: 2rem;
+      }
+    }
+
+    .ant-avatar {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 2.5rem;
+
+      .anticon {
+        line-height: 5rem;
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .nobul {
+    .job-summary {
+      .ant-card-meta {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .ant-card-meta-title {
+        font-size: 1.6rem;
+      }
+
+      .ant-card-meta-description {
+        font-size: 1.2rem;
+
+        span {
+          font-size: 1.4rem;
+        }
+      }
+
+      .ant-card-meta-detail {
+        > div:not(:last-child) {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}

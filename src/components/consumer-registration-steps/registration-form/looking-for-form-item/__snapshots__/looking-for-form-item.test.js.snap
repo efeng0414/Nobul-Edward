@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LookingForFormItem Component Component Snapshot should match stored snapshot 1`] = `
+<div
+  className="consumer-registration-form-item"
+>
+  <div
+    className="ant-row ant-form-item"
+  >
+    <div
+      className="ant-form-item-control-wrapper"
+    >
+      <div
+        className="ant-form-item-control"
+      >
+        <span
+          className="ant-form-item-children"
+        >
+          <p
+            className="consumer-registration-paragraph"
+          >
+            Are you looking to buy or sell?
+          </p>
+          lookingFor
+          <div
+            className="ant-radio-group ant-radio-group-outline"
+          >
+            <label
+              className="ant-radio-wrapper"
+            >
+              <span
+                className="ant-radio"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className="ant-radio-input"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="radio"
+                  value="both"
+                />
+                <span
+                  className="ant-radio-inner"
+                />
+              </span>
+              <span>
+                Both
+              </span>
+            </label>
+            <label
+              className="ant-radio-wrapper"
+            >
+              <span
+                className="ant-radio"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className="ant-radio-input"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="radio"
+                  value="buy"
+                />
+                <span
+                  className="ant-radio-inner"
+                />
+              </span>
+              <span>
+                Buy
+              </span>
+            </label>
+            <label
+              className="ant-radio-wrapper"
+            >
+              <span
+                className="ant-radio"
+                style={Object {}}
+              >
+                <input
+                  checked={false}
+                  className="ant-radio-input"
+                  disabled={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  type="radio"
+                  value="sell"
+                />
+                <span
+                  className="ant-radio-inner"
+                />
+              </span>
+              <span>
+                Sell
+              </span>
+            </label>
+          </div>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

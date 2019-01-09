@@ -1,0 +1,122 @@
+@import "_colors.scss";
+@import "_fonts.scss";
+@import "_layouts.scss";
+
+// Grid system
+$grid-columns: 12;
+$grid-gutter-width: 2rem;
+
+// fonts
+$font-family: "Open Sans", sans-serif;
+$font-family-titles: "ITC Avant Garde Gothic W05 Dem";
+$font-size-base: 1.6rem;
+$font-size-lg: 2rem;
+$font-size-sm: 1.4rem;
+$line-height-base: $lineHeightRegular;
+
+// layout
+$layout-body-background: $layout-content-background-color;
+$layout-header-background: $layout-header-background-color;
+$layout-footer-background: $layout-footer-background-color;
+$layout-header-height: auto;
+$layout-header-padding: 0 3rem;
+$layout-footer-padding: 0 3rem;
+
+// link
+$link-color: $black-medium;
+$link-hover-color: $blue-dark;
+$link-active-color: $blue-dark;
+$menu-highlight-color: $blue-dark;
+$link-decoration: none;
+$link-hover-decoration: none;
+
+
+// Side menu
+$layout-zero-trigger-width: 3.5rem;
+$layout-zero-trigger-height: 3.5rem;
+
+// form
+$label-required-color: $red-dark;
+$label-color: $gray-dark;
+$form-item-margin-bottom: 2rem;
+$form-vertical-label-padding: 0 0 1rem;
+
+// The background colors for active and hover states for things like
+// list items or table cells.
+$item-active-bg: $list-highlight;
+$item-hover-bg: $list-highlight;
+
+// Slider
+$slider-rail-background-color: $gray-light;
+$slider-rail-background-color-hover: $gray-light;
+$slider-track-background-color:       $black-medium;
+$slider-track-background-color-hover: $black-medium;
+$slider-handle-color:                 $black-medium;
+$slider-handle-color-hover:           $black-medium;
+$slider-handle-color-focus:           tint($black-medium, 20%);
+$slider-handle-color-focus-shadow:    tint($black-medium, 50%);
+$slider-handle-color-tooltip-open:    $black-medium;
+$slider-dot-border-color:             $black-medium;
+$slider-dot-border-color-active:      tint($black-medium, 50%);
+
+$tabs-hover-color: $black-medium;
+
+// ***************************************************
+
+// TODO: update variables above this to new style guide
+// move the new ones after this comment
+
+// ***************************************************
+
+$primary-color: $blue-dark;
+$error-color: $red-dark;
+
+// Buttons
+$btn-font-weight: $regular;
+$btn-border-radius-base: 1.7rem;
+$btn-border-radius-sm: 1.7rem;
+
+// and design default is our primary button
+$btn-default-color: $button-secondary-text-color;
+$btn-default-bg: $button-secondary-bg-color;
+$btn-default-border: $button-secondary-border-color;
+
+// ant design default is our secondary button
+$btn-primary-color: $button-primary-text-color;
+$btn-primary-bg: $button-primary-bg-color;
+$btn-primary-border: $button-primary-border-color;
+
+$btn-danger-color: $button-danger-text-color;
+$btn-danger-bg: $button-danger-bg-color;
+$btn-danger-border: $button-danger-border-color;
+
+$btn-padding-base: 0;
+$btn-font-size-lg: $button-large;
+$btn-font-size-sm: $button-small;
+$btn-padding-lg: 0;
+$btn-padding-sm: 0;
+
+$btn-height-base: 3.5rem;
+$btn-height-lg: 3.5rem;
+$btn-height-sm: 2.5rem;
+
+// input
+$input-height-base: 3.6rem;
+$input-height-lg: 3.6rem;
+$input-height-sm: 3.6rem;
+$input-padding-horizontal-base: 1.5rem;
+$input-padding-vertical-base: 0;
+
+$input-placeholder-color: $placeholder-input;
+$input-color: $black-medium;
+$input-border-color: $border-input;
+$input-hover-border-color: $border-input-hover;
+$input-disabled-bg: $gray-light;
+
+
+// Checkbox
+$checkbox-color: $white;
+$checkbox-check-color : $white;
+
+// Radio
+$radio-dot-color: $primary-color;

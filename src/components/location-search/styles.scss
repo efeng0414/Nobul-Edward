@@ -1,0 +1,46 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .location-search-autocomplete {
+    position: relative;
+
+    &-input {
+      margin-bottom: 0.3rem;
+      border-radius: 0;
+      height: $autocomplete-height;
+    }
+
+    &-list {
+      position: absolute;
+      left: 0;
+      z-index: 50;
+      width: 100%;
+      background-color: $white;
+
+      &-item {
+        line-height: 2.5rem;
+        padding: 1rem 2rem;
+        color: $gray-dark;
+
+        .anticon-compass {
+          margin-right: 1rem;
+        }
+
+        &.active,
+        &:hover {
+          background-color: $list-highlight;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .nobul {
+    .location-search-autocomplete {
+      &-input {
+        height: $mobile-autocomplete-height;
+      }
+    }
+  }
+}

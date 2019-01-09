@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BoxIcon Component Snapshot should match existing snapshot 1`] = `
+<div
+  className="box-icon-home"
+>
+  <img
+    className="primary-icon"
+    src=""
+  />
+  <img
+    className="hover-icon"
+    src=""
+  />
+  <img
+    className="check-icon"
+    src={
+      Object {
+        "default": "file-mock",
+      }
+    }
+  />
+</div>
+`;

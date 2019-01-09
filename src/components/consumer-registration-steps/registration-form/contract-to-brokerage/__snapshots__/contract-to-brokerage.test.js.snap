@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContractToBrokerageFormItem Component Snapshot should match stored snapshot 1`] = `
+<div>
+  <div
+    className="consumer-registration-form-item contract-brokerage"
+  >
+    <div
+      className="ant-row ant-form-item"
+    >
+      <div
+        className="ant-form-item-control-wrapper"
+      >
+        <div
+          className="ant-form-item-control"
+        >
+          <span
+            className="ant-form-item-children"
+          >
+            <p
+              className="consumer-registration-paragraph"
+            >
+              Are you currently under contract to a brokerage?
+            </p>
+            <div
+              className="ant-radio-group ant-radio-group-outline"
+            >
+              <label
+                className="ant-radio-wrapper"
+              >
+                <span
+                  className="ant-radio"
+                  style={Object {}}
+                >
+                  <input
+                    checked={false}
+                    className="ant-radio-input"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    type="radio"
+                    value={false}
+                  />
+                  <span
+                    className="ant-radio-inner"
+                  />
+                </span>
+                <span>
+                  No
+                </span>
+              </label>
+              <label
+                className="ant-radio-wrapper"
+              >
+                <span
+                  className="ant-radio"
+                  style={Object {}}
+                >
+                  <input
+                    checked={false}
+                    className="ant-radio-input"
+                    disabled={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    type="radio"
+                    value={true}
+                  />
+                  <span
+                    className="ant-radio-inner"
+                  />
+                </span>
+                <span>
+                  Yes
+                </span>
+              </label>
+            </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

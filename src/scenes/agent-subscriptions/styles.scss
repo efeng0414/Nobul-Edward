@@ -1,0 +1,19 @@
+@import "../../styles/nobulVariables.scss";
+
+.subscription {
+  &-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .subscription {
+    &-cards {
+      flex-direction: column;
+    }
+  }
+}

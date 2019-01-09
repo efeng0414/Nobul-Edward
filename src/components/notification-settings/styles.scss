@@ -1,0 +1,62 @@
+@import "../../styles/variables";
+
+.consumer-notification-settings {
+  display: flex;
+  flex-wrap: wrap;
+
+  .settings-field-item {
+    width: 100%;
+    background: $white;
+    padding: 1.5rem;
+    margin-bottom: 0.2rem;
+
+    .label {
+      font-size: 1.4rem;
+      color: $gray-dark;
+      i {
+        margin-left: 0.5rem;
+      }
+    }
+
+    .value {
+      margin-top: 1rem;
+      margin-bottom: 0;
+      font-weight: $bold;
+    }
+
+    &.switch-field-item {
+      .switch {
+        float: right;
+        top: 1.2rem;
+        position: relative;
+        right: 1rem;
+      }
+      padding-bottom: 2.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: $tablet-max) {
+  .consumer-notification-settings {
+    flex-wrap: nowrap;
+    display: block;
+
+    .settings-field-item {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      &-container {
+        display: block;
+        padding-right: 2rem;
+      }
+      .switch {
+        margin-left: 2rem;
+      }
+
+      .subtext {
+        color: $gray-dark;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="13px" viewBox="0 0 10 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>geo icon light greymini</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Map-Filter-expanded" transform="translate(-538.000000, -336.000000)" stroke="#D8D8D8">
+            <g id="Group-14" transform="translate(391.000000, 275.000000)">
+                <g id="Group-7" transform="translate(96.000000, 58.000000)">
+                    <g id="geo-icon-light-greymini" transform="translate(50.000000, 2.000000)">
+                        <g id="geo-icon-copy-3" transform="translate(2.000000, 4.000000)">
+                            <path d="M0.599999905,4.89000034 C1.84809012,6.53467611 2.74134815,7.62833111 3.27977399,8.17096536 C4.08741275,8.98491672 3.80734267,8.98491672 4.61810117,8.17096536 C5.15860683,7.62833111 6.08923972,6.53467611 7.40999985,4.89000034 L0.599999905,4.89000034 Z" id="Path-11" fill="#D8D8D8"></path>
+                            <circle id="Oval-2" stroke-width="3" cx="4" cy="2" r="3.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

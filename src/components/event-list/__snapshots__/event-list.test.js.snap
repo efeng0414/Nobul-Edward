@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventList Component Snapshot should match stored snapshot 1`] = `
+<ActivityIndicator
+  spinning={true}
+>
+  <EventListTitle
+    condition={true}
+    eventCount={1}
+    title="Buyer"
+  />
+  <div
+    className="event-list-container"
+  >
+    <Connect(EventListItem)
+      eventId="abc123"
+      key="abc123"
+      location=""
+      startTime={9999999999999}
+      status="accepted"
+    />
+  </div>
+</ActivityIndicator>
+`;

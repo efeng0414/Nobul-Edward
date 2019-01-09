@@ -1,0 +1,99 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul .listings-filter {
+
+  .ant-form-item-label label {
+    color: $gray-dark;
+  }
+  
+  .ant-radio-button-wrapper:first-child{
+    border-radius:0.3rem 0 0 0.3rem;
+  }
+  .ant-radio-button-wrapper:last-child{
+    border-radius:0 0.3rem 0.3rem 0;
+  }
+  .ant-radio-button-wrapper{
+    line-height:3.2rem;
+    height:3.2rem;
+    border-color:$gray-light;
+    color:$black-medium;
+    
+    &-checked {
+      background-color:$yellow-medium;
+      color:$black-medium;
+      box-shadow:none;
+    }
+  }
+  .dual-price-range{
+    .ant-slider{
+      margin-top: 2.5rem;
+
+      &-track{
+        background-color:$black-medium;
+      }
+      &-handle{
+        border-color:$black-medium;
+      }
+      &-mark-text{
+        font-size:1.4rem;
+        &:first-of-type {
+          transform: translateY(-4rem);
+        }
+      }
+    }
+  }
+
+  .apply-button {
+    position: relative;
+    width:100%;
+    border-radius:0;
+    position:absolute;
+    bottom:0rem;
+    padding:0rem;
+    background-color: $yellow-medium;
+    border: none;
+    color: $black-medium;
+  }
+
+  .checkbox-group {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .location-search-autocomplete{
+    &-input{
+      width:100%;
+      border: 1px solid $gray-light;
+    }
+    
+    &-list-item{
+      padding: 1rem 1rem;
+      font-size:1.4rem;
+    }
+  }
+  .ant-form-item:last-of-type{
+    margin-bottom:4rem;
+    padding-bottom:3rem;
+  }
+  .ant-checkbox-wrapper,
+  .ant-checkbox-group-item{
+    display:block;
+  }
+}
+
+.listings-filter__select-price-range {
+  width: 80%;
+}
+.listings-filter__select-price-range .ant-slider-mark-text-active {
+  width: auto!important;
+  transform: translateX(-45%);
+  margin-left: 0!important;
+  position: absolute;
+}
+
+@media screen and (max-width: $tablet-max) {
+  .browse-listing-map-drawer .apply-button {
+    margin-left: -24px;  // pixels??!! YES. .ant-drawer-body has a padding value of 24px we need to get around. Which only happens on tablet/mobile.
+  }
+}

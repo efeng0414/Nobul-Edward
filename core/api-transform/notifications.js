@@ -1,0 +1,13 @@
+export const CREATED_AT = "createdAt";
+export const MESSAGE = "message";
+export const STATUS = "status";
+export const TYPE = "type";
+export const UPDATED_AT = "updatedAt";
+export const NOTIFICATIONS = "notifications";
+export const TITLE = "title";
+export const URL_PATH = "urlPath";
+export const FROM = "from";
+export const ACTION = "action";
+export const OBJECT = "object";
+export const VISIBLE_TO_USER = "visibleToUser";
+export const JOB_ID = "jobId";

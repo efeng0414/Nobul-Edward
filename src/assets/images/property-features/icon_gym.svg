@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="124px" viewBox="0 0 124 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>gym</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1258.000000, -219.000000)">
+            <g id="gym" transform="translate(1260.000000, 221.000000)">
+                <circle id="Oval-13-Copy-7" stroke="#BDBDBD" stroke-width="2.5" fill="#FFFFFF" cx="60" cy="60" r="60"></circle>
+                <text id="GYM" font-family="OpenSans-Bold, Open Sans" font-size="12" font-weight="bold" fill="#BDBDBD">
+                    <tspan x="45.2539062" y="95">GYM</tspan>
+                </text>
+                <g id="Group-15" transform="translate(59.000000, 50.000000) rotate(43.000000) translate(-59.000000, -50.000000) translate(32.000000, 35.000000)" fill="#FFFFFF" stroke="#BDBDBD" stroke-width="1.5">
+                    <rect id="Rectangle-9" x="15.87" y="11.55" width="22.26" height="4.98" rx="1"></rect>
+                    <rect id="Rectangle-9-Copy" transform="translate(41.040000, 14.580000) rotate(90.000000) translate(-41.040000, -14.580000) " x="27.21" y="12.09" width="27.66" height="4.98" rx="2"></rect>
+                    <rect id="Rectangle-9-Copy-4" transform="translate(12.960000, 14.580000) rotate(90.000000) translate(-12.960000, -14.580000) " x="-0.87" y="12.09" width="27.66" height="4.98" rx="2"></rect>
+                    <rect id="Rectangle-9-Copy-2" transform="translate(46.440000, 14.040000) rotate(90.000000) translate(-46.440000, -14.040000) " x="36.39" y="11.55" width="20.1" height="4.98" rx="2"></rect>
+                    <rect id="Rectangle-9-Copy-5" transform="translate(8.241998, 14.771354) rotate(90.000000) translate(-8.241998, -14.771354) " x="-1.80800164" y="12.2813537" width="20.1" height="4.98" rx="2"></rect>
+                    <rect id="Rectangle-9-Copy-3" transform="translate(51.300000, 14.040000) rotate(90.000000) translate(-51.300000, -14.040000) " x="45.57" y="12.09" width="11.46" height="3.9" rx="1.95"></rect>
+                    <rect id="Rectangle-9-Copy-6" transform="translate(3.381998, 14.771354) rotate(90.000000) translate(-3.381998, -14.771354) " x="-2.34800164" y="12.8213537" width="11.46" height="3.9" rx="1.95"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

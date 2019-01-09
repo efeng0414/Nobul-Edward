@@ -1,0 +1,199 @@
+
+/*****************************
+
+  Registration image refs
+
+******************************/
+$registrationImageConsumer-Toronto-1: "../../assets/images/regions/Toronto/consumer_registration_1.jpg";
+$registrationImageConsumer-Toronto-2: "../../assets/images/regions/Toronto/consumer_registration_2.jpg";
+$registrationImageConsumer-Toronto-3: "../../assets/images/regions/Toronto/consumer_registration_3.jpg";
+
+$registrationImageConsumer-Vancouver-1: "../../assets/images/regions/Vancouver/vancouver_1.jpg";
+$registrationImageConsumer-Vancouver-2: "../../assets/images/regions/Vancouver/vancouver_2.jpg";
+$registrationImageConsumer-Vancouver-3: $registrationImageConsumer-Vancouver-1;
+
+$registrationImageConsumer-Calgary-1: "../../assets/images/regions/Calgary/calgary_1.jpg";
+$registrationImageConsumer-Calgary-2: "../../assets/images/regions/Calgary/calgary_2.jpg";
+$registrationImageConsumer-Calgary-3: $registrationImageConsumer-Calgary-1;
+
+$registrationImageConsumer-Montreal-1: "../../assets/images/regions/Montreal/montreal_1.jpg";
+$registrationImageConsumer-Montreal-2: $registrationImageConsumer-Montreal-1;
+$registrationImageConsumer-Montreal-3: $registrationImageConsumer-Montreal-1;
+
+$registrationImageConsumer-California-1: "../../assets/images/regions/States/california_1.jpg";
+$registrationImageConsumer-California-2: $registrationImageConsumer-California-1;
+$registrationImageConsumer-California-3: $registrationImageConsumer-California-1;
+
+$registrationImageConsumer-Chicago-1: "../../assets/images/regions/States/chicago.jpg";
+$registrationImageConsumer-Chicago-2: $registrationImageConsumer-Chicago-1;
+$registrationImageConsumer-Chicago-3: $registrationImageConsumer-Chicago-1;
+
+$registrationImageConsumer-Dallas-1: "../../assets/images/regions/States/dallas_1.jpg";
+$registrationImageConsumer-Dallas-2: "../../assets/images/regions/States/dallas_2.jpg";
+$registrationImageConsumer-Dallas-3: $registrationImageConsumer-Dallas-1;
+
+$registrationImageConsumer-Georgia-1: "../../assets/images/regions/States/georgia_1.jpg";
+$registrationImageConsumer-Georgia-2: $registrationImageConsumer-Georgia-1;
+$registrationImageConsumer-Georgia-3: $registrationImageConsumer-Georgia-1;
+
+$registrationImageConsumer-SanFrancisco-1: "../../assets/images/regions/States/san_francisco_1.jpg";
+$registrationImageConsumer-SanFrancisco-2: $registrationImageConsumer-SanFrancisco-1;
+$registrationImageConsumer-SanFrancisco-3: $registrationImageConsumer-SanFrancisco-1;
+
+
+$registrationImageConsumer-Default-1: $registrationImageConsumer-Toronto-1;
+$registrationImageConsumer-Default-2: $registrationImageConsumer-Toronto-2;
+$registrationImageConsumer-Default-3: $registrationImageConsumer-Toronto-3;
+
+/*****************************
+
+  Default images
+
+******************************/
+.consumer-registration-img-1, .header-step-1 {
+    background-image: url($registrationImageConsumer-Default-1);
+}
+.consumer-registration-img-2, .header-step-2 {
+    background-image: url($registrationImageConsumer-Default-2);
+}
+.consumer-registration-img-3, .header-step-3 {
+    background-image: url($registrationImageConsumer-Default-3);
+}
+
+
+/*****************************
+
+  Country images - shown if state not available
+
+******************************/
+.location-country-ca {
+    .consumer-registration-img-1, .header-step-1 {
+        // background-image: url();
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        // background-image: url();
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        // background-image: url();
+    }
+}
+
+
+/*****************************
+
+  State images - shown if city not available
+
+******************************/
+.location-state-ga {
+    .consumer-registration-img-1, .header-step-1 {
+        background-image: url($registrationImageConsumer-Georgia-1);
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        background-image: url($registrationImageConsumer-Georgia-2);
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        background-image: url($registrationImageConsumer-Georgia-3);
+    }
+}
+
+.location-state-ca {
+    .consumer-registration-img-1, .header-step-1 {
+        background-image: url($registrationImageConsumer-California-1);
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        background-image: url($registrationImageConsumer-California-2);
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        background-image: url($registrationImageConsumer-California-3);
+    }
+}
+
+
+/*****************************
+
+  City images - shown if available
+
+******************************/
+.location-city-toronto {
+    .consumer-registration-img-1, .header-step-1 {
+        background-image: url($registrationImageConsumer-Toronto-1);
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        background-image: url($registrationImageConsumer-Toronto-2);
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        background-image: url($registrationImageConsumer-Toronto-3);
+    }
+}
+
+.location-city-vancouver {
+    .consumer-registration-img-1, .header-step-1 {
+        background-image: url($registrationImageConsumer-Vancouver-1);
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        background-image: url($registrationImageConsumer-Vancouver-2);
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        background-image: url($registrationImageConsumer-Vancouver-3);
+    }
+}
+
+.location-city-calgary {
+    .consumer-registration-img-1, .header-step-1 {
+        background-image: url($registrationImageConsumer-Calgary-1);
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        background-image: url($registrationImageConsumer-Calgary-2);
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        background-image: url($registrationImageConsumer-Calgary-3);
+    }
+}
+
+.location-city-montreal {
+    .consumer-registration-img-1, .header-step-1 {
+        background-image: url($registrationImageConsumer-Montreal-1);
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        background-image: url($registrationImageConsumer-Montreal-2);
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        background-image: url($registrationImageConsumer-Montreal-3);
+    }
+}
+
+.location-city-chicago {
+    .consumer-registration-img-1, .header-step-1 {
+        background-image: url($registrationImageConsumer-Chicago-1);
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        background-image: url($registrationImageConsumer-Chicago-2);
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        background-image: url($registrationImageConsumer-Chicago-3);
+    }
+}
+
+.location-city-dallas {
+    .consumer-registration-img-1, .header-step-1 {
+        background-image: url($registrationImageConsumer-Dallas-1);
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        background-image: url($registrationImageConsumer-Dallas-2);
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        background-image: url($registrationImageConsumer-Dallas-3);
+    }
+}
+
+.location-city-sanfrancisco {
+    .consumer-registration-img-1, .header-step-1 {
+        background-image: url($registrationImageConsumer-SanFrancisco-1);
+    }
+    .consumer-registration-img-2, .header-step-2 {
+        background-image: url($registrationImageConsumer-SanFrancisco-2);
+    }
+    .consumer-registration-img-3, .header-step-3 {
+        background-image: url($registrationImageConsumer-SanFrancisco-3);
+    }
+}

@@ -1,0 +1,18 @@
+@import "../../styles/nobulVariables.scss";
+
+.nobul {
+  .learning-center {
+    padding: 1.5rem;
+    border: none;
+    box-shadow: $card-shadow;
+
+    .ant-card-body {
+      padding: 1rem 0 0;
+    }
+
+    p {
+      margin-bottom: 0;
+      font-size: 1.4rem;
+    }
+  }
+}

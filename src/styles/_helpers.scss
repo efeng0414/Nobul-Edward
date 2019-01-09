@@ -1,0 +1,18 @@
+//Text alignment
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+.text-left { text-align: left; }
+
+//Flex
+.flex.flex { display: flex; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+.flex-item { flex: 1;}
+.flex-center {
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+//Dimensions
+.full-width { width: 100%; }
+.full-height { height: 100%; }

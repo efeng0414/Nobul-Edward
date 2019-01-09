@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="140px" height="182px" viewBox="0 0 140 182" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>other_grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="70" cy="70" r="55"></circle>
+        <filter x="-12.7%" y="-9.1%" width="125.5%" height="125.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="45" y="145" width="50" height="25" rx="4"></rect>
+        <filter x="-28.0%" y="-40.0%" width="156.0%" height="212.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="other_grey">
+            <circle id="Oval-9-Copy-4" fill="#FFFFFF" cx="70" cy="70" r="70"></circle>
+            <g id="Oval-Copy-3" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+            <path d="M107.1756,73.2054 L105.4398,70.88 C105.409,70.825 105.3892,70.7634 105.3452,70.7128 L104.3728,69.4456 L98.6044,61.7104 L101.3148,61.7104 C103.1804,61.7104 104.6918,60.1968 104.6918,58.3334 C104.6918,58.2696 104.6874,58.208 104.6786,58.1486 C104.6654,58.0848 103.5236,51.7972 95.1174,51.7972 L82.1572,51.7972 L82.1572,49.5466 C82.1572,48.7986 81.5566,48.1936 80.8108,48.1936 L72.6972,48.1936 C71.9536,48.1936 71.3486,48.7986 71.3486,49.5466 L71.3486,51.7972 L58.7316,51.7972 L58.7316,47.296 C58.7316,46.5458 58.1288,45.943 57.3808,45.943 L42.06,45.943 C41.3142,45.943 40.7092,46.5458 40.7092,47.296 L40.7092,51.7994 L33.7264,51.7994 C33.1038,51.7994 32.5978,52.3032 32.5978,52.928 L32.5978,84.4694 C32.5978,85.092 33.1016,85.598 33.7264,85.598 L43.05,85.598 C43.5802,88.4272 46.0618,90.581 49.045,90.581 C52.0282,90.581 54.5076,88.4272 55.0422,85.598 L85.411,85.598 C85.9434,88.4272 88.4228,90.581 91.406,90.581 C94.3892,90.581 96.8664,88.4272 97.4032,85.598 L104.364,85.598 C106.454,85.598 107.4066,83.6708 107.4066,81.88 L107.4066,73.883 C107.4,73.6344 107.323,73.4012 107.1756,73.2054 Z" id="Shape" fill="#7C7C7C" fill-rule="nonzero"></path>
+            <polygon id="Shape" fill="#7C7C7C" fill-rule="nonzero" points="102.1662 70.275 91.1772 70.275 91.1772 61.7104 95.5816 61.7104"></polygon>
+            <rect id="Rectangle-path" fill="#7C7C7C" fill-rule="nonzero" x="74.0546" y="50.8952" width="5.4076" height="1"></rect>
+            <rect id="Rectangle-path" fill="#7C7C7C" fill-rule="nonzero" x="43.413" y="48.6446" width="12.617" height="3.1548"></rect>
+            <circle id="Oval" fill="#7C7C7C" fill-rule="nonzero" cx="49.0494" cy="84.4694" r="3.8544"></circle>
+            <rect id="Rectangle-path" fill="#7C7C7C" fill-rule="nonzero" x="69.1002" y="61.7104" width="7.6582" height="21.6304"></rect>
+            <circle id="Oval" fill="#7C7C7C" fill-rule="nonzero" cx="91.4038" cy="84.4694" r="3.8544"></circle>
+            <path d="M105.1494,81.8712 C105.1494,81.8844 105.123,83.3408 104.3618,83.3408 L97.401,83.3408 C96.8708,80.5094 94.3914,78.3578 91.4038,78.3578 C88.4206,78.3578 85.9434,80.5094 85.4088,83.3408 L79.0112,83.3408 L79.0112,60.5862 C79.0112,59.968 78.5074,59.4598 77.8848,59.4598 L67.9716,59.4598 C67.349,59.4598 66.8452,59.9636 66.8452,60.5862 L66.8452,83.343 L55.04,83.343 C54.5098,80.5116 52.0304,78.36 49.0428,78.36 C46.0596,78.36 43.5824,80.5116 43.0478,83.343 L34.8462,83.343 L34.8462,54.0522 L95.1174,54.0522 C101.1212,54.0522 102.2784,57.7834 102.4346,58.428 C102.3884,59.0044 101.9,59.4598 101.3082,59.4598 L96.356,59.4598 C96.3186,59.4598 96.29,59.4708 96.2526,59.473 C96.2108,59.4686 96.1712,59.4598 96.1272,59.4598 L90.042,59.4598 C89.4216,59.4598 88.9156,59.9636 88.9156,60.5862 L88.9156,71.4014 C88.9156,72.024 89.4194,72.5278 90.042,72.5278 L103.8514,72.5278 L105.1362,74.2548 L105.1362,81.8734 L105.1494,81.8734 L105.1494,81.8712 Z" id="Shape" fill="#7C7C7C" fill-rule="nonzero"></path>
+            <rect id="Rectangle-path" fill="#D8D8D8" fill-rule="nonzero" x="43.413" y="48.6446" width="12.617" height="3.1548"></rect>
+            <rect id="Rectangle-path" fill="#A3A3A3" fill-rule="nonzero" x="69.1002" y="61.7104" width="7.6582" height="21.6304"></rect>
+            <polygon id="Shape" fill="#A3A3A3" fill-rule="nonzero" points="91.1772 61.7104 91.1772 70.275 102.1662 70.275 95.5816 61.7104"></polygon>
+            <rect id="Rectangle-path" fill="#D8D8D8" fill-rule="nonzero" x="74.0546" y="50.8952" width="5.4076" height="1"></rect>
+            <circle id="Oval" fill="#A3A3A3" fill-rule="nonzero" cx="49.0494" cy="84.4694" r="3.8544"></circle>
+            <circle id="Oval" fill="#A3A3A3" fill-rule="nonzero" cx="91.4038" cy="84.4694" r="3.8544"></circle>
+            <path d="M90.0486,72.5256 C89.4282,72.5256 88.9222,72.0218 88.9222,71.397 L88.9222,60.584 C88.9222,59.9614 89.426,59.4554 90.0486,59.4554 L96.1338,59.4554 C96.1778,59.4554 96.2174,59.4642 96.2592,59.4686 C96.2966,59.4664 96.3252,59.4554 96.3626,59.4554 L101.317,59.4554 C101.9088,59.4554 102.3906,59 102.4434,58.4214 C102.2872,57.7768 101.1278,54.0478 95.1262,54.0478 L34.8506,54.0478 L34.8506,83.3342 L43.0522,83.3342 C43.5824,80.5028 46.0618,78.3512 49.0494,78.3512 C52.0326,78.3512 54.5098,80.5028 55.0444,83.3342 L66.8474,83.3342 L66.8474,60.5862 C66.8474,59.968 67.3512,59.4598 67.976,59.4598 L77.8892,59.4598 C78.5118,59.4598 79.0178,59.9636 79.0178,60.5862 L79.0178,83.343 L85.4132,83.343 C85.9434,80.5116 88.4228,78.36 91.4104,78.36 C94.3936,78.36 96.8708,80.5116 97.4054,83.343 L104.3662,83.343 C105.1318,83.343 105.1516,81.8866 105.1516,81.8734 L105.1516,74.2548 L103.8668,72.5278 L90.0486,72.5278 L90.0486,72.5256 Z" id="Shape" fill="#D8D8D8" fill-rule="nonzero"></path>
+            <path d="M60.3112,59.4598 L49.5004,59.4598 L49.0494,59.4598 L38.2342,59.4598 C37.6116,59.4598 37.1056,59.9636 37.1056,60.5862 L37.1056,70.0528 C37.1056,70.671 37.6094,71.1792 38.2342,71.1792 L49.0494,71.1792 L49.5004,71.1792 L60.3112,71.1792 C60.9338,71.1792 61.442,70.6754 61.442,70.0528 L61.442,60.5862 C61.4354,59.9636 60.9338,59.4598 60.3112,59.4598 Z M47.9208,68.922 L39.3584,68.922 L39.3584,61.717 L47.9208,61.717 L47.9208,68.922 Z M59.1848,68.922 L50.6202,68.922 L50.6202,61.717 L59.1848,61.717 L59.1848,68.922 Z" id="Shape" fill="#7C7C7C" fill-rule="nonzero"></path>
+            <rect id="Rectangle-path" fill="#A3A3A3" fill-rule="nonzero" x="50.6202" y="61.7104" width="8.5646" height="7.2072"></rect>
+            <rect id="Rectangle-path" fill="#A3A3A3" fill-rule="nonzero" x="39.3584" y="61.7104" width="8.5624" height="7.2072"></rect>
+            <path d="M74.0546,75.6826 C74.5562,75.6826 74.9566,75.2756 74.9566,74.7806 L74.9566,72.5278 C74.9566,72.0306 74.5496,71.6302 74.0546,71.6302 C73.5596,71.6302 73.1548,72.035 73.1548,72.5278 L73.1548,74.7806 C73.1548,75.2756 73.5574,75.6826 74.0546,75.6826 Z" id="Shape" fill="#7C7C7C" fill-rule="nonzero"></path>
+            <circle id="Oval" fill="#D8D8D8" fill-rule="nonzero" cx="49.0494" cy="84.4694" r="2.332"></circle>
+            <circle id="Oval" fill="#D8D8D8" fill-rule="nonzero" cx="91.4038" cy="84.4694" r="2.332"></circle>
+            <g id="Group" transform="translate(28.200000, 89.800000)" fill="#7C7C7C" fill-rule="nonzero">
+                <g id="Shape">
+                    <path d="M33.3102,2.9788 L2.519,2.9788 C1.914,2.9788 1.419,2.486 1.419,1.8788 C1.419,1.2738 1.914,0.7788 2.519,0.7788 L33.3102,0.7788 C33.9174,0.7788 34.4102,1.2738 34.4102,1.8788 C34.4102,2.486 33.9174,2.9788 33.3102,2.9788 Z"></path>
+                    <path d="M81.719,2.9788 L50.9256,2.9788 C50.3184,2.9788 49.8256,2.486 49.8256,1.8788 C49.8256,1.2738 50.3184,0.7788 50.9256,0.7788 L81.7168,0.7788 C82.3218,0.7788 82.8168,1.2738 82.8168,1.8788 C82.819,2.486 82.3262,2.9788 81.719,2.9788 Z"></path>
+                </g>
+                <path d="M45.8216,2.9788 L37.7784,2.9788 C37.1734,2.9788 36.6784,2.486 36.6784,1.8788 C36.6784,1.2738 37.1734,0.7788 37.7784,0.7788 L45.8216,0.7788 C46.4266,0.7788 46.9216,1.2738 46.9216,1.8788 C46.9216,2.486 46.4288,2.9788 45.8216,2.9788 Z" id="Shape"></path>
+            </g>
+            <g id="Rectangle-2-Copy-7">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <text id="Other" font-family="OpenSans-Regular, Open Sans" font-size="12" font-weight="normal" fill="#7C7C7C">
+                <tspan x="54.2109375" y="162">Other</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

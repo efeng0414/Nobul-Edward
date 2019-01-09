@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "Nobul",
+      "exec_mode": "fork_mode",
+      "script": "dist/server.js",
+      "watch": ["dist"]
+    }
+  ]
+}

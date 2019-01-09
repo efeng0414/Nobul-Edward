@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AgentHome Container Snapshot should match stored snapshot 1`] = `
+<div
+  className="background home-page "
+  style={
+    Object {
+      "backgroundColor": "",
+      "backgroundImage": "url([object Object])",
+    }
+  }
+>
+  <div
+    className="background-content"
+  >
+    <h1
+      className="homepage-title"
+    >
+      Let’s get started growing your business!
+    </h1>
+    <div
+      className="home-actions"
+    >
+      <div
+        className="box box-home"
+        onClick={[Function]}
+      >
+        <div
+          className="box-icon "
+        >
+          <div
+            className="box-icon-home"
+          >
+            <img
+              className="primary-icon"
+              src={
+                Object {
+                  "default": "file-mock",
+                }
+              }
+            />
+            <img
+              className="hover-icon"
+              src={
+                Object {
+                  "default": "file-mock",
+                }
+              }
+            />
+            <img
+              className="check-icon"
+              src={
+                Object {
+                  "default": "file-mock",
+                }
+              }
+            />
+          </div>
+        </div>
+        <h2>
+          Create a Standard Proposal
+        </h2>
+        <p>
+          Tell prospective clients how you would serve them
+        </p>
+      </div>
+      <div
+        className="box box-home"
+        onClick={[Function]}
+      >
+        <div
+          className="box-icon "
+        >
+          <div
+            className="box-icon-home"
+          >
+            <img
+              className="primary-icon"
+              src={
+                Object {
+                  "default": "file-mock",
+                }
+              }
+            />
+            <img
+              className="hover-icon"
+              src={
+                Object {
+                  "default": "file-mock",
+                }
+              }
+            />
+            <img
+              className="check-icon"
+              src={
+                Object {
+                  "default": "file-mock",
+                }
+              }
+            />
+          </div>
+        </div>
+        <h2>
+          Browse Marketplace
+        </h2>
+        <p>
+          Find prospective clients
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ConsumerProposalDetailsButtonContainer Component Snapshot should matched stored snapshot 1`] = `
+<div
+  className="accept-decline-buttons"
+>
+  <div
+    className="accept-decline-buttons__accept"
+  >
+    <button
+      className="ant-btn decline-button ant-btn-lg"
+      onClick={[Function]}
+      type="button"
+    >
+      <span>
+        Decline
+      </span>
+    </button>
+  </div>
+  <div
+    className="accept-decline-buttons__decline"
+  >
+    <button
+      className="ant-btn accept-button ant-btn-primary ant-btn-lg"
+      onClick={[Function]}
+      type="button"
+    >
+      <span>
+        Accept
+      </span>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,17 @@
+@import "../../styles/nobulVariables.scss";
+
+.homepage-title.homepage-title {  // For stupid specificity.
+    color: white;
+    margin-bottom: 8rem;
+}
+
+
+@media screen and (max-width: $tablet-max) {
+    .homepage-title.homepage-title {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 5rem;
+        font-size: 2.5rem;
+        margin-top: 5rem;
+    }
+}
