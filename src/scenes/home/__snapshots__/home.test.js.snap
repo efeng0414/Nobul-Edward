@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component Component Snapshot should match existing snapshot 1`] = `
+<div>
+  Hellow World!
+</div>
+`;
