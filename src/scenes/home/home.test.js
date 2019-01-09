@@ -2,6 +2,7 @@ import React from "react";
 import renderer from "react-test-renderer";
 import Home from "./index";
 
+// Tesing
 describe("Home Component", () => {
   const componentJSX = <Home />;
 
