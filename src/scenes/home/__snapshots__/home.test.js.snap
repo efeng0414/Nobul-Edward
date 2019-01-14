@@ -2,6 +2,6 @@
 
 exports[`Home Component Component Snapshot should match existing snapshot 1`] = `
 <div>
-  Hellow World from Edward at 1:36 pm!
+  Hello World from Edward at 2:31 pm!
 </div>
 `;

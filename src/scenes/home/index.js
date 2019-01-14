@@ -1,7 +1,7 @@
 import React from "react";
 
 const Home = () => {
-  return <div>Hellow World from Edward at 1:36 pm!</div>;
+  return <div>Hello World from Edward at 2:31 pm!</div>;
 };
 
 export default Home;
