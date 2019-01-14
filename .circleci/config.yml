@@ -33,7 +33,14 @@ jobs:
           key: v1-npm-deps-{{ checksum "package-lock.json" }}
           paths:
             - ./node_modules 
-        
+    
+  test:
+    docker:
+    # specify the version you desire here
+    - image: circleci/node:8.11.3
+
+    step:
+      -checkout
       # run tests!
       - run: 
           name: Jest Unit Test
@@ -46,6 +53,14 @@ jobs:
       - store_test_results:
           path: test-results.xml
 
+  deploy:
+    docker:
+    # specify the version you desire here
+    - image: circleci/node:8.11.3
+
+    step:
+      -checkout
+
       - run:
           name: Create dist folder
           command: NODE_ENV=development ./node_modules/.bin/webpack --config webpack.client.config.js
@@ -55,5 +70,17 @@ jobs:
           command: |
             ./node_modules/.bin/firebase use nobul-edward
             ./node_modules/.bin/firebase deploy --only hosting --token=$FIREBASE_TOKEN
+
+workflows:
+  version: 2
+  build-test-and-deploy:
+    jobs:
+      - build
+      - test:
+          requires:
+            - build
+      - deploy:
+          requires:
+            - test
 
 
