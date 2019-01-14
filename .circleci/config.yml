@@ -40,7 +40,7 @@ jobs:
     - image: circleci/node:8.11.3
 
     step:
-      -checkout
+      - checkout
       # run tests!
       - run: 
           name: Jest Unit Test
@@ -59,7 +59,7 @@ jobs:
     - image: circleci/node:8.11.3
 
     step:
-      -checkout
+      - checkout
 
       - run:
           name: Create dist folder
