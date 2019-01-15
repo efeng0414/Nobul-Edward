@@ -10,21 +10,20 @@ jobs:
     steps:
       - checkout
 
-      # Download and cache dependencies
       - restore_cache:
+          name: Restore Yarn Package Cache
           keys:
-          - v1-npm-deps-{{ checksum "package-lock.json" }}
-            # Find the most recently generated cache used from any branch
-          - v1-npm-deps-
+            - yarn-packages-{{ checksum "yarn.lock" }}
 
-      - run: 
+      - run:
           name: Install Dependencies
-          command: yarn install
-
-      - save_cache: 
-          key: v1-npm-deps-{{ checksum "package-lock.json" }}
+          command: yarn install --frozen-lockfile
+          
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
-            - ./node_modules 
+            - ~/.cache/yarn
     
   test:
     docker:
@@ -36,7 +35,7 @@ jobs:
       # run tests!
       - run: 
           name: Jest Unit Test
-          command: ./node_modules/.bin/jest --bail
+          command: yarn test
 
       - store_artifacts:
           path: test-results.xml
