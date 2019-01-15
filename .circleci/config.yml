@@ -31,7 +31,7 @@ jobs:
     # specify the version you desire here
     - image: circleci/node:8.11.3
 
-    step:
+    steps:
       - checkout
       # run tests!
       - run: 
@@ -48,7 +48,7 @@ jobs:
     # specify the version you desire here
     - image: circleci/node:8.11.3
 
-    step:
+    steps:
       - checkout
 
       - run:
