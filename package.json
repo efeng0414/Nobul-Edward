@@ -106,6 +106,7 @@
     "html-webpack-plugin": "2.29.0",
     "image-webpack-loader": "4.3.1",
     "jest": "23.6.0",
+    "jest-junit": "^6.0.1",
     "less": "3.0.4",
     "less-loader": "4.1.0",
     "lorem-ipsum": "1.0.4",
@@ -121,5 +122,8 @@
     "webpack-bundle-analyzer": "2.8.3",
     "webpack-dev-server": "2.5.1",
     "webpack-node-externals": "1.6.0"
+  },
+  "jest-junit": {
+    "output": "./test-report.xml"
   }
 }
