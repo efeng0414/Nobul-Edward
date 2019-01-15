@@ -25,6 +25,8 @@ jobs:
             - ./node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      - run: ls
+
     
   test:
     docker:
@@ -48,8 +50,7 @@ jobs:
           command: |
             pwd
             ls
-            cat package.json
-            ./node_modules/.bin/jest --bail --ci --reporters=default --reporters=jest-junit
+            yarn test --ci --reporters=default --reporters=jest-junit
           environment:
             JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
 
