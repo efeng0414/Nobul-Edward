@@ -39,12 +39,6 @@ jobs:
           - v1-dependencies-{{ checksum "package.json" }}
           - v1-dependencies-
 
-      - run: yarn install
-
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
       # - run:
       #     name: "JavaScript Linter"
       #     # yarn here makes sure we are using the local jest binary
@@ -72,6 +66,11 @@ jobs:
 
     steps:
       - checkout
+
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-
 
       - run:
           name: Create dist folder
