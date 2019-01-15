@@ -7,5 +7,6 @@ module.exports = {
   },
   testPathIgnorePatterns: [".git"],
   snapshotSerializers: ["enzyme-to-json/serializer"],
-  testURL: "http://localhost"
+  testURL: "http://localhost",
+  reporters: ["default", "jest-junit"]
 };

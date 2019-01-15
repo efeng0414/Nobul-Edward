@@ -11,19 +11,17 @@ jobs:
       - checkout
 
       - restore_cache:
-          name: Restore Yarn Package Cache
           keys:
-            - yarn-packages-{{ checksum "yarn.lock" }}
+          - v1-dependencies-{{ checksum "package.json" }}
+          - v1-dependencies-
 
-      - run:
-          name: Install Dependencies
-          command: yarn install --frozen-lockfile
+      - run: yarn install
 
       - save_cache:
-          name: Save Yarn Package Cache
-          key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
-            - ~/.cache/yarn
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
     
   test:
     docker:
@@ -32,14 +30,25 @@ jobs:
 
     steps:
       - checkout
+
+      - run:
+          name: "JavaScript Linter"
+          # yarn here makes sure we are using the local jest binary
+          command: yarn lint -- --format junit -o reports/junit/js-lint-results.xml
+
       # run tests!
-      - run: 
-          name: Jest Unit Test
-          command: npm test
+      - run:
+          name: "JavaScript Test Suite"
+          # yarn here makes sure we are using the local jest binary
+          command: yarn jest -- --ci --testResultsProcessor="jest-junit"
+          environment:
+            JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
+
+      - store_test_results:
+          path: reports/junit
 
       - store_artifacts:
-          path: test-results.xml
-          prefix: tests
+          path: reports/junit
           
 
   deploy:
