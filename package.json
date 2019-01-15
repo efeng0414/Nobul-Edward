@@ -13,8 +13,7 @@
     "dev-build-testing": "NODE_ENV=webTesting ./node_modules/.bin/webpack --config webpack.client.config.js",
     "build-client": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.client.config.js -p",
     "build-server": "NODE_ENV=production ./node_modules/.bin/webpack --config webpack.server.config.js -p",
-    "test": "jest",
-    "lint": "eslint src"
+    "test": "jest"
   },
   "keywords": [
     "react"
