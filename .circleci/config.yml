@@ -75,8 +75,7 @@ jobs:
 
       - run:
           name: Create dist folder
-          command: NODE_ENV=development ./node_modules/.bin/webpack --config webpack.client.config.js
-
+          command: yarn dev-build-client
       - run:
           name: Firebase Deploy
           command: |
@@ -91,11 +90,11 @@ workflows:
       - test:
           requires:
             - build
-          filters:
-            branches:
-              only: master
       - deploy:
           requires:
             - test
+          filters:
+            branches:
+              only: master
 
 
