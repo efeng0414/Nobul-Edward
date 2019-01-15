@@ -47,10 +47,7 @@ jobs:
       - run:
           name: "JavaScript Test Suite"
           # yarn here makes sure we are using the local jest binary
-          command: |
-            pwd
-            ls
-            yarn test --ci --reporters=default --reporters=jest-junit
+          command: yarn test --ci --reporters=default --reporters=jest-junit
           environment:
             JEST_JUNIT_OUTPUT: "reports/junit/js-test-results.xml"
 
@@ -65,6 +62,8 @@ jobs:
     docker:
     # specify the version you desire here
     - image: circleci/node:8.11.3
+
+    working_directory: ~/Nobul-Edward
 
     steps:
       - checkout
