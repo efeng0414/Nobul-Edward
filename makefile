@@ -35,3 +35,6 @@ gitsetup:
 	git config core.hooksPath ./.githooks
 	chmod +x ./.githooks
 	chmod +x ./.githooks/pre-push
+
+heroku:
+	NODE_ENV=development ./node_modules/.bin/webpack-dev-server --config ./webpack.client.config.js -p --progress && node ./src/server/server.js

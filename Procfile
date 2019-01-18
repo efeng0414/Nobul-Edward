@@ -1,1 +1,1 @@
-web: make dev
+web: npm run serve 
