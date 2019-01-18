@@ -1,1 +1,1 @@
-web: make dev
+web: make heroku

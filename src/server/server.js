@@ -16,7 +16,7 @@ import { renderHeader, renderFooter } from "./render";
 import { getAllBuyJobs } from "../../core/thunk/jobs";
 import ReduxConnectedIntlProvider from "../components/redux-connected-intl-provider";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 const app = express();
 app.use("/assets", express.static("./dist"));
@@ -50,10 +50,7 @@ app.get("*", async (req, res) => {
     const preloadedState = store.getState();
 
     const htmlSteam = renderToNodeStream(appWithRouter);
-    htmlSteam.pipe(
-      res,
-      { end: false }
-    );
+    htmlSteam.pipe(res, { end: false });
     htmlSteam.on("end", () => {
       res.write(renderFooter(loadableState, preloadedState));
       return res.send();
