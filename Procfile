@@ -1,1 +1,1 @@
-web: make heroku
+web: npm run serve
