@@ -2,6 +2,7 @@
   "name": "web",
   "description": "Web build for Heroku",
   "scripts": {
+    "postdeploy": "npm run dev-build-client"
   },
   "env": {
     "NODE_ENV": "development"
