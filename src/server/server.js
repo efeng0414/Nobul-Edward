@@ -1,20 +1,20 @@
 /* eslint-disable no-console */
-const express = require("express");
-const React = require("react");
-const { renderToNodeStream } = require("react-dom/server");
-const { StaticRouter } = require("react-router-dom");
-const { getLoadableState } = require("loadable-components/server");
-const { Provider } = require("react-redux");
-const { Helmet } = require("react-helmet");
-const { addLocaleData } = require("react-intl");
-const en = require("react-intl/locale-data/en");
-const es = require("react-intl/locale-data/es");
+import express from "express";
+import React from "react";
+import { renderToNodeStream } from "react-dom/server";
+import { StaticRouter } from "react-router-dom";
+import { getLoadableState } from "loadable-components/server";
+import { Provider } from "react-redux";
+import { Helmet } from "react-helmet";
+import { addLocaleData } from "react-intl";
+import en from "react-intl/locale-data/en";
+import es from "react-intl/locale-data/es";
 
-const App = require("../scenes/app");
-const configureStore = require("./store");
-const { renderHeader, renderFooter } = require("./render");
-const { getAllBuyJobs } = require("../../core/thunk/jobs");
-const ReduxConnectedIntlProvider = require("../components/redux-connected-intl-provider");
+import App from "../scenes/app";
+import configureStore from "./store";
+import { renderHeader, renderFooter } from "./render";
+import { getAllBuyJobs } from "../../core/thunk/jobs";
+import ReduxConnectedIntlProvider from "../components/redux-connected-intl-provider";
 
 const PORT = process.env.PORT || 8080;
 
