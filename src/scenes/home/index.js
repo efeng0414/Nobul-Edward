@@ -3,7 +3,7 @@ import React from "react";
 const Home = () => {
   return (
     <div>
-      <h2>Hello World at 3:09 pm!</h2>
+      <h2>Hello World at 2:17 pm!</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quam
         eros, luctus a metus eu, euismod pulvinar velit. Phasellus sagittis nisi
@@ -16,12 +16,7 @@ const Home = () => {
         volutpat. Duis aliquet dolor at elit auctor lacinia. Donec viverra sed
         leo sed volutpat. Donec ut quam sagittis, mollis quam non, hendrerit mi.
         Fusce vel urna ac nibh elementum scelerisque. Phasellus scelerisque
-        blandit tincidunt. Mauris neque risus, blandit et sapien vel, aliquam
-        porttitor dui. Vivamus vitae turpis turpis. Curabitur ullamcorper ligula
-        eu turpis iaculis, vel lobortis nisi vehicula. Vivamus posuere
-        ullamcorper volutpat. Maecenas in molestie sapien. Duis tincidunt semper
-        risus eget facilisis. Nulla in nulla ac magna euismod maximus. Fusce
-        maximus id mauris vitae rhoncus.
+        blandit tincidunt.
       </p>
     </div>
   );
