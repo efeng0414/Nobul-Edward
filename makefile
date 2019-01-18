@@ -37,4 +37,4 @@ gitsetup:
 	chmod +x ./.githooks/pre-push
 
 heroku:
-	./node_modules/webpack/bin/webpack.js -p --progress && node ./src/server/server.js
+	NODE_ENV=development ./node_modules/.bin/webpack-dev-server --config ./webpack.client.config.js -p --progress && node ./src/server/server.js
